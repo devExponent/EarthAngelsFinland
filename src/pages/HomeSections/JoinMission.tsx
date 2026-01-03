@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 export default function JoinMission() {
   return (
-    <section className="bg-[#0f3f3b] text-white">
+    <section className="bg-[#0f3f3b] text-white py-25">
       <div className="mx-auto max-w-6xl px-4 py-16 sm:py-24 text-center">
         <h2 className="text-3xl sm:text-5xl font-extrabold leading-tight">
           Join our mission. Educate, Celebrate, Empower. Get Started Today.

@@ -7,14 +7,17 @@ import UploadTest from "../pages/UploadTest";
 import AdminLogin from "../pages/admin/AdminLogin";
 import AdminLayout from "../pages/admin/AdminLayout";
 import Events from "../pages/Events";
+import Layout from "../Layout/Layout";
 
 const AppRoutes = () => {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="/events" element={<Events />} />
+      <Route element={<Layout />}>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/events" element={<Events />} />
+      </Route>
       <Route path="/upload-test" element={<UploadTest />} />
       <Route path="/admin/login" element={<AdminLogin />} />
       <Route path="/admin" element={<AdminLayout />} />
