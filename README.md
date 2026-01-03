@@ -3,38 +3,47 @@
 
 # Earth Angels Finland — Website (React + TypeScript + Vite)
 
-A bilingual (English/Finnish) website for Earth Angels of Finland built with **React**, **TypeScript**, and **Vite**, featuring client-side routing and UI translations powered by i18next/react-i18next. [web:1006]
+A bilingual (EN/FI) community website and event platform for Earth Angels Finland that showcases the mission and programs (including “Say It Loud”), publishes public event listings and event details, and includes an admin dashboard to manage events and key site content.
 
 ## Overview
 
-This project provides a modern application experience with fast development/build tooling (Vite) and a structured UI that can be extended as the organization’s content grows.  
-The interface supports switching between English and Finnish at runtime using `i18n.changeLanguage(...)`, and components translate using the `useTranslation()` hook. [web:1087][web:1006]
+This project delivers a fast, modern application experience for visitors to learn about Earth Angels Finland, discover upcoming activities, and contact the team to get involved.  
+Admins can maintain the site without code changes by managing events and selected public content through the administrative panel.
 
 ## Key features
 
+- **Public website**
+  - Mission and organization information.
+  - Program highlights (e.g., “Say It Loud”).
+  - Events listing (upcoming/past) with shareable event detail pages.
+  - Contact / get-involved pathways.
+
+- **Admin dashboard**
+  - Create, edit, publish/unpublish, and delete events.
+  - Manage key public-site content (e.g., announcements / featured sections).
+
 - **Internationalization (EN/FI)**
-  - Runtime language switch using `i18n.changeLanguage("en" | "fi")`. [web:1087]
-  - Component-level translation using `useTranslation()` + `t("key.path")`. [web:1006]
-  - Language selection persisted with `localStorage` (so user preference remains after refresh).
+  - Runtime language switching with i18next.
+  - Translated UI text via `useTranslation()`.
+
 - **Routing**
   - Client-side navigation with React Router (e.g., Home, Events, About, Contact).
+
 - **Type-safe development**
-  - Built with TypeScript for improved maintainability and safer refactoring.
+  - Built with TypeScript for safer refactoring and maintainability.
 
 ## How translations work
 
-1. **Initialize i18next** in `src/i18n.ts` and import it once in `main.tsx`.
-2. In any component that contains text, use:
-   - `const { t } = useTranslation();` [web:1006]
+1. Initialize i18next in `src/i18n.ts` and import it once in `main.tsx`.
+2. In any component that contains text:
+   - `const { t } = useTranslation();`
    - Replace hardcoded strings with `t("some.key")`.
-
 
 ## Common tasks
 
 ### Install dependencies
 ```bash
 npm install
-
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
