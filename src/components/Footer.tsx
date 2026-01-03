@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import {
   EnvelopeIcon,
   PhoneIcon,
@@ -13,6 +14,9 @@ import {
 import Logo from "../assets/Logo.png";
 
 export default function Footer() {
+  const { t } = useTranslation();
+  const year = new Date().getFullYear();
+
   return (
     <footer className="bg-[#e7e7e2] text-black py-20">
       {/* Top */}
@@ -30,7 +34,7 @@ export default function Footer() {
           {/* MEET US */}
           <div>
             <h3 className="text-base sm:text-lg font-extrabold tracking-[0.22em] uppercase">
-              Meet Us
+              {t("footer.meetUs.title")}
             </h3>
             <ul className="mt-7 space-y-5 text-lg sm:text-xl font-bold">
               <li>
@@ -38,7 +42,7 @@ export default function Footer() {
                   className="hover:underline underline-offset-4"
                   to="/about"
                 >
-                  About Us
+                  {t("footer.meetUs.about")}
                 </NavLink>
               </li>
               <li>
@@ -46,7 +50,7 @@ export default function Footer() {
                   className="hover:underline underline-offset-4"
                   to="/events"
                 >
-                  Events
+                  {t("footer.meetUs.events")}
                 </NavLink>
               </li>
               <li>
@@ -54,7 +58,7 @@ export default function Footer() {
                   className="hover:underline underline-offset-4"
                   to="/contact"
                 >
-                  Contact
+                  {t("footer.meetUs.contact")}
                 </NavLink>
               </li>
             </ul>
@@ -63,7 +67,7 @@ export default function Footer() {
           {/* GET INVOLVED */}
           <div>
             <h3 className="text-base sm:text-lg font-extrabold tracking-[0.22em] uppercase">
-              Get Involved
+              {t("footer.getInvolved.title")}
             </h3>
             <ul className="mt-7 space-y-5 text-lg sm:text-xl font-bold">
               <li>
@@ -71,7 +75,7 @@ export default function Footer() {
                   className="hover:underline underline-offset-4"
                   to="/contact"
                 >
-                  Volunteer
+                  {t("footer.getInvolved.volunteer")}
                 </NavLink>
               </li>
               <li>
@@ -79,7 +83,7 @@ export default function Footer() {
                   className="hover:underline underline-offset-4"
                   to="/contact"
                 >
-                  Partner With Us
+                  {t("footer.getInvolved.partner")}
                 </NavLink>
               </li>
               <li>
@@ -87,7 +91,7 @@ export default function Footer() {
                   className="hover:underline underline-offset-4"
                   to="/contact"
                 >
-                  Sponsor an Event
+                  {t("footer.getInvolved.sponsor")}
                 </NavLink>
               </li>
             </ul>
@@ -96,7 +100,7 @@ export default function Footer() {
           {/* CONTACT US */}
           <div>
             <h3 className="text-base sm:text-lg font-extrabold tracking-[0.22em] uppercase">
-              Contact Us
+              {t("footer.contact.title")}
             </h3>
 
             <div className="mt-7 space-y-5 text-lg sm:text-xl font-bold">
@@ -126,7 +130,7 @@ export default function Footer() {
 
               <div className="flex items-start gap-3">
                 <MapPinIcon className="mt-1 h-6 w-6" />
-                <span>Nunnankatu 4, Turku, Finland</span>
+                <span>{t("footer.contact.address")}</span>
               </div>
             </div>
           </div>
@@ -138,8 +142,7 @@ export default function Footer() {
         <div className="mx-auto max-w-7xl px-6 py-8">
           <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
             <div className="text-base sm:text-lg font-bold text-black/70">
-              © {new Date().getFullYear()} Earth Angels of Finland. All Rights
-              Reserved.
+              © {year} {t("footer.bottom.copyright")}
             </div>
 
             <div className="flex flex-wrap gap-8 text-base sm:text-lg font-bold">
@@ -147,13 +150,13 @@ export default function Footer() {
                 className="underline underline-offset-4 hover:no-underline"
                 to="/privacy"
               >
-                Privacy Policy
+                {t("footer.bottom.privacy")}
               </NavLink>
               <NavLink
                 className="underline underline-offset-4 hover:no-underline"
                 to="/terms"
               >
-                Terms
+                {t("footer.bottom.terms")}
               </NavLink>
             </div>
 
