@@ -9,15 +9,15 @@ export default function HeroSection() {
       aria-hidden="true"
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-white/85" aria-hidden="true" />
+      <div className="absolute inset-0 bg-white/80" aria-hidden="true" />
 
       {/* Content */}
-      <div className="relative z-10 mx-auto max-w-3xl px-4 text-center">
-        <h1 className="text-4xl font-extrabold leading-tight sm:text-6xl">
+      <div className="relative z-10 mx-auto max-w-5xl px-4 text-center">
+        <h1 className="text-4xl font-extrabold leading-tight sm:text-6xl md:text-7xl">
           Welcome to Earth Angels of Finland
         </h1>
 
-        <p className="mt-5 text-base leading-relaxed text-black/70 sm:text-lg font-bold">
+        <p className="mt-5 text-base leading-relaxed text-black/70 sm:text-lg font-extrabold">
           Celebrate the achievements of people of color and marginalized
           communities through education, events, and cultural exchange.
         </p>

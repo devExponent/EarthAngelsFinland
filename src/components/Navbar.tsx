@@ -36,7 +36,7 @@ export default function Navbar() {
                   className={({ isActive }) =>
                     [
                       "rounded-md px-3 py-2 transition",
-                      "text-base sm:text-lg font-bold tracking-wide",
+                      "sm:text-2xl font-extrabold tracking-wide",
                       isActive
                         ? "text-black"
                         : "text-black/70 hover:text-black hover:bg-black/5",
@@ -75,7 +75,7 @@ export default function Navbar() {
               <img
                 src={Logo}
                 alt="EarthAnglesFinland Logo"
-                className="h-14 w-auto object-contain"
+                className="h-20 w-auto object-contain"
               />
               <button
                 className="rounded-xl border border-black/10 bg-black/5 p-2 hover:bg-black/10 transition"
@@ -95,7 +95,7 @@ export default function Navbar() {
                   className={({ isActive }) =>
                     [
                       "block rounded-lg px-3 py-3 transition",
-                      "text-lg font-semibold",
+                      "text-lg font-extrabold",
                       isActive
                         ? "bg-black/10 text-black"
                         : "text-black/70 hover:bg-black/5 hover:text-black",
