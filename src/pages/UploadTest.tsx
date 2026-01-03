@@ -12,6 +12,7 @@ export default function UploadTest() {
       setIsAuthed(!!user);
     });
   }, []);
+
   const [status, setStatus] = useState<"idle" | "uploading" | "done" | "error">(
     "idle"
   );
