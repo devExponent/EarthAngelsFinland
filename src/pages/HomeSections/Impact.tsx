@@ -24,7 +24,7 @@ const ITEMS = [
 
 export default function ImpactThreeCards() {
   return (
-    <section className="bg-gray-300 text-black">
+    <section className="bg-gray-300 text-black py-20">
       <div className="mx-auto max-w-7xl px-4 py-14 sm:py-20">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-3xl sm:text-4xl font-extrabold">What We Do</h2>
