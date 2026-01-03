@@ -23,13 +23,15 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-16 sm:py-20">
         <div className="grid gap-12 md:grid-cols-4">
           {/* Logo */}
-          <div className="md:col-span-1">
-            <img
-              src={Logo}
-              alt="Earth Angels Finland Logo"
-              className="h-20 sm:h-24 w-auto object-contain"
-            />
-          </div>
+          <NavLink to="/">
+            <div className="md:col-span-1">
+              <img
+                src={Logo}
+                alt="Earth Angels Finland Logo"
+                className="h-20 sm:h-24 w-auto object-contain"
+              />
+            </div>
+          </NavLink>
 
           {/* MEET US */}
           <div>
