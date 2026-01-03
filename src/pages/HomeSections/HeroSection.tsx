@@ -1,0 +1,43 @@
+import { NavLink } from "react-router-dom";
+import Blackistory from "../../assets/blackhistory.png";
+
+export default function HeroSection() {
+  return (
+    <section
+      className="relative flex min-h-screen items-center justify-center overflow-hidden bg-cover bg-center bg-no-repeat text-black"
+      style={{ backgroundImage: `url(${Blackistory})` }}
+      aria-hidden="true"
+    >
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-white/85" aria-hidden="true" />
+
+      {/* Content */}
+      <div className="relative z-10 mx-auto max-w-3xl px-4 text-center">
+        <h1 className="text-4xl font-extrabold leading-tight sm:text-6xl">
+          Welcome to Earth Angels of Finland
+        </h1>
+
+        <p className="mt-5 text-base leading-relaxed text-black/70 sm:text-lg font-bold">
+          Celebrate the achievements of people of color and marginalized
+          communities through education, events, and cultural exchange.
+        </p>
+
+        <div className="mt-8 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
+          <NavLink
+            to="/events"
+            className="inline-flex items-center justify-center rounded-full bg-black px-8 py-4 text-base font-bold text-white transition hover:bg-black/90"
+          >
+            Browse Events
+          </NavLink>
+
+          <NavLink
+            to="/about"
+            className="inline-flex items-center justify-center rounded-full border-2 border-black px-8 py-4 text-base font-bold text-black transition hover:bg-black/5"
+          >
+            Learn More
+          </NavLink>
+        </div>
+      </div>
+    </section>
+  );
+}
