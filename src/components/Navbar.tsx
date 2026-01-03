@@ -85,6 +85,7 @@ export default function Navbar() {
                 alt="Earth Angels Finland Logo"
                 className="h-16 sm:h-20 lg:h-24 xl:h-28 w-auto object-contain"
               />
+              <p className="font-extrabold">EarthAnglesFinland</p>
             </NavLink>
 
             {/* Desktop nav */}
@@ -97,8 +98,8 @@ export default function Navbar() {
                 ))}
               </nav>
 
-              {/* Controls */}
-              <div className="ml-2 flex items-center gap-2">
+              {/* translator */}
+              <div className="ml-2 flex gap-2">
                 <button
                   onClick={toggleLang}
                   className="rounded-lg border border-black/10 bg-black/5 px-3 py-2 text-sm font-extrabold
@@ -138,8 +139,9 @@ export default function Navbar() {
               <img
                 src={Logo}
                 alt="Earth Angels Finland Logo"
-                className="h-20 w-auto object-contain"
+                className="h-18 w-auto object-contain"
               />
+              <p className="font-bold">EarthAngelsFinland</p>
 
               <button
                 className="rounded-xl border border-black/10 bg-black/5 p-2 hover:bg-black/10 transition
@@ -164,7 +166,8 @@ export default function Navbar() {
                 ))}
               </nav>
 
-              <div className="pt-2">
+              {/* translator*/}
+              <div className="grid grid-cols-2 gap-3 pt-2">
                 <button
                   onClick={toggleLang}
                   className="rounded-xl border border-black/10 bg-black/5 px-3 py-3 text-base font-extrabold
