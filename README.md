@@ -1,4 +1,49 @@
-# React + TypeScript + Vite
+
+
+
+# Earth Angels Finland — Website (React + TypeScript + Vite)
+
+A bilingual (EN/FI) community website and event platform for Earth Angels Finland that showcases the mission and programs (including “Say It Loud”), publishes public event listings and event details, and includes an admin dashboard to manage events and key site content.
+
+## Overview
+
+This project delivers a fast, modern application experience for visitors to learn about Earth Angels Finland, discover upcoming activities, and contact the team to get involved.  
+Admins can maintain the site without code changes by managing events and selected public content through the administrative panel.
+
+## Key features
+
+- **Public website**
+  - Mission and organization information.
+  - Program highlights (e.g., “Say It Loud”).
+  - Events listing (upcoming/past) with shareable event detail pages.
+  - Contact / get-involved pathways.
+
+- **Admin dashboard**
+  - Create, edit, publish/unpublish, and delete events.
+  - Manage key public-site content (e.g., announcements / featured sections).
+
+- **Internationalization (EN/FI)**
+  - Runtime language switching with i18next.
+  - Translated UI text via `useTranslation()`.
+
+- **Routing**
+  - Client-side navigation with React Router (e.g., Home, Events, About, Contact).
+
+- **Type-safe development**
+  - Built with TypeScript for safer refactoring and maintainability.
+
+## How translations work
+
+1. Initialize i18next in `src/i18n.ts` and import it once in `main.tsx`.
+2. In any component that contains text:
+   - `const { t } = useTranslation();`
+   - Replace hardcoded strings with `t("some.key")`.
+
+## Common tasks
+
+### Install dependencies
+```bash
+npm install
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
