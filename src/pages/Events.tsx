@@ -149,9 +149,11 @@ export default function Events() {
                   {event.type}
                 </span>
               </div>
-              <button className="bg-blue-400 mt-6 py-5 px-5 rounded-xl">
-                RVSP
-              </button>
+              {new Date(event.date) >= new Date() && (
+                <button className="bg-blue-400 mt-6 py-5 px-5 rounded-xl">
+                  RSVP
+                </button>
+              )}
             </div>
           ))
         )}
