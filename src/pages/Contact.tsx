@@ -1,9 +1,11 @@
-import React from "react";
+import ContactForm from "./contact/Contactform";
+import FAQ from "./contact/FAQ";
 
 const Contact = () => {
   return (
     <div>
-      <p>Contact</p>
+      <ContactForm />
+      <FAQ />
     </div>
   );
 };

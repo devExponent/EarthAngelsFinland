@@ -26,8 +26,8 @@ function DesktopLink({
           "rounded-md px-3 py-2 transition",
           "text-lg lg:text-xl font-extrabold tracking-wide",
           isActive
-            ? "text-black dark:text-white"
-            : "text-black/70 hover:text-black hover:bg-black/5 dark:text-white/70 dark:hover:text-white dark:hover:bg-white/10",
+            ? "text-black"
+            : "text-black/70 hover:text-black hover:bg-black/5",
         ].join(" ")
       }
     >
@@ -54,8 +54,8 @@ function MobileLink({
           "block rounded-lg px-3 py-3 transition",
           "text-xl font-extrabold",
           isActive
-            ? "bg-black/10 text-black dark:bg-white/15 dark:text-white"
-            : "text-black/70 hover:bg-black/5 hover:text-black dark:text-white/70 dark:hover:bg-white/10 dark:hover:text-white",
+            ? "bg-white/15 text-white"
+            : "text-white/70 hover:bg-white/10 hover:text-white",
         ].join(" ")
       }
     >
@@ -75,7 +75,8 @@ export default function Navbar() {
 
   return (
     <>
-      <header className="sticky top-0 z-50 w-full border-b border-black/10 bg-white text-black dark:border-white/10 dark:bg-black dark:text-white">
+      {/* Desktop/overall navbar: always white */}
+      <header className="sticky top-0 z-50 w-full border-b border-black/10 bg-white text-black">
         <div className="mx-auto max-w-7xl px-4">
           <div className="flex items-center justify-between py-4 sm:py-5">
             {/* Logo */}
@@ -102,8 +103,7 @@ export default function Navbar() {
               <div className="ml-2 flex gap-2">
                 <button
                   onClick={toggleLang}
-                  className="rounded-lg border border-black/10 bg-black/5 px-3 py-2 text-sm font-extrabold
-                             hover:bg-black/10 dark:border-white/10 dark:bg-white/10 dark:hover:bg-white/15"
+                  className="rounded-lg border border-black/10 bg-black/5 px-3 py-2 text-sm font-extrabold hover:bg-black/10"
                   aria-label="Toggle language"
                 >
                   {i18n.resolvedLanguage === "en" ? "FI" : "EN"}
@@ -114,8 +114,7 @@ export default function Navbar() {
             {/* Mobile hamburger */}
             <div className="md:hidden">
               <button
-                className="rounded-xl border border-black/10 bg-black/5 p-2 hover:bg-black/10 transition
-                           dark:border-white/10 dark:bg-white/10 dark:hover:bg-white/15"
+                className="rounded-xl border border-black/10 bg-black/5 p-2 hover:bg-black/10 transition"
                 onClick={() => setOpen(true)}
                 aria-label="Open menu"
               >
@@ -126,7 +125,7 @@ export default function Navbar() {
         </div>
       </header>
 
-      {/* Mobile drawer */}
+      {/* Mobile drawer (black background) */}
       {open && (
         <div className="fixed inset-0 z-50 md:hidden">
           <div
@@ -134,8 +133,8 @@ export default function Navbar() {
             onClick={() => setOpen(false)}
           />
 
-          <div className="absolute left-0 top-0 h-full w-80 border-r border-black/10 bg-white text-black dark:border-white/10 dark:bg-black dark:text-white">
-            <div className="flex items-center justify-between border-b border-black/10 px-4 py-4 dark:border-white/10">
+          <div className="absolute left-0 top-0 h-full w-80 border-r border-white/10 bg-black text-white">
+            <div className="flex items-center justify-between border-b border-white/10 px-4 py-4">
               <img
                 src={Logo}
                 alt="Earth Angels Finland Logo"
@@ -144,8 +143,7 @@ export default function Navbar() {
               <p className="font-bold">EarthAngelsFinland</p>
 
               <button
-                className="rounded-xl border border-black/10 bg-black/5 p-2 hover:bg-black/10 transition
-                           dark:border-white/10 dark:bg-white/10 dark:hover:bg-white/15"
+                className="rounded-xl border border-white/10 bg-white/10 p-2 hover:bg-white/15 transition"
                 onClick={() => setOpen(false)}
                 aria-label="Close menu"
               >
@@ -166,12 +164,11 @@ export default function Navbar() {
                 ))}
               </nav>
 
-              {/* translator*/}
+              {/* translator */}
               <div className="grid grid-cols-2 gap-3 pt-2">
                 <button
                   onClick={toggleLang}
-                  className="rounded-xl border border-black/10 bg-black/5 px-3 py-3 text-base font-extrabold
-                             hover:bg-black/10 dark:border-white/10 dark:bg-white/10 dark:hover:bg-white/15"
+                  className="rounded-xl border border-white/10 bg-white/10 px-3 py-3 text-base font-extrabold hover:bg-white/15"
                 >
                   {i18n.resolvedLanguage === "en" ? "FI" : "EN"}
                 </button>
