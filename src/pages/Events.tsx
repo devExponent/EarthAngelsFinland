@@ -86,7 +86,7 @@ export default function Events() {
   });
 
   return (
-    <div className="space-y-6 py-30 w-10/12 md:w-8/12 mx-auto">
+    <div className="space-y-6 py-30 w-10/12 md:w-6/12 mx-auto">
       <div>
         <h1 className="text-3xl font-bold">Events</h1>
         <p className="mt-2">
@@ -121,7 +121,7 @@ export default function Events() {
           filtered.map((event) => (
             <div
               key={event.id}
-              className="rounded-xl border border-black bg-white p-6 transition"
+              className="rounded-xl border border-black bg-white p-12 transition my-10"
             >
               <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-start">
                 <div className="flex-1 space-y-3">
@@ -145,10 +145,13 @@ export default function Events() {
                     </div>
                   </div>
                 </div>
-                <span className="inline-block rounded-full bg-black px-3 py-3 text-sm font-medium text-white">
+                <span className="inline-block rounded-full bg-black px-5 py-3 text-sm font-medium text-white">
                   {event.type}
                 </span>
               </div>
+              <button className="bg-blue-400 mt-6 py-5 px-5 rounded-xl">
+                RVSP
+              </button>
             </div>
           ))
         )}
