@@ -2,7 +2,7 @@ import HeroSection from "./HomeSections/HeroSection";
 import HeroVideoSection from "./HomeSections/HeroVideoSection";
 import MissionHighlight from "./HomeSections/MissionHighlight";
 import ImpactThreeCards from "./HomeSections/Impact";
-import JoinMission from "./HomeSections/JoinMission";
+// import JoinMission from "./HomeSections/JoinMission";
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
       <MissionHighlight />
       <HeroVideoSection />
       <ImpactThreeCards />
-      <JoinMission />
+      {/* <JoinMission /> */}
     </div>
   );
 }

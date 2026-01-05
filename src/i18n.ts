@@ -1,3 +1,4 @@
+// src/i18n.ts
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 
@@ -57,6 +58,90 @@ const resources = {
           callLabel: "Call Anytime:",
           ctaEvents: "BROWSE EVENTS",
           ctaGetInvolved: "GET INVOLVED",
+        },
+      },
+
+      contact: {
+        label: "CONTACT",
+        title: "Get in touch",
+        subtitle:
+          "Questions about our work, partnerships, volunteering, or upcoming events? Send a message and the Earth Angels Finland team will reply as soon as possible.",
+        form: {
+          name: "Name",
+          email: "Email address",
+          message: "Message",
+          submit: "Submit",
+        },
+        cards: {
+          email: {
+            title: "Email",
+            line1: "earthangelsfinland@gmail.com",
+            line2: "sayitloudfinland@gmail.com",
+          },
+          phone: {
+            title: "Phone",
+            line1: "+358 45 179 6881",
+          },
+          address: {
+            title: "Address",
+            line1: "Nunnankatu 4, Turku",
+            line2: "Finland",
+          },
+        },
+      },
+
+      // ✅ Required for FAQ.tsx (returns an array with returnObjects:true) [web:1189]
+      contactExtras: {
+        visit: {
+          kicker: "VISIT",
+          title: "Visit our office in Turku",
+          body:
+            "Earth Angels of Finland was founded in 2003 to improve the well‑being of immigrants and marginalized communities through education and cultural events, including our yearly “Say It Loud” program.",
+          cta: "GET DIRECTIONS",
+        },
+        hours: {
+          badge: "HOURS",
+          monFri: { title: "Monday – Friday", detail: "By appointment" },
+          sat: { title: "Saturdays", detail: "Event days (see Events page)" },
+          sun: { title: "Sundays", detail: "Closed" },
+        },
+        faq: {
+          kicker: "FAQ",
+          title: "Frequently Asked Questions",
+          empty: "FAQ content is not available yet.",
+          items: [
+            {
+              q: "What is Earth Angels of Finland?",
+              a:
+                "Earth Angels of Finland is an organization founded in 2003 that focuses on improving the well‑being of immigrants and marginalized communities through education and community programs.",
+            },
+            {
+              q: "What is “Say It Loud”?",
+              a:
+                "“Say It Loud” is our yearly high‑quality Black History Month program in Finland that highlights unknown history and the achievements of people of color and other marginalized groups.",
+            },
+            {
+              q: "Where is the 2026 “Say It Loud” event planned?",
+              a:
+                "The 2026 program is planned to take place in Turku, Finland, the former capital of Finland.",
+            },
+            {
+              q: "What will the 2026 program include?",
+              a:
+                "The month-long program includes exhibitions, a panel discussion, workshops (including children’s activities), a documentary movie night, and an International Open Mic Youth Night competition.",
+            },
+            {
+              q: "Who is featured in the 2026 movie night?",
+              a:
+                "The 2026 movie night features a documentary about Shirley Chisholm, the first Black woman to run for president of the United States.",
+            },
+          ],
+        },
+        imageCard: {
+          kicker: "EARTH ANGELS FINLAND",
+          title: "Education, belonging, and cultural exchange",
+          body:
+            "We help make marginalized histories visible and strengthen acceptance by sharing achievements that have been diminished or erased.",
         },
       },
 
@@ -136,11 +221,96 @@ const resources = {
         },
 
         join: {
-          title: "Tule mukaan missioon. Opeta, juhlista, voimaannuta. Aloita jo tänään.",
+          title:
+            "Tule mukaan missioon. Opeta, juhlista, voimaannuta. Aloita jo tänään.",
           emailLabel: "Sähköposti:",
           callLabel: "Soita milloin vain:",
           ctaEvents: "SELAa TAPAHTUMIA",
           ctaGetInvolved: "TULE MUKAAN",
+        },
+      },
+
+      contact: {
+        label: "YHTEYDENOTTO",
+        title: "Ota yhteyttä",
+        subtitle:
+          "Kysymyksiä toiminnastamme, yhteistyöstä, vapaaehtoisuudesta tai tulevista tapahtumista? Lähetä viesti — Earth Angels Finland -tiimi vastaa mahdollisimman pian.",
+        form: {
+          name: "Nimi",
+          email: "Sähköpostiosoite",
+          message: "Viesti",
+          submit: "Lähetä",
+        },
+        cards: {
+          email: {
+            title: "Sähköposti",
+            line1: "earthangelsfinland@gmail.com",
+            line2: "sayitloudfinland@gmail.com",
+          },
+          phone: {
+            title: "Puhelin",
+            line1: "+358 45 179 6881",
+          },
+          address: {
+            title: "Osoite",
+            line1: "Nunnankatu 4, Turku",
+            line2: "Suomi",
+          },
+        },
+      },
+
+      // ✅ Required for FAQ.tsx (returns an array with returnObjects:true) [web:1189]
+      contactExtras: {
+        visit: {
+          kicker: "VIERAILU",
+          title: "Vieraile toimistollamme Turussa",
+          body:
+            "Earth Angels of Finland perustettiin vuonna 2003 parantamaan maahanmuuttajien ja marginalisoitujen yhteisöjen hyvinvointia koulutuksen ja kulttuuritapahtumien avulla, mukaan lukien vuosittainen “Say It Loud” -ohjelma.",
+          cta: "HANKI REITTIOHJEET",
+        },
+        hours: {
+          badge: "AUKIOLO",
+          monFri: { title: "Maanantai – perjantai", detail: "Sopimuksen mukaan" },
+          sat: { title: "Lauantait", detail: "Tapahtumapäivinä (katso Tapahtumat)" },
+          sun: { title: "Sunnuntait", detail: "Suljettu" },
+        },
+        faq: {
+          kicker: "UKK",
+          title: "Usein kysytyt kysymykset",
+          empty: "UKK-sisältöä ei ole vielä saatavilla.",
+          items: [
+            {
+              q: "Mikä on Earth Angels of Finland?",
+              a:
+                "Earth Angels of Finland on vuonna 2003 perustettu järjestö, joka edistää maahanmuuttajien ja marginalisoitujen yhteisöjen hyvinvointia koulutuksen ja yhteisöohjelmien kautta.",
+            },
+            {
+              q: "Mikä on “Say It Loud”?",
+              a:
+                "“Say It Loud” on vuosittainen Black History Month -ohjelmamme Suomessa, joka nostaa esiin kertomattomia tarinoita sekä värillisten ihmisten ja muiden marginalisoitujen ryhmien saavutuksia.",
+            },
+            {
+              q: "Missä vuoden 2026 “Say It Loud” järjestetään?",
+              a:
+                "Vuoden 2026 ohjelma on suunniteltu Turkuun, Suomen entiseen pääkaupunkiin.",
+            },
+            {
+              q: "Mitä vuoden 2026 ohjelma sisältää?",
+              a:
+                "Kuukauden ohjelma sisältää näyttelyitä, paneelikeskustelun, työpajoja (myös lapsille), dokumenttielokuvaillan sekä kansainvälisen Open Mic Youth Night -kilpailun.",
+            },
+            {
+              q: "Kuka on esillä vuoden 2026 elokuvaillassa?",
+              a:
+                "Vuoden 2026 elokuvaillassa esitetään dokumentti Shirley Chisholmista, joka oli ensimmäinen musta nainen, joka asettui ehdolle Yhdysvaltain presidentiksi.",
+            },
+          ],
+        },
+        imageCard: {
+          kicker: "EARTH ANGELS FINLAND",
+          title: "Koulutusta, osallisuutta ja kulttuurivaihtoa",
+          body:
+            "Teemme marginalisoidut historiat näkyviksi ja vahvistamme hyväksyntää jakamalla saavutuksia, jotka on usein sivuutettu tai pyyhitty pois.",
         },
       },
 
