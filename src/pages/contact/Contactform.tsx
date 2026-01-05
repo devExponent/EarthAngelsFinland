@@ -103,7 +103,7 @@ export default function ContactForm() {
         </div>
 
         {/* Bottom info cards */}
-        <div className="mt-10 grid gap-6 md:mt-14 md:grid-cols-3">
+        <div className="mt-10 pt-15 grid gap-6 md:mt-14 md:grid-cols-3">
           <InfoCard
             title={t("contact.cards.email.title", "Email")}
             lines={[
@@ -137,8 +137,9 @@ function InfoCard({ title, lines }: { title: string; lines: string[] }) {
         </div>
 
         <div>
-          <h3 className="text-sm font-semibold text-slate-900">{title}</h3>
-          <div className="mt-2 space-y-1 text-sm text-slate-700">
+          <h3 className="text-base font-extrabold text-slate-900">{title}</h3>
+
+          <div className="mt-2 space-y-1 text-base font-semibold text-slate-700">
             {lines.map((l) => (
               <p key={l}>{l}</p>
             ))}
