@@ -1,9 +1,12 @@
 import { useState } from "react";
 import { CalendarIcon, MapPinIcon } from "@heroicons/react/24/outline";
+import BlackAfric from "../assets/blackhistory.png";
+import SayItLoud from "../assets/SayItLoud.jpeg";
 
 const EVENTS_2026 = [
   {
     id: 1,
+    image: BlackAfric,
     title: "Exhibition Opening: Turku City Main Library 2nd Floor",
     date: "2026-02-07",
     time: "11:00 - 12:45",
@@ -14,6 +17,7 @@ const EVENTS_2026 = [
   },
   {
     id: 2,
+    image: SayItLoud,
     title: '"Say Their Names" - Women of Color Exhibition Opening',
     date: "2026-02-07",
     time: "12:50 - 13:15",
@@ -123,6 +127,13 @@ export default function Events() {
               key={event.id}
               className="rounded-xl border border-black bg-white p-12 transition my-10"
             >
+              <div className="mb-6">
+                <img
+                  src={event.image}
+                  alt="event image"
+                  className="w-full h-full"
+                />
+              </div>
               <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-start">
                 <div className="flex-1 space-y-3">
                   <h3 className="text-xl font-semibold">{event.title}</h3>
