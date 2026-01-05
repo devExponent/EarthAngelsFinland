@@ -86,17 +86,17 @@ export default function Events() {
   });
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-6 py-30 w-10/12 md:w-8/12 mx-auto">
       <div>
         <h1 className="text-3xl font-bold">Events</h1>
-        <p className="mt-2 text-white/70">
+        <p className="mt-2">
           Join us for "Say It Loud" - Black History Month celebration in
           February 2026
         </p>
       </div>
 
       {/* Filter Tabs */}
-      <div className="flex gap-2 border-b border-white/10 pb-4">
+      <div className="flex gap-2 border-b border-gray-500 pb-4">
         {["all", "upcoming", "past"].map((tab) => (
           <button
             key={tab}
@@ -105,7 +105,7 @@ export default function Events() {
               "rounded-lg px-4 py-2 font-medium transition",
               filter === tab
                 ? "bg-amber-600 text-white"
-                : "text-white/70 hover:text-white",
+                : "text-white bg-black hover:text-white",
             ].join(" ")}
           >
             {tab.charAt(0).toUpperCase() + tab.slice(1)}
@@ -121,14 +121,14 @@ export default function Events() {
           filtered.map((event) => (
             <div
               key={event.id}
-              className="rounded-xl border border-white/10 bg-white/5 p-6 hover:bg-white/10 transition"
+              className="rounded-xl border border-black bg-white p-6 transition"
             >
               <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-start">
                 <div className="flex-1 space-y-3">
                   <h3 className="text-xl font-semibold">{event.title}</h3>
-                  <p className="text-white/70">{event.description}</p>
+                  <p className="text-black">{event.description}</p>
                   <div className="space-y-2 pt-2">
-                    <div className="flex items-center gap-2 text-white/80">
+                    <div className="flex items-center gap-2 text-black">
                       <CalendarIcon className="h-5 w-5" />
                       <span>
                         {new Date(event.date).toLocaleDateString("en-US", {
@@ -139,13 +139,13 @@ export default function Events() {
                         · {event.time}
                       </span>
                     </div>
-                    <div className="flex items-center gap-2 text-white/80">
+                    <div className="flex items-center gap-2 text-black">
                       <MapPinIcon className="h-5 w-5" />
                       <span>{event.location}</span>
                     </div>
                   </div>
                 </div>
-                <span className="inline-block rounded-full bg-amber-600/20 px-3 py-1 text-sm font-medium text-amber-400">
+                <span className="inline-block rounded-full bg-black px-3 py-3 text-sm font-medium text-white">
                   {event.type}
                 </span>
               </div>
