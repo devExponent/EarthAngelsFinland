@@ -15,37 +15,37 @@ const founder: TeamMember = {
 
 const team: TeamMember[] = [
   {
-    name: "Daniel Gallego",
+    name: "",
     role: "Program Coordinator",
     imageUrl: "https://i.pravatar.cc/600?img=12",
   },
   {
-    name: "Estelle Darcy",
+    name: "",
     role: "Community Outreach",
     imageUrl: "https://i.pravatar.cc/600?img=32",
   },
   {
-    name: "Lars Peeters",
+    name: "",
     role: "Events Lead",
     imageUrl: "https://i.pravatar.cc/600?img=7",
   },
   {
-    name: "Hannah Morales",
+    name: "",
     role: "Volunteer Coordinator",
     imageUrl: "https://i.pravatar.cc/600?img=45",
   },
   {
-    name: "Jamie Chastain",
+    name: "",
     role: "Graphic Designer",
     imageUrl: "https://i.pravatar.cc/600?img=22",
   },
   {
-    name: "Claudia Alves",
+    name: "",
     role: "Partnerships",
     imageUrl: "https://i.pravatar.cc/600?img=47",
   },
   {
-    name: "Reese Miller",
+    name: "",
     role: "Project Support",
     imageUrl: "https://i.pravatar.cc/600?img=18",
   },
