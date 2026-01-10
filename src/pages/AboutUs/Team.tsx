@@ -73,7 +73,7 @@ export default function TeamSection() {
           <TeamCard member={founder} featured />
         </div>
 
-        <div className="mt-10 grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-10 lg:grid-cols-3">
           {team.map((m) => (
             <TeamCard key={m.name} member={m} />
           ))}

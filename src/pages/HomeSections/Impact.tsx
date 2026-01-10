@@ -27,7 +27,7 @@ export default function ImpactThreeCards() {
           </p>
         </div>
 
-        <div className="mt-12 grid gap-10 md:grid-cols-3">
+        <div className="mt-12 grid gap-10 md:grid-cols-2 grid-cols-1 lg:grid-cols-3">
           {items.map((it, idx) => {
             const Icon = ICONS[idx] ?? HeartIcon;
 
