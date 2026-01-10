@@ -18,27 +18,27 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-[#e7e7e2] text-black py-20">
+    <footer className="bg-[#e7e7e2] text-black">
       {/* Top */}
-      <div className="mx-auto max-w-7xl px-6 py-16 sm:py-20">
-        <div className="grid gap-12 md:grid-cols-4">
+      <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 sm:py-16 lg:px-8">
+        <div className="grid gap-12 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
           {/* Logo */}
-          <NavLink to="/">
-            <div className="md:col-span-1">
+          <div className="sm:col-span-2 lg:col-span-1">
+            <NavLink to="/" className="inline-flex">
               <img
                 src={Logo}
                 alt="Earth Angels Finland Logo"
-                className="h-20 sm:h-24 w-auto object-contain"
+                className="h-20 w-auto object-contain sm:h-24"
               />
-            </div>
-          </NavLink>
+            </NavLink>
+          </div>
 
           {/* MEET US */}
           <div>
-            <h3 className="text-base sm:text-lg font-extrabold tracking-[0.22em] uppercase">
+            <h3 className="text-sm font-extrabold tracking-[0.22em] uppercase sm:text-base">
               {t("footer.meetUs.title")}
             </h3>
-            <ul className="mt-7 space-y-5 text-lg sm:text-xl font-bold">
+            <ul className="mt-6 space-y-4 text-base font-bold sm:text-lg">
               <li>
                 <NavLink
                   className="hover:underline underline-offset-4"
@@ -68,10 +68,10 @@ export default function Footer() {
 
           {/* GET INVOLVED */}
           <div>
-            <h3 className="text-base sm:text-lg font-extrabold tracking-[0.22em] uppercase">
+            <h3 className="text-sm font-extrabold tracking-[0.22em] uppercase sm:text-base">
               {t("footer.getInvolved.title")}
             </h3>
-            <ul className="mt-7 space-y-5 text-lg sm:text-xl font-bold">
+            <ul className="mt-6 space-y-4 text-base font-bold sm:text-lg">
               <li>
                 <NavLink
                   className="hover:underline underline-offset-4"
@@ -101,38 +101,42 @@ export default function Footer() {
 
           {/* CONTACT US */}
           <div>
-            <h3 className="text-base sm:text-lg font-extrabold tracking-[0.22em] uppercase">
+            <h3 className="text-sm font-extrabold tracking-[0.22em] uppercase sm:text-base">
               {t("footer.contact.title")}
             </h3>
 
-            <div className="mt-7 space-y-5 text-lg sm:text-xl font-bold">
+            <div className="mt-6 space-y-4 text-base font-bold sm:text-lg">
               <a
-                className="flex items-start gap-3 hover:underline underline-offset-4"
+                className="flex items-start gap-3 hover:underline underline-offset-4 break-words"
                 href="mailto:earthangelsfinland@gmail.com"
               >
-                <EnvelopeIcon className="mt-1 h-6 w-6" />
-                <span>earthangelsfinland@gmail.com</span>
+                <EnvelopeIcon className="mt-1 h-6 w-6 shrink-0" />
+                <span className="break-words">
+                  earthangelsfinland@gmail.com
+                </span>
               </a>
 
               <a
-                className="flex items-start gap-3 hover:underline underline-offset-4"
+                className="flex items-start gap-3 hover:underline underline-offset-4 break-words"
                 href="mailto:sayitloudfinland@gmail.com"
               >
-                <EnvelopeIcon className="mt-1 h-6 w-6" />
-                <span>sayitloudfinland@gmail.com</span>
+                <EnvelopeIcon className="mt-1 h-6 w-6 shrink-0" />
+                <span className="break-words">sayitloudfinland@gmail.com</span>
               </a>
 
               <a
                 className="flex items-start gap-3 hover:underline underline-offset-4"
                 href="tel:+358451796881"
               >
-                <PhoneIcon className="mt-1 h-6 w-6" />
+                <PhoneIcon className="mt-1 h-6 w-6 shrink-0" />
                 <span>+358 45 179 6881</span>
               </a>
 
               <div className="flex items-start gap-3">
-                <MapPinIcon className="mt-1 h-6 w-6" />
-                <span>{t("footer.contact.address")}</span>
+                <MapPinIcon className="mt-1 h-6 w-6 shrink-0" />
+                <span className="break-words">
+                  {t("footer.contact.address")}
+                </span>
               </div>
             </div>
           </div>
@@ -141,25 +145,10 @@ export default function Footer() {
 
       {/* Bottom */}
       <div className="border-t border-black/10">
-        <div className="mx-auto max-w-7xl px-6 py-8">
-          <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
-            <div className="text-base sm:text-lg font-bold text-black/70">
+        <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+          <div className="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
+            <div className="text-sm font-bold text-black/70 sm:text-base">
               © {year} {t("footer.bottom.copyright")}
-            </div>
-
-            <div className="flex flex-wrap gap-8 text-base sm:text-lg font-bold">
-              <NavLink
-                className="underline underline-offset-4 hover:no-underline"
-                to="/privacy"
-              >
-                {t("footer.bottom.privacy")}
-              </NavLink>
-              <NavLink
-                className="underline underline-offset-4 hover:no-underline"
-                to="/terms"
-              >
-                {t("footer.bottom.terms")}
-              </NavLink>
             </div>
 
             <div className="flex items-center gap-5 text-black/60">
