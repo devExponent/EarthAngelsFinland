@@ -7,7 +7,7 @@ import Eventcard from "../components/Eventcard";
 const EVENTS_2026 = [
   {
     id: 1,
-    image: BlackAfric,
+    image: SayItLoud,
     title: "Exhibition Opening: Turku City Main Library 2nd Floor",
     date: "2026-02-07",
     time: "11:00 - 12:45",
@@ -18,7 +18,7 @@ const EVENTS_2026 = [
   },
   {
     id: 2,
-    image: SayItLoud,
+    image: BlackAfric,
     title: '"Say Their Names" - Women of Color Exhibition Opening',
     date: "2026-02-07",
     time: "12:50 - 13:15",

@@ -90,7 +90,7 @@ const resources = {
         },
       },
 
-      // ✅ Required for FAQ.tsx (returns an array with returnObjects:true) [web:1189]
+      
       contactExtras: {
         visit: {
           kicker: "VISIT",
@@ -145,6 +145,42 @@ const resources = {
         },
       },
 
+      
+about: {
+  kicker: "WHO WE ARE",
+  title: "About Earth Angels Finland",
+  body1:
+    "Earth Angels of Finland was established in 2003 in Helsinki to improve the well-being of immigrants and marginalized communities through education and community programming.",
+  body2:
+    "We educate people of all ages about the achievements of people of color and bring unknown history and contributions to the forefront through yearly events like “Say It Loud,” hosted during February.",
+  bullets: [
+    "Education that strengthens confidence and belonging.",
+    "Programs and events that make untold achievements visible.",
+  ],
+  cards: {
+    mission: {
+      title: "Our mission",
+      body:
+        "To improve well-being and acceptance by educating communities in Finland about the achievements of people of color and other marginalized groups.",
+    },
+    vision: {
+      title: "Our vision",
+      body:
+        "A Finland where inclusive history is valued, younger generations feel proud of their heritage, and communities grow through understanding and cultural exchange.",
+    },
+    story: {
+      title: "Our story",
+      body:
+        "“Say It Loud” began as a Black History Month program and has expanded to highlight overlooked legacies across marginalized groups—bringing the 2026 program to Turku with a special focus on Women of Color and Shirley Chisholm.",
+    },
+
+  },
+      gallery:{
+title: "Our Gallery",
+    },
+},
+
+
       footer: {
         meetUs: {
           title: "Meet Us",
@@ -170,6 +206,13 @@ const resources = {
       },
     },
   },
+
+
+
+
+
+
+
 
   fi: {
     translation: {
@@ -259,8 +302,10 @@ const resources = {
         },
       },
 
-      // ✅ Required for FAQ.tsx (returns an array with returnObjects:true) [web:1189]
-      contactExtras: {
+
+
+
+     contactExtras: {
         visit: {
           kicker: "VIERAILU",
           title: "Vieraile toimistollamme Turussa",
@@ -313,6 +358,42 @@ const resources = {
             "Teemme marginalisoidut historiat näkyviksi ja vahvistamme hyväksyntää jakamalla saavutuksia, jotka on usein sivuutettu tai pyyhitty pois.",
         },
       },
+
+      // resources.fi.translation
+about: {
+  kicker: "KEITÄ OLEMME",
+  title: "Tietoa Earth Angels Finlandista",
+  body1:
+    "Earth Angels of Finland perustettiin vuonna 2003 Helsingissä parantamaan maahanmuuttajien ja marginalisoitujen yhteisöjen hyvinvointia koulutuksen ja yhteisötoiminnan avulla.",
+  body2:
+    "Koulutamme kaikenikäisiä värillisten ihmisten saavutuksista ja tuomme kertomattomia tarinoita ja panosta esiin vuosittaisten tapahtumien, kuten “Say It Loud”, kautta helmikuussa.",
+  bullets: [
+    "Koulutus, joka vahvistaa itseluottamusta ja osallisuutta.",
+    "Ohjelmat ja tapahtumat, jotka tekevät näkymättömiä saavutuksia näkyviksi.",
+  ],
+  cards: {
+    mission: {
+      title: "Missiomme",
+      body:
+        "Parantaa hyvinvointia ja hyväksyntää kouluttamalla Suomessa yhteisöjä värillisten ihmisten sekä muiden marginalisoitujen ryhmien saavutuksista.",
+    },
+    vision: {
+      title: "Visiomme",
+      body:
+        "Suomi, jossa inklusiivinen historia nähdään arvokkaana, nuoret voivat olla ylpeitä taustastaan ja yhteisöt vahvistuvat ymmärryksen ja kulttuurivaihdon kautta.",
+    },
+    story: {
+      title: "Tarinaamme",
+      body:
+        "“Say It Loud” alkoi Black History Month -ohjelmana ja on laajentunut nostamaan esiin myös muiden marginalisoitujen ryhmien sivuutettuja perintöjä—vuoden 2026 ohjelma tuodaan Turkuun erityisteemana Women of Color ja Shirley Chisholm.",
+    },
+   
+  },
+   gallery:{
+    title: "Meidän galleria",
+    },
+},
+
 
       footer: {
         meetUs: {
