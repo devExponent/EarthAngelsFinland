@@ -5,12 +5,12 @@ export default function MissionHighlight() {
 
   return (
     <section className="bg-gray-100 text-black py-25">
-      <div className="mx-auto max-w-5xl px-4 py-14 sm:py-20">
-        <h2 className="mt-4 text-3xl font-extrabold leading-tight sm:text-5xl text-center">
+      <div className="mx-auto w-10/12 md:w-8/12 lg:w-6/12 px-4 py-14 sm:py-20">
+        <h2 className="mt-4 text-3xl font-extrabold leading-tight sm:text-5xl">
           {t("home.mission.title")}
         </h2>
 
-        <p className="font-medium my-10 text-justify ">
+        <p className="my-10   whitespace-pre-line leading-8  font-medium text-justify ">
           {t("home.mission.body")}
         </p>
       </div>

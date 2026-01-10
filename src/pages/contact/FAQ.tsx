@@ -23,7 +23,7 @@ export default function FAQ({
 
   return (
     <section className="bg-gray-100">
-      <div className="mx-auto w-10/12 md:w-8/12 px-4 py-14 md:py-18">
+      <div className="mx-auto w-10/12 md:w-10/12 px-4 py-14 md:py-18">
         {/* Visit/Hours row */}
         <div className="text-center py-10">
           <div>

@@ -22,12 +22,12 @@ const resources = {
         },
 
         mission: {
-          kicker: "OUR MISSION",
-          title:
-            "Building confidence, belonging, and understanding through education and events",
-          body:
-            "Founded in 2003, Earth Angels of Finland works to improve the well-being of immigrants and marginalized communities by educating people of all ages about the achievements of people of color—bringing untold history and contributions to the forefront through high-quality yearly programs like “Say It Loud.”",
-        },
+  kicker: "OUR MISSION",
+  title: "Building confidence, belonging, and understanding through education and events",
+  body:
+    "Founded in 2003 in Helsinki, Earth Angels of Finland works to improve the well-being of immigrants and marginalized communities through education, visibility, and cultural exchange. We educate immigrants, students, youth, and indigenous Finnish people of all ages about the achievements of people of color—bringing untold history and contributions to the forefront.\n\nThrough our yearly February programs like “Say It Loud,” we highlight the legacies of ancestors and descendants affected by the Transatlantic slave trade and other overlooked histories. Sharing these achievements strengthens self-esteem for marginalized communities and supports broader acceptance by challenging the false idea that these communities have not contributed to humanity’s progress.",
+},
+
 
         impact: {
           title: "What We Do",
@@ -239,13 +239,13 @@ team: {
           ctaLearnMore: "Lue lisää",
         },
 
-        mission: {
-          kicker: "MISSIOMME",
-          title:
-            "Rakennamme itseluottamusta, osallisuutta ja ymmärrystä koulutuksen ja tapahtumien kautta",
-          body:
-            "Vuonna 2003 perustettu Earth Angels of Finland parantaa maahanmuuttajien ja marginalisoitujen yhteisöjen hyvinvointia kouluttamalla kaikenikäisiä värillisten ihmisten saavutuksista sekä tuomalla kertomattoman historian ja panoksen esiin laadukkaiden vuosittaisten ohjelmien, kuten “Say It Loud”, kautta.",
-        },
+      mission: {
+  kicker: "MISSIOMME",
+  title: "Rakennamme itseluottamusta, osallisuutta ja ymmärrystä koulutuksen ja tapahtumien kautta",
+  body:
+    "Vuonna 2003 Helsingissä perustettu Earth Angels of Finland parantaa maahanmuuttajien ja marginalisoitujen yhteisöjen hyvinvointia koulutuksen, näkyvyyden ja kulttuurivaihdon avulla. Koulutamme maahanmuuttajia, opiskelijoita, nuoria sekä alkuperäisiä suomalaisia kaikenikäisiä värillisten ihmisten saavutuksista ja tuomme kertomattomia tarinoita ja panosta näkyviin.\n\nVuosittaisissa helmikuun ohjelmissamme, kuten “Say It Loud”, nostamme esiin transatlanttisen orjakaupan sekä muiden sivuutettujen historian ilmiöiden vaikutuspiirissä eläneiden ihmisten saavutuksia. Näiden saavutusten jakaminen vahvistaa marginalisoitujen yhteisöjen itsetuntoa ja lisää ymmärrystä sekä hyväksyntää haastamalla väärän käsityksen siitä, etteivät nämä yhteisöt olisi vaikuttaneet ihmiskunnan kehitykseen.",
+},
+
 
         impact: {
           title: "Mitä teemme",
