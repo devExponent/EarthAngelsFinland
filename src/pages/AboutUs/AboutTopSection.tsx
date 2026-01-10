@@ -62,10 +62,9 @@ export default function AboutTop() {
           </div>
         </div>
 
-        {/* Bottom card */}
         <div className="mt-12 md:mt-16">
           <div className="rounded-3xl bg-emerald-900 px-6 py-10 text-white shadow-xl md:px-10 md:py-12">
-            <div className="grid gap-10 md:grid-cols-3">
+            <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
               <InfoCol
                 icon={<Target className="h-9 w-9 text-white" />}
                 title={t("about.cards.mission.title")}

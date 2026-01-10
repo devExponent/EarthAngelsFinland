@@ -5,12 +5,14 @@ import Image2 from "../../assets/Image2.jpg";
 import Image3 from "../../assets/Image3.jpg";
 import Image4 from "../../assets/Image4.jpg";
 import Blackhistory from "../../assets/blackhistory.png";
+import Image5 from "../../assets/Image5.jpg";
 
 const images = [
   { src: Image1, alt: "Gallery image 1" },
   { src: Image2, alt: "Gallery image 2" },
   { src: Image3, alt: "Gallery image 3" },
   { src: Image4, alt: "Gallery image 4" },
+  { src: Image5, alt: "Gallery image 5" },
   { src: Blackhistory, alt: "Black History Month event" },
 ];
 

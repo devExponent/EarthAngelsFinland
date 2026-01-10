@@ -181,6 +181,13 @@ title: "Our Gallery",
 },
 
 
+
+team: {
+  title: "Meet our team",
+  subtitle: "The people behind our programs, events, and community work.",
+},
+
+
       footer: {
         meetUs: {
           title: "Meet Us",
@@ -392,6 +399,12 @@ about: {
    gallery:{
     title: "Meidän galleria",
     },
+},
+
+
+team: {
+  title: "Tapaa tiimimme",
+  subtitle: "Ihmiset ohjelmiemme, tapahtumiemme ja yhteisötyömme taustalla.",
 },
 
 
