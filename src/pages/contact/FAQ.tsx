@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import faqImageSrc from "../../assets/blackhistory.png"; // Vite returns a URL string [web:1152]
+import faqImageSrc from "../../assets/blackhistory.png";
 
 type FaqItem = { q: string; a: string };
 
 type Props = {
   faqImageAlt?: string;
-  /** Optional: link to Google Maps directions */
+
   directionsHref?: string;
 };
 
