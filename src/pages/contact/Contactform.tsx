@@ -135,11 +135,9 @@ function InfoCard({ title, lines }: { title: string; lines: string[] }) {
           <span className="text-lg">✦</span>
         </div>
 
-        {/* ✅ min-w-0 allows this flex child to shrink and wrap [web:1360] */}
         <div className="min-w-0">
           <h3 className="text-base font-extrabold text-slate-900">{title}</h3>
 
-          {/* ✅ break-all guarantees emails won’t overflow [web:1270] */}
           <div className="mt-2 space-y-1 text-base font-semibold text-slate-700">
             {lines.map((l) => (
               <p key={l} className="break-all">
