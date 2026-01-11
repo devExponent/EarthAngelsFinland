@@ -1,5 +1,5 @@
 import HeroSection from "./HomeSections/HeroSection";
-import HeroVideoSection from "./HomeSections/HeroVideoSection";
+import { IntroVideoCard } from "./HomeSections/HeroVideoSection";
 import MissionHighlight from "./HomeSections/MissionHighlight";
 import ImpactThreeCards from "./HomeSections/Impact";
 // import JoinMission from "./HomeSections/JoinMission";
@@ -9,7 +9,7 @@ export default function Home() {
     <div>
       <HeroSection />
       <MissionHighlight />
-      <HeroVideoSection />
+      <IntroVideoCard />
       <ImpactThreeCards />
       {/* <JoinMission /> */}
     </div>

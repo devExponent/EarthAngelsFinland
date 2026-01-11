@@ -1,12 +1,12 @@
 import AboutTop from "./AboutUs/AboutTopSection";
-import IntroVideoCard from "./HomeSections/HeroVideoSection";
+import { IntroVideo } from "./HomeSections/HeroVideoSection";
 import Gallery from "./AboutUs/Gallery";
 import TeamSection from "./AboutUs/Team";
 const About = () => {
   return (
     <div>
       <AboutTop />
-      <IntroVideoCard />
+      <IntroVideo />
       <Gallery />
       <TeamSection />
     </div>
