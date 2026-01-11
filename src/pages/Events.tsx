@@ -1,13 +1,15 @@
 import { useState } from "react";
 // import { CalendarIcon, MapPinIcon } from "@heroicons/react/24/outline";
-import BlackAfric from "../assets/blackhistory.png";
-import SayItLoud from "../assets/SayItLoud.jpeg";
+import OpeningIMG from "../assets/OpeningDayIMG.jpg";
 import Eventcard from "../components/Eventcard";
+import BlackWomen from "../assets/BlackWomen.jpg";
+import ChildrenEventIMG from "../assets/ChildrenEventIMG.jpg";
+import MovieIMG from "../assets/MovieIMG.jpg";
 
 const EVENTS_2026 = [
   {
     id: 1,
-    image: SayItLoud,
+    image: OpeningIMG,
     title: "Exhibition Opening: Turku City Main Library 2nd Floor",
     date: "2026-02-07",
     time: "11:00 - 12:45",
@@ -18,7 +20,7 @@ const EVENTS_2026 = [
   },
   {
     id: 2,
-    image: BlackAfric,
+    image: BlackWomen,
     title: '"Say Their Names" - Women of Color Exhibition Opening',
     date: "2026-02-07",
     time: "12:50 - 13:15",
@@ -39,6 +41,7 @@ const EVENTS_2026 = [
   },
   {
     id: 4,
+    image: ChildrenEventIMG,
     title: "Children's Face-painting Workshop",
     date: "2026-02-11",
     time: "16:00 - 18:30",
@@ -49,6 +52,7 @@ const EVENTS_2026 = [
   },
   {
     id: 5,
+    image: MovieIMG,
     title: "Movie Night: Shirley Chisholm Documentary",
     date: "2026-02-15",
     time: "14:00 - 18:00",
