@@ -1,5 +1,11 @@
 import { useTranslation } from "react-i18next";
-import Momma from "../../assets/Image2.jpg";
+import Momma from "../../assets/Momma.jpeg";
+import Hazzalea from "../../assets/Hazzalea.jpeg";
+import Ekemini from "../../assets/Ekemini.jpeg";
+import Nayeli from "../../assets/Nayelli.jpeg";
+import Muhammad from "../../assets/Muhammad.jpeg";
+
+import Female from "../../assets/Female.png";
 
 type TeamMember = {
   name: string;
@@ -9,45 +15,35 @@ type TeamMember = {
 
 const founder: TeamMember = {
   name: "Aria Arai",
-  role: "Founder",
+  role: "President",
   imageUrl: Momma,
 };
 
 const team: TeamMember[] = [
   {
-    name: "",
-    role: "Program Coordinator",
-    imageUrl: "https://i.pravatar.cc/600?img=12",
+    name: "Hazzalea Reyes",
+    role: "Vice President",
+    imageUrl: Hazzalea,
   },
   {
-    name: "",
-    role: "Community Outreach",
-    imageUrl: "https://i.pravatar.cc/600?img=32",
+    name: "Ekemini James Ekpe",
+    role: "Communications Secretary",
+    imageUrl: Ekemini,
   },
   {
-    name: "",
-    role: "Events Lead",
-    imageUrl: "https://i.pravatar.cc/600?img=7",
+    name: "Nayeli Ortiz",
+    role: "Graphics Designer/ Photographer",
+    imageUrl: Nayeli,
   },
   {
-    name: "",
-    role: "Volunteer Coordinator",
-    imageUrl: "https://i.pravatar.cc/600?img=45",
+    name: "Muhammad Okunlola",
+    role: "Software Engineer",
+    imageUrl: Muhammad,
   },
   {
-    name: "",
-    role: "Graphic Designer",
-    imageUrl: "https://i.pravatar.cc/600?img=22",
-  },
-  {
-    name: "",
-    role: "Partnerships",
-    imageUrl: "https://i.pravatar.cc/600?img=47",
-  },
-  {
-    name: "",
-    role: "Project Support",
-    imageUrl: "https://i.pravatar.cc/600?img=18",
+    name: "Reeta Vilhu",
+    role: "Financial Secretary",
+    imageUrl: Female,
   },
 ];
 
