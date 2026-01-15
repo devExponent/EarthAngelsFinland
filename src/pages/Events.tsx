@@ -1,5 +1,5 @@
 import { useState } from "react";
-// import { CalendarIcon, MapPinIcon } from "@heroicons/react/24/outline";
+
 import OpeningIMG from "../assets/OpeningDayIMG.jpg";
 import Eventcard from "../components/Eventcard";
 import BlackWomen from "../assets/BlackWomen.jpg";
@@ -31,6 +31,7 @@ const EVENTS_2026 = [
   },
   {
     id: 3,
+    image: "",
     title: "Panel Discussion: Why Research Marginalized History?",
     date: "2026-02-07",
     time: "13:30 - 16:30",
@@ -97,8 +98,8 @@ export default function Events() {
   return (
     <div className="space-y-6 py-30 w-10/12 md:w-6/12 mx-auto">
       <div>
-        <h1 className="text-3xl font-bold">Events</h1>
-        <p className="mt-2">
+        <h1 className="text-3xl font-extrabold">Events</h1>
+        <p className="mt-2 font-bold text-2xl">
           Join us for "Say It Loud" - Black History Month celebration in
           February 2026
         </p>
@@ -122,7 +123,6 @@ export default function Events() {
         ))}
       </div>
 
-      {/* Events List */}
       <Eventcard filtered={filtered} />
     </div>
   );
