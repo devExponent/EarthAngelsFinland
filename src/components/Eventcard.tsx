@@ -35,12 +35,14 @@ const Eventcard = ({ filtered }: EventCardProps) => {
               </div>
               <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-start">
                 <div className="flex-1 space-y-3">
-                  <h3 className="text-xl font-semibold">{event.title}</h3>
-                  <p className="text-black">{event.description}</p>
+                  <h3 className="text-xl text-black font-extrabold">
+                    Title: {event.title}
+                  </h3>
+                  <p className="text-black text-justify">{event.description}</p>
                   <div className="space-y-2 pt-2">
                     <div className="flex items-center gap-2 text-black">
                       <CalendarIcon className="h-5 w-5" />
-                      <span>
+                      <span className="font-bold">
                         {new Date(event.date).toLocaleDateString("en-US", {
                           weekday: "short",
                           month: "short",
@@ -51,7 +53,7 @@ const Eventcard = ({ filtered }: EventCardProps) => {
                     </div>
                     <div className="flex items-center gap-2 text-black">
                       <MapPinIcon className="h-5 w-5" />
-                      <span>{event.location}</span>
+                      <span className="font-bold">{event.location}</span>
                     </div>
                   </div>
                 </div>
@@ -59,11 +61,11 @@ const Eventcard = ({ filtered }: EventCardProps) => {
                   {event.type}
                 </span>
               </div>
-              {new Date(event.date) >= new Date() && (
+              {/* {new Date(event.date) >= new Date() && (
                 <button className="bg-blue-400 mt-6 py-5 px-5 rounded-xl">
                   RSVP
                 </button>
-              )}
+              )} */}
             </div>
           ))
         )}

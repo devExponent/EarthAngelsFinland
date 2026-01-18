@@ -183,7 +183,7 @@ title: "Our Gallery",
 
 
 team: {
-  title: "Meet our team",
+  title: "Meet OUR TEAM",
   subtitle: "The people behind our programs, events, and community work.",
 },
 
