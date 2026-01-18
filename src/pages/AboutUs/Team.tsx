@@ -42,7 +42,7 @@ const team: TeamMember[] = [
   },
   {
     name: "Reeta Vilhu",
-    role: "Financial Secretary",
+    role: "Organization Advisor",
     imageUrl: Female,
   },
 ];
@@ -55,12 +55,12 @@ export default function TeamSection() {
       <div className="mx-auto w-10/12 px-4 py-12 md:py-16">
         <div className="text-center">
           <h2 className="text-4xl font-black tracking-tight text-emerald-950 md:text-5xl">
-            {t("team.title", "Meet our team")}
+            {t("team.title", "Meet OUR TEAM")}
           </h2>
           <p className="mt-3 text-base font-medium text-slate-700 md:text-lg">
             {t(
               "team.subtitle",
-              "The people behind our programs, events, and community work."
+              "The people behind our programs, events, and community work.",
             )}
           </p>
         </div>
