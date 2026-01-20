@@ -1,4 +1,4 @@
-import { FormEvent, useState } from "react";
+import { type FormEvent, useState } from "react";
 import { useTranslation } from "react-i18next";
 
 type ContactFormState = {
@@ -34,7 +34,7 @@ export default function ContactForm() {
             <p className="mt-5 max-w-prose text-lg leading-7 text-slate-700">
               {t(
                 "contact.subtitle",
-                "Questions about our work, partnerships, volunteering, or upcoming events? Send a message and the Earth Angels Finland team will reply as soon as possible."
+                "Questions about our work, partnerships, volunteering, or upcoming events? Send a message and the Earth Angels Finland team will reply as soon as possible.",
               )}
             </p>
           </div>
