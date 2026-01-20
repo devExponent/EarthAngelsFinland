@@ -8,6 +8,7 @@ interface Event {
   description: string;
   type: string;
   image?: string;
+  link: string;
 }
 
 interface EventCardProps {
@@ -61,11 +62,13 @@ const Eventcard = ({ filtered }: EventCardProps) => {
                   {event.type}
                 </span>
               </div>
-              {/* {new Date(event.date) >= new Date() && (
-                <button className="bg-blue-400 mt-6 py-5 px-5 rounded-xl">
-                  RSVP
-                </button>
-              )} */}
+              {new Date(event.date) >= new Date() && (
+                <a href={event.link} target="_blank">
+                  <button className="bg-blue-400 mt-6 py-5 px-5 rounded-xl">
+                    RSVP
+                  </button>
+                </a>
+              )}
             </div>
           ))
         )}
