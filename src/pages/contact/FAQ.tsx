@@ -86,7 +86,7 @@ export default function FAQ({
                 <div className="rounded-2xl bg-white p-5 text-sm text-slate-700 shadow-sm ring-1 ring-black/5">
                   {t(
                     "contactExtras.faq.empty",
-                    "FAQ content is not available yet."
+                    "FAQ content is not available yet.",
                   )}
                 </div>
               ) : (
@@ -162,11 +162,11 @@ export default function FAQ({
   );
 }
 
-function HoursRow({ title, detail }: { title: string; detail: string }) {
-  return (
-    <div>
-      <p className="text-sm font-semibold">{title}</p>
-      <p className="mt-1 text-xs text-white/80">{detail}</p>
-    </div>
-  );
-}
+// function HoursRow({ title, detail }: { title: string; detail: string }) {
+//   return (
+//     <div>
+//       <p className="text-sm font-semibold">{title}</p>
+//       <p className="mt-1 text-xs text-white/80">{detail}</p>
+//     </div>
+//   );
+// }
