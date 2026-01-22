@@ -122,14 +122,6 @@ export default function Footer() {
                 <span className="break-all">sayitloudfinland@gmail.com</span>
               </a>
 
-              {/* <a
-                className="flex items-start gap-3 hover:underline underline-offset-4"
-                href="tel:+358451796881"
-              >
-                <PhoneIcon className="mt-1 h-6 w-6 shrink-0" />
-                <span>+358 45 179 6881</span>
-              </a> */}
-
               <div className="flex items-start gap-3">
                 <MapPinIcon className="mt-1 h-6 w-6 shrink-0" />
                 <span className="break-words">
