@@ -21,7 +21,7 @@ export function IntroVideoCard() {
             ref={videoRef}
             src={introVideo}
             className={[
-              "h-180 w-full object-cover transition duration-300",
+              "md:h-180 h-100 w-full object-cover transition duration-300",
               playing ? "blur-none" : "blur-[2px] scale-[1.01]",
             ].join(" ")}
             controls={playing}
