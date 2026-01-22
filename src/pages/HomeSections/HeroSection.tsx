@@ -11,10 +11,8 @@ export default function HeroSection() {
       style={{ backgroundImage: `url(${Blackistory})` }}
       aria-hidden="true"
     >
-      {/* Overlay */}
       <div className="absolute inset-0 bg-white/80" aria-hidden="true" />
 
-      {/* Content */}
       <div className="relative z-10 mx-auto max-w-5xl px-4 text-center text-blue-600">
         <h1 className="text-4xl font-extrabold leading-tight sm:text-6xl md:text-7xl">
           {t("home.hero.title")}
