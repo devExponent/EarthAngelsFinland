@@ -66,7 +66,7 @@ const Eventcard = ({ filtered }: EventCardProps) => {
                   </div>
                 </div>
               </div>
-              <div className="sm:inline-block  my-3 rounded-full md:hidden bg-black px-5 py-3 text-sm font-medium text-white">
+              <div className="sm:inline-block  my-2 rounded-full md:hidden bg-black px-5 py-3 text-sm font-medium text-white">
                 {event.type}
               </div>
               <div>
