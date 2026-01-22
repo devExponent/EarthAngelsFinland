@@ -4,16 +4,17 @@ import OpeningIMG from "../assets/OpeningDayIMG.jpg";
 import Eventcard from "../components/Eventcard";
 import BlackWomen from "../assets/BlackWomen.jpg";
 import MovieIMG from "../assets/MovieIMG.jpg";
-import EventBG from "../assets/EventBG.jpeg";
+// import EventBG from "../assets/EventBG.jpeg";
 import ChildrenIMG from "../assets/ChildrenIMG.jpg";
 import OpenMic from "../assets/OpenMIC.jpg";
 import Workshop from "../assets/Workshop.jpg";
 import Thomas from "../assets/Thomas.jpg";
+import EventBGG from "../assets/EventBGG.jpeg";
 
 const EVENTS_2026 = [
   {
     id: 1,
-    image: EventBG,
+    image: EventBGG,
     title: "Exhibition Opening: Turku City Main Library 2nd Floor",
     date: "2026-02-07",
     time: "11:00 - 12:45",
