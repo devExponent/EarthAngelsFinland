@@ -10,7 +10,7 @@ export default function MissionHighlight() {
           {t("home.mission.title")}
         </h2>
 
-        <p className="my-10   whitespace-pre-line leading-8  font-medium text-justify ">
+        <p className="my-10   whitespace-pre-line leading-8  font-medium md:text-justify">
           {t("home.mission.body")}
         </p>
       </div>
