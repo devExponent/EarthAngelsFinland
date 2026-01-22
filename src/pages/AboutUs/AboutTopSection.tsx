@@ -8,8 +8,7 @@ export default function AboutTop() {
 
   return (
     <main className="bg-[#f4f1ea]">
-      <section className="mx-auto w-10/12 px-4 py-12 md:py-16">
-        {/* Top row */}
+      <section className="mx-auto w-10/12 px-4 md:py-16">
         <div className="grid items-center gap-10 lg:grid-cols-2 md:gap-14">
           <div>
             <p className="my-2 text-xl font-black tracking-widest text-orange-500">
