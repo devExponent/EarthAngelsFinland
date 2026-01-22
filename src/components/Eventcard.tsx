@@ -25,7 +25,7 @@ const Eventcard = ({ filtered }: EventCardProps) => {
           filtered.map((event) => (
             <div
               key={event.id}
-              className="rounded-xl border border-black bg-white p-12 transition my-10"
+              className="rounded-xl border bg-white p-12 transition my-10"
             >
               <div className="mb-6">
                 <img
@@ -36,10 +36,17 @@ const Eventcard = ({ filtered }: EventCardProps) => {
               </div>
               <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-start">
                 <div className="flex-1 space-y-3">
-                  <h3 className="text-xl text-black font-extrabold">
-                    Title: {event.title}
-                  </h3>
-                  <p className="text-black text-justify">{event.description}</p>
+                  <div className="flex flex-row justify-between items-center">
+                    <h3 className="md:text-xl text-md text-black font-extrabold">
+                      Title: {event.title}
+                    </h3>
+                    <span className="md:inline-block hidden rounded-full bg-black px-5 py-3 text-sm font-medium text-white">
+                      {event.type}
+                    </span>
+                  </div>
+                  <p className="text-black md:text-justify w-full">
+                    {event.description}
+                  </p>
                   <div className="space-y-2 pt-2">
                     <div className="flex items-center gap-2 text-black">
                       <CalendarIcon className="h-5 w-5" />
@@ -58,17 +65,19 @@ const Eventcard = ({ filtered }: EventCardProps) => {
                     </div>
                   </div>
                 </div>
-                <span className="inline-block rounded-full bg-black px-5 py-3 text-sm font-medium text-white">
-                  {event.type}
-                </span>
               </div>
-              {new Date(event.date) >= new Date() && (
-                <a href={event.link} target="_blank">
-                  <button className="bg-blue-400 mt-6 py-5 px-5 rounded-xl">
-                    Reserve a Spot
-                  </button>
-                </a>
-              )}
+              <div className="sm:inline-block  my-3 rounded-full md:hidden bg-black px-5 py-3 text-sm font-medium text-white">
+                {event.type}
+              </div>
+              <div>
+                {new Date(event.date) >= new Date() && (
+                  <a href={event.link} target="_blank">
+                    <button className="bg-blue-400 mt-6 py-5 px-5 rounded-xl">
+                      Reserve a Spot
+                    </button>
+                  </a>
+                )}
+              </div>
             </div>
           ))
         )}
