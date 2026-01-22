@@ -19,8 +19,11 @@ export default function JoinMission() {
             {t("home.join.emailLabel")} earthangelsfinland@gmail.com
           </a>
 
-          <a href="tel:+358451796881" className="hover:text-white transition">
-            {t("home.join.callLabel")} +358 45 179 6881
+          <a
+            href="mailto:earthangelsfinland@gmail.com"
+            className="hover:text-white transition"
+          >
+            {t("home.join.emailLabel")} sayitloud@gmail.com
           </a>
         </div>
 

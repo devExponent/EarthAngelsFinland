@@ -65,7 +65,7 @@ const Eventcard = ({ filtered }: EventCardProps) => {
               {new Date(event.date) >= new Date() && (
                 <a href={event.link} target="_blank">
                   <button className="bg-blue-400 mt-6 py-5 px-5 rounded-xl">
-                    RSVP
+                    Reserve a Spot
                   </button>
                 </a>
               )}

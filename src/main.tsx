@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import ScrollToTop from "./components/Scrolltop.tsx";
 
-import "./i18n"; // side-effect import: initializes i18next
+import "./i18n";
 import "./index.css";
 import App from "./App.tsx";
 
