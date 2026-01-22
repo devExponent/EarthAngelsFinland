@@ -25,7 +25,7 @@ const Eventcard = ({ filtered }: EventCardProps) => {
           filtered.map((event) => (
             <div
               key={event.id}
-              className="rounded-xl border bg-white p-12 transition my-10"
+              className="rounded-xl border bg-white p-5 transition my-10"
             >
               <div className="mb-6">
                 <img
