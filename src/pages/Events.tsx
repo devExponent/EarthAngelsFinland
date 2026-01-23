@@ -19,7 +19,7 @@ const EVENTS_2026 = [
     time: "11:00 - 12:45",
     location: "Turku City Main Library, 2nd Floor",
     description:
-      "This special Opening Day Celebration will take place on the second floor of the Turku Main Library. It will concentrate on the international women Finland, Mexico and Peru. Their artistic achievements of Photography, paintings and literature will be highlighted in this exciting opening celebration. The opening day will consist of an opening speech by Dr. Theresia Bilola. The TUNISIAN AMBASSADOR, Ambassador Hajjaji will be the Keynote Speaker. The entertainment will be provided by a Ukrainian musician, performance by a singer from Indonesia accompanied by a pianist from Turkey. The showstopper will be a Fashion show with couture designs by OMONO'S FASHION CONCEPTS.",
+      "This special  exhibition features three diverse women artists residing in Finland. Aino Keinänen, from Finland Nayeli Ortiz, from Mexico, and Natalia Ochoa from Peru. Each artist brings her special aspect and artistic inspiration to their exhibits will highlight their skill of painting, photography, and sculpture. The opening day will consist of an opening speech by Dr. Theresia Bilola. The TUNISIAN AMBASSADOR, Ambassador Hajjaji will be the Keynote Speaker. The entertainment will be provided by a Ukrainian musician, performance by a singer from Indonesia accompanied by a pianist from Turkey. The showstopper will be a Fashion show with couture designs by OMONO'S FASHION CONCEPTS.",
     type: "exhibition",
     link: "https://www.eventbrite.com/e/2026-say-it-loud-black-history-month-in-celebration-of-women-of-color-tickets-1980220341347?aff=odcleoeventsincollection&keep_tld=1",
   },
