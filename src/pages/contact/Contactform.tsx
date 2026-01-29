@@ -17,7 +17,7 @@ export default function ContactForm() {
 
   function onSubmit(e: FormEvent) {
     e.preventDefault();
-    // TODO: wire to Firebase/Email service
+
     console.log("Contact form submitted:", form);
   }
 
@@ -39,7 +39,6 @@ export default function ContactForm() {
             </p>
           </div>
 
-          {/* Right form card */}
           <div className="rounded-3xl bg-white p-6 shadow-xl ring-1 ring-black/5 md:p-8">
             <form onSubmit={onSubmit} className="space-y-4">
               <div>
