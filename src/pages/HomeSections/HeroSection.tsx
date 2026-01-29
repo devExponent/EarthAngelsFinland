@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
-import Blackistory from "../../assets/blackhistory.png";
+
+import Momma from "../../assets/MommaAria.jpeg";
 import { useTranslation } from "react-i18next";
 
 export default function HeroSection() {
@@ -8,7 +9,7 @@ export default function HeroSection() {
   return (
     <section
       className="relative flex min-h-screen items-center justify-center overflow-hidden bg-cover bg-center bg-no-repeat text-black"
-      style={{ backgroundImage: `url(${Blackistory})` }}
+      style={{ backgroundImage: `url(${Momma})` }}
       aria-hidden="true"
     >
       <div className="absolute inset-0 bg-white/80" aria-hidden="true" />
