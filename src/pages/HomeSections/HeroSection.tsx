@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 
-import Momma from "../../assets/MommaAria.jpeg";
+import Momma from "../../assets/EventBG.jpeg";
 import { useTranslation } from "react-i18next";
 
 export default function HeroSection() {

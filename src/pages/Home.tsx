@@ -9,8 +9,8 @@ export default function Home() {
     <div>
       <HeroSection />
       <MissionHighlight />
-      <IntroVideoCard />
       <OpeningEventSection />
+      <IntroVideoCard />
       <ImpactThreeCards />
       {/* <JoinMission /> */}
     </div>
