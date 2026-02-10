@@ -4,9 +4,32 @@ import Image1 from "../../assets/Image1.png";
 import Image2 from "../../assets/Image2.jpg";
 import Image3 from "../../assets/Image3.jpg";
 import Image4 from "../../assets/Image4.jpg";
+import Image5 from "../../assets/IMG_7237.jpeg";
+import Image6 from "../../assets/IMG_7252.jpeg";
+import Image7 from "../../assets/IMG_7255.jpeg";
+import Image8 from "../../assets/IMG_7258.jpeg";
+import Image9 from "../../assets/IMG_7276.jpeg";
+import Image10 from "../../assets/IMG_7282.jpeg";
+import Image11 from "../../assets/IMG_7312.jpeg";
+import Image12 from "../../assets/IMG_7313.jpeg";
+import Image13 from "../../assets/IMG_7314.jpeg";
+import Image14 from "../../assets/IMG_7316.jpeg";
+import Image15 from "../../assets/IMG_7318.jpeg";
+
 import Blackhistory from "../../assets/blackhistory.png";
 
 const images = [
+  { src: Image5, alt: "Gallery image 5" },
+  { src: Image6, alt: "Gallery image 6" },
+  { src: Image7, alt: "Gallery image 7" },
+  { src: Image8, alt: "Gallery image 8" },
+  { src: Image9, alt: "Gallery image 9" },
+  { src: Image10, alt: "Gallery image 10" },
+  { src: Image11, alt: "Gallery image 11" },
+  { src: Image12, alt: "Gallery image 12" },
+  { src: Image13, alt: "Gallery image 13" },
+  { src: Image14, alt: "Gallery image 14" },
+  { src: Image15, alt: "Gallery image 15" },
   { src: Image1, alt: "Gallery image 1" },
   { src: Image2, alt: "Gallery image 2" },
   { src: Image3, alt: "Gallery image 3" },
@@ -38,7 +61,7 @@ export default function Gallery() {
                 <img
                   src={img.src}
                   alt={img.alt}
-                  className="h-full w-full object-cover transition duration-300 group-hover:scale-105"
+                  className="h-full w-full object-cover object-top transition duration-300 group-hover:scale-105"
                 />
 
                 <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-emerald-950/50 via-transparent to-transparent opacity-0 transition group-hover:opacity-100" />
