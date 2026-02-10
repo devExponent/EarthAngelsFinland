@@ -11,12 +11,9 @@ export default function HeroSection() {
       className="relative min-h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center"
       style={{ backgroundImage: `url(${Event})` }}
     >
-      {/* Overlay */}
       <div className="absolute inset-0 bg-white/80" />
 
-      {/* Content wrapper */}
       <div className="relative z-10 w-10/12 grid grid-cols-1 items-center gap-12 md:grid-cols-12">
-        {/* Text Column */}
         <div className="col-span-1 md:col-span-5 flex flex-col justify-center text-center md:text-left">
           <h1 className="text-4xl font-extrabold leading-tight text-blue-600 sm:text-6xl md:text-7xl">
             {t("home.hero.title")}
@@ -43,7 +40,6 @@ export default function HeroSection() {
           </div>
         </div>
 
-        {/* Image Column */}
         <div className="col-span-1 md:col-span-7 flex justify-center md:justify-end items-center">
           <img
             src={Momma}
