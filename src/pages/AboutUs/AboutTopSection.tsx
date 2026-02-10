@@ -98,15 +98,12 @@ function InfoCol({
 }) {
   return (
     <div>
-      {/* Bigger icon badge (icon sits above title) */}
       <div className="mb-5 inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-white/10 ring-1 ring-white/15">
         {icon}
       </div>
 
-      {/* Title bigger + bolder than body */}
       <h3 className="text-2xl font-black">{title}</h3>
 
-      {/* Body slightly smaller than title */}
       <p className="mt-3 text-lg font-medium leading-8 text-white/85">{body}</p>
     </div>
   );
