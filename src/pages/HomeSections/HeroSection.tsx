@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-import Event from "../../assets/EventBG.jpeg";
 import Momma from "../../assets/MommaAria.jpeg";
 import { useTranslation } from "react-i18next";
 
