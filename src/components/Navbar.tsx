@@ -75,21 +75,18 @@ export default function Navbar() {
 
   return (
     <>
-      {/* Desktop/overall navbar: always white */}
       <header className="sticky top-0 z-50 w-full border-b border-black/10 bg-white text-black">
         <div className="mx-auto max-w-7xl px-4">
           <div className="flex items-center justify-between py-4 sm:py-5">
-            {/* Logo */}
             <NavLink to="/" className="flex items-center">
               <img
                 src={Logo}
                 alt="Earth Angels Finland Logo"
                 className="h-16 sm:h-20 lg:h-24 xl:h-28 w-auto object-contain"
               />
-              <p className="font-extrabold">EarthAnglesFinland</p>
+              <p className="font-extrabold">EarthAngelsFinland</p>
             </NavLink>
 
-            {/* Desktop nav */}
             <div className="hidden md:flex items-center gap-3">
               <nav className="flex items-center gap-2">
                 {LINKS.map((l) => (
@@ -99,7 +96,6 @@ export default function Navbar() {
                 ))}
               </nav>
 
-              {/* translator */}
               <div className="ml-2 flex gap-2">
                 <button
                   onClick={toggleLang}
@@ -111,7 +107,6 @@ export default function Navbar() {
               </div>
             </div>
 
-            {/* Mobile hamburger */}
             <div className="md:hidden">
               <button
                 className="rounded-xl border border-black/10 bg-black/5 p-2 hover:bg-black/10 transition"
@@ -125,7 +120,6 @@ export default function Navbar() {
         </div>
       </header>
 
-      {/* Mobile drawer (black background) */}
       {open && (
         <div className="fixed inset-0 z-50 md:hidden">
           <div
