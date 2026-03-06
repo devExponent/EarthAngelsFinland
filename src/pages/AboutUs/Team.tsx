@@ -5,8 +5,6 @@ import Ekemini from "../../assets/Ekemini.jpeg";
 import Nayeli from "../../assets/Nayelli.jpeg";
 import Muhammad from "../../assets/Muhammad.jpeg";
 
-import Female from "../../assets/Female.png";
-
 type TeamMember = {
   name: string;
   role: string;
