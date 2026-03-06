@@ -40,6 +40,11 @@ const team: TeamMember[] = [
     role: "Software Engineer",
     imageUrl: Muhammad,
   },
+  {
+    name: "Reeta Vilhu",
+    role: "Organization Advisor",
+    imageUrl: Female,
+  },
 ];
 
 export default function TeamSection() {
