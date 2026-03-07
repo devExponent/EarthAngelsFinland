@@ -62,19 +62,19 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* GET INVOLVED */}
           <div>
             <h3 className="text-sm font-extrabold tracking-[0.22em] uppercase sm:text-base">
               {t("footer.getInvolved.title")}
             </h3>
             <ul className="mt-6 space-y-4 text-base font-bold sm:text-lg">
               <li>
-                <NavLink
+                <a
                   className="hover:underline underline-offset-4"
-                  to="/contact"
+                  href="https://form.123formbuilder.com/6776082/non-profit-organization-membership-form"
+                  target="_blank"
                 >
                   {t("footer.getInvolved.volunteer")}
-                </NavLink>
+                </a>
               </li>
               <li>
                 <NavLink
@@ -95,7 +95,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* CONTACT US */}
           <div>
             <h3 className="text-sm font-extrabold tracking-[0.22em] uppercase sm:text-base">
               {t("footer.contact.title")}
@@ -129,7 +128,6 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Bottom */}
       <div className="border-t border-black/10">
         <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
           <div className="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
