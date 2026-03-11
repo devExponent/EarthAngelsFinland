@@ -15,10 +15,20 @@ import Image12 from "../../assets/IMG_7313.jpeg";
 import Image13 from "../../assets/IMG_7314.jpeg";
 import Image14 from "../../assets/IMG_7316.jpeg";
 import Image15 from "../../assets/IMG_7318.jpeg";
+import Image16 from "../../assets/Joselu.jpeg";
+import Image17 from "../../assets/ItsGirlz.jpeg";
+import Image18 from "../../assets/TheGirl.jpeg";
+import Image19 from "../../assets/Romero.jpeg";
+import Image20 from "../../assets/OpenMic.jpeg";
 
 import Blackhistory from "../../assets/blackhistory.png";
 
 const images = [
+  { src: Image20, alt: "Open Mic Event" },
+  { src: Image19, alt: "Gallery image 19" },
+  { src: Image18, alt: "Gallery image 18" },
+  { src: Image16, alt: "Gallery image 16" },
+  { src: Image17, alt: "Gallery image 17" },
   { src: Image5, alt: "Gallery image 5" },
   { src: Image6, alt: "Gallery image 6" },
   { src: Image7, alt: "Gallery image 7" },
