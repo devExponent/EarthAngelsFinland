@@ -20,10 +20,16 @@ import Image17 from "../../assets/ItsGirlz.jpeg";
 import Image18 from "../../assets/TheGirl.jpeg";
 import Image19 from "../../assets/Romero.jpeg";
 import Image20 from "../../assets/OpenMic.jpeg";
+import Image21 from "../../assets/WomensDay3.jpeg";
+import Image22 from "../../assets/WomensDay2.jpeg";
+import Image23 from "../../assets/WomensDay4.jpeg";
 
 import Blackhistory from "../../assets/blackhistory.png";
 
 const images = [
+  { src: Image23, alt: "Gallery image 23" },
+  { src: Image22, alt: "Gallery image 22" },
+  { src: Image21, alt: "Gallery image 21" },
   { src: Image20, alt: "Open Mic Event" },
   { src: Image19, alt: "Gallery image 19" },
   { src: Image18, alt: "Gallery image 18" },
