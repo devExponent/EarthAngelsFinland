@@ -84,7 +84,7 @@ export default function Navbar() {
                 alt="Earth Angels Finland Logo"
                 className="h-16 sm:h-20 lg:h-24 xl:h-28 w-auto object-contain"
               />
-              <p className="font-extrabold">EarthAngelsFinland</p>
+              <p className="font-bold text-lg">EarthAngelsFinland</p>
             </NavLink>
 
             <div className="hidden md:flex items-center gap-3">
@@ -134,7 +134,7 @@ export default function Navbar() {
                 alt="Earth Angels Finland Logo"
                 className="h-18 w-auto object-contain"
               />
-              <p className="font-bold">EarthAngelsFinland</p>
+              <p className="font-bold ">EarthAngelsFinland</p>
 
               <button
                 className="rounded-xl border border-white/10 bg-white/10 p-2 hover:bg-white/15 transition"
@@ -158,7 +158,6 @@ export default function Navbar() {
                 ))}
               </nav>
 
-              {/* translator */}
               <div className="grid grid-cols-2 gap-3 pt-2">
                 <button
                   onClick={toggleLang}
