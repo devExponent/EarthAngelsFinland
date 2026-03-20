@@ -10,9 +10,6 @@ import OpenMicVid from "../../assets/OpenMicVid.mp4";
 import EarthAngelTeam from "../../assets/EarthAngelTeam.jpeg";
 
 type Winner = {
-  name: string;
-  position: string;
-  prize?: string;
   image: string;
   accent: string;
   textAccent: string;
@@ -20,32 +17,21 @@ type Winner = {
 
 const WINNERS: Winner[] = [
   {
-    name: "Annak",
-    position: "1st Place",
-    prize: "200€",
     image: Annak,
     accent: "bg-amber-400",
     textAccent: "text-amber-500",
   },
   {
-    name: "Nemaro",
-    position: "2nd Place",
-    prize: "150€",
     image: Nemaro,
     accent: "bg-slate-300",
     textAccent: "text-slate-500",
   },
   {
-    name: "ItsGirls",
-    position: "3rd Place",
-    prize: "100€",
     image: ItsGirls,
     accent: "bg-orange-700",
     textAccent: "text-orange-700",
   },
   {
-    name: "Jose",
-    position: "Audience Favourite",
     image: Jose,
     accent: "bg-emerald-500",
     textAccent: "text-emerald-600",
@@ -100,30 +86,15 @@ const OpenMic = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-5">
           {WINNERS.map((winner) => (
             <div
-              key={winner.name}
+              key={winner.image}
               className="group flex flex-col items-center text-center"
             >
               <div className="relative w-full overflow-hidden rounded-xl mb-3">
                 <img
                   src={winner.image}
-                  alt={winner.name}
                   className="w-full h-auto object-contain transition-transform duration-700 group-hover:scale-105 scale-110"
                 />
-                <div
-                  className={`absolute top-2 left-2 ${winner.accent} px-2 py-0.5 rounded-full`}
-                >
-                  <span className="text-[0.55rem] font-black tracking-widest uppercase text-white">
-                    {winner.position}
-                  </span>
-                </div>
               </div>
-
-              <p className="text-white font-black text-base leading-tight">
-                {winner.name}
-              </p>
-              <p className={`text-xs font-bold mt-0.5 ${winner.textAccent}`}>
-                {winner.prize ? `${winner.prize} Prize` : "Crowd Choice"}
-              </p>
             </div>
           ))}
         </div>
