@@ -2,8 +2,28 @@ import Image1 from "../../assets/WomensDay1.jpeg";
 import Image2 from "../../assets/WomensDay2.jpeg";
 import Image3 from "../../assets/WomensDay3.jpeg";
 import Image4 from "../../assets/WomensDay4.jpeg";
+import Image5 from "../../assets/WomensDay.jpeg";
 
 const WomensDay = () => {
+  const Names = [
+    {
+      name: "Helena Martilla",
+      title: "Parliamentarians",
+    },
+    {
+      name: "Momma Aria Arai",
+      title: "President/Founder EarthAngels of Finland ry",
+    },
+    {
+      name: "Ekeminin Ekpe",
+      title: "Communications Secretary EarthAngels of Finland ry",
+    },
+    {
+      name: "Ella Immonen",
+      title: "Parliamentarians",
+    },
+  ];
+
   return (
     <section className="bg-[#fdf8f3]">
       <div className="relative overflow-hidden h-[70vh] md:h-[80vh]">
@@ -97,10 +117,39 @@ const WomensDay = () => {
         </div>
       </div>
 
+      <div className="relative">
+        <div className="w-full">
+          <img
+            src={Image5}
+            alt="Earth Angels of Finland group photo"
+            className="w-full h-auto object-contain"
+          />
+        </div>
+
+        <div className="absolute bottom-0 left-0 right-0 h-32 md:h-48 bg-gradient-to-t from-black/85 via-black/50 to-transparent" />
+
+        <div className="absolute bottom-4 md:bottom-16 lg:bottom-24 left-0 right-0 flex">
+          {Names.map((person, index) => (
+            <div
+              key={index}
+              className="flex-1 px-3 flex flex-col items-center text-center border-r border-white/10 last:border-r-0"
+            >
+              <span className="block w-6 md:w-8 h-[2px] bg-amber-400 mb-2" />
+              <p className="text-white font-bold text-[0.7rem] md:text-base lg:text-lg leading-tight tracking-wide">
+                {person.name}
+              </p>
+              <p className="text-amber-300 text-[0.55rem] md:text-xs lg:text-sm font-medium tracking-wide leading-snug mt-1">
+                {person.title}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+
       <div className="bg-amber-400 py-6 px-6 text-center">
         <p className="text-[0.7rem] font-extrabold tracking-[0.25em] uppercase text-emerald-950">
-          Earth Angels of Finland · International Women&apos;s Day · 8 March
-          2026 · Helsinki
+          Earth Angels of Finland · International Women's Day · 8 March 2026 ·
+          Helsinki
         </p>
       </div>
     </section>
