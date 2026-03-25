@@ -36,7 +36,7 @@ const JuneteenthSaveTheDate = () => {
           Earth Angels of Finland is proud to be bringing Juneteenth
           International Freedom Day to Turku this June. Expect an evening full
           of music, culture, storytelling, and community as we honour the
-          strength and legacy of Black people around the world.
+          strength and legacy of people of colour around the world.
         </p>
         <p className="text-white/60 text-sm sm:text-base leading-relaxed">
           This is a celebration for everyone. Whether you have been part of our
@@ -81,7 +81,7 @@ const JuneteenthSaveTheDate = () => {
         <div className="flex-1 h-px bg-white/10" />
       </div>
 
-        <div
+      <div
         className="w-full bg-amber-400 py-5 px-4 text-center mt-20 -mx-4 sm:-mx-6"
         style={{ width: "calc(100% + 2rem)" }}
       >
