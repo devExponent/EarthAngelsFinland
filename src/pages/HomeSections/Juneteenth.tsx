@@ -81,7 +81,7 @@ const JuneteenthSaveTheDate = () => {
         <div className="flex-1 h-px bg-white/10" />
       </div>
 
-      <div
+        <div
         className="w-full bg-amber-400 py-5 px-4 text-center mt-20 -mx-4 sm:-mx-6"
         style={{ width: "calc(100% + 2rem)" }}
       >
