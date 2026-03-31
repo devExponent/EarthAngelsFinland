@@ -157,16 +157,6 @@ export default function CollaborateWithUs() {
               allowFullScreen
             />
           </div>
-
-          <p className="text-center text-[#9CA3AF] text-xs mt-8 leading-relaxed">
-            Prefer email?{" "}
-            <a
-              href="mailto:hello@earthangels.fi"
-              className="text-[#C9A84C] underline underline-offset-2 hover:text-[#0B1D13] transition-colors"
-            >
-              hello@earthangels.fi
-            </a>
-          </p>
         </div>
       </section>
 
