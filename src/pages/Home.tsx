@@ -7,12 +7,14 @@ import JuneteenthSaveTheDate from "./HomeSections/Juneteenth";
 import EmmaTamankagSpotlight from "./HomeSections/Emma";
 import CollaborateWithUs from "./HomeSections/CollaborateWithUs";
 import OurvisionHighlight from "./HomeSections/ourVisionHighlights";
+import PartnersSection from "./HomeSections/Partners";
 
 export default function Home() {
   return (
     <div>
       <HeroSection />
       <MissionHighlight />
+      <PartnersSection />
       <OurvisionHighlight />
       <CollaborateWithUs />
       <EmmaTamankagSpotlight />
