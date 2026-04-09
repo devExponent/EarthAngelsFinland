@@ -25,7 +25,6 @@ export default function ContactForm() {
     <main className="bg-gray-100 py-10">
       <section className="mx-auto  w-10/12 md:w-10/12  px-4 py-12 md:py-16">
         <div className="grid items-start gap-10 md:grid-cols-1 lg:grid-cols-2 md:gap-12">
-          
           <div>
             <h1 className="mt-3 text-4xl font-semibold tracking-tight text-emerald-950 md:text-5xl">
               {t("contact.title", "Get in touch")}
@@ -109,10 +108,7 @@ export default function ContactForm() {
               t("contact.cards.email.line2", "contact@earthangelsfinland.fi"),
             ]}
           />
-          <InfoCard
-            title={t("contact.cards.phone.title", "Phone")}
-            lines={[t("contact.cards.phone.line1", "+358 XX XXX XXXX")]}
-          />
+
           <InfoCard
             title={t("contact.cards.address.title", "Address")}
             lines={[
