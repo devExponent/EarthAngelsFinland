@@ -20,7 +20,7 @@ export default function MboaMarketSpotlight() {
             </h2>
 
             <p className="text-[#6B7280] text-lg md:text-xl lg:text-2xl leading-relaxed mb-6">
-              Moving to a new country is hard enough — finding the food you grew
+              Moving to a new country is hard enough finding the food you grew
               up with shouldn't be.{" "}
               <strong className="text-[#0B1D13]">Mboa Market</strong> is Turku's
               own African mini-shop, stocked with authentic ingredients, fresh
@@ -30,7 +30,7 @@ export default function MboaMarketSpotlight() {
 
             <p className="text-[#6B7280] text-lg md:text-xl lg:text-2xl leading-relaxed mb-10">
               Whether you're looking for fresh okra, cassava, palm oil, African
-              plum, or specialized spices for a recipe from back home — Mboa
+              plum, or specialized spices for a recipe from back home Mboa
               Market has you covered. For many in the diaspora, it truly is a
               home away from home.
             </p>
