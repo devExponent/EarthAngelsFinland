@@ -13,17 +13,10 @@ export default function JoinMission() {
 
         <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:justify-center sm:gap-10 text-base sm:text-lg font-bold text-white/90">
           <a
-            href="mailto:earthangelsfinland@gmail.com"
+            href="mailto:info@sayitloudfinland.org"
             className="hover:text-white transition"
           >
-            {t("home.join.emailLabel")} earthangelsfinland@gmail.com
-          </a>
-
-          <a
-            href="mailto:earthangelsfinland@gmail.com"
-            className="hover:text-white transition"
-          >
-            {t("home.join.emailLabel")} sayitloud@gmail.com
+            {t("home.join.emailLabel")} info@sayitloudfinland.org
           </a>
         </div>
 
