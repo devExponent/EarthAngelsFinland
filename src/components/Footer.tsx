@@ -15,10 +15,8 @@ export default function Footer() {
 
   return (
     <footer className="bg-[#e7e7e2] text-black">
-      {/* Top */}
       <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 sm:py-16 lg:px-8">
         <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-4">
-          {/* Logo */}
           <div className="sm:col-span-2 lg:col-span-1">
             <NavLink to="/" className="inline-flex">
               <img
@@ -29,7 +27,6 @@ export default function Footer() {
             </NavLink>
           </div>
 
-          {/* MEET US */}
           <div>
             <h3 className="text-sm font-extrabold tracking-[0.22em] uppercase sm:text-base">
               {t("footer.meetUs.title")}
@@ -103,18 +100,10 @@ export default function Footer() {
             <div className="mt-6 space-y-4 text-base font-bold sm:text-lg">
               <a
                 className="flex items-start gap-3 hover:underline underline-offset-4"
-                href="mailto:earthangelsfinland@gmail.com"
+                href="mailto:info@sayitloudfinland.org"
               >
                 <EnvelopeIcon className="mt-1 h-6 w-6 shrink-0" />
-                <span className="break-all">earthangelsfinland@gmail.com</span>
-              </a>
-
-              <a
-                className="flex items-start gap-3 hover:underline underline-offset-4"
-                href="mailto:sayitloudfinland@gmail.com"
-              >
-                <EnvelopeIcon className="mt-1 h-6 w-6 shrink-0" />
-                <span className="break-all">sayitloudfinland@gmail.com</span>
+                <span className="break-all">info@sayitloudfinland.org</span>
               </a>
 
               <div className="flex items-start gap-3">

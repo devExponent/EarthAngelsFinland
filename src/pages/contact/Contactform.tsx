@@ -104,8 +104,7 @@ export default function ContactForm() {
           <InfoCard
             title={t("contact.cards.email.title", "Email")}
             lines={[
-              t("contact.cards.email.line1", "hello@earthangelsfinland.fi"),
-              t("contact.cards.email.line2", "contact@earthangelsfinland.fi"),
+              t("contact.cards.email.line1", "info@sayitloudfinland.org"),
             ]}
           />
 

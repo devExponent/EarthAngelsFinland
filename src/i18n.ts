@@ -75,8 +75,8 @@ const resources = {
         cards: {
           email: {
             title: "Email",
-            line1: "earthangelsfinland@gmail.com",
-            line2: "sayitloudfinland@gmail.com",
+            line1: "info@sayitloudfinland.org",
+          
           },
           phone: {
             title: "Phone",
@@ -366,7 +366,7 @@ team: {
         },
       },
 
-      // resources.fi.translation
+      
 about: {
   kicker: "KEITÄ OLEMME",
   title: "Tietoa Earth Angels Finlandista",
