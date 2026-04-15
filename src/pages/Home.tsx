@@ -8,6 +8,7 @@ import EmmaTamankagSpotlight from "./HomeSections/Emma";
 import CollaborateWithUs from "./HomeSections/CollaborateWithUs";
 import OurvisionHighlight from "./HomeSections/ourVisionHighlights";
 import PartnersSection from "./HomeSections/Partners";
+import MboaMarketSpotlight from "./HomeSections/Mboa";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <HeroSection />
       <MissionHighlight />
       <PartnersSection />
+      <MboaMarketSpotlight />
       <OurvisionHighlight />
       <CollaborateWithUs />
       <EmmaTamankagSpotlight />
