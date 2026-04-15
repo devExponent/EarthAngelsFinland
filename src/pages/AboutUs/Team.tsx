@@ -4,6 +4,7 @@ import Hazzalea from "../../assets/Hazzalea.jpeg";
 import Ekemini from "../../assets/Ekemini.jpeg";
 import Nayeli from "../../assets/Nayelli.jpeg";
 import Muhammad from "../../assets/Muhammad.jpeg";
+import Zainab from "../../assets/Zainab.jpeg";
 
 type TeamMember = {
   name: string;
@@ -35,8 +36,13 @@ const team: TeamMember[] = [
   },
   {
     name: "Muhammad Okunlola",
-    role: "Software Engineer",
+    role: "Web Master",
     imageUrl: Muhammad,
+  },
+  {
+    name: "Zainab Shabaz",
+    role: "Organization Intern",
+    imageUrl: Zainab,
   },
 ];
 
