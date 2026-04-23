@@ -9,12 +9,14 @@ import CollaborateWithUs from "./HomeSections/CollaborateWithUs";
 import OurvisionHighlight from "./HomeSections/ourVisionHighlights";
 import PartnersSection from "./HomeSections/Partners";
 import MboaMarketSpotlight from "./HomeSections/Mboa";
+import TurkuAwardSection from "./HomeSections/TurkuAwardSection";
 
 export default function Home() {
   return (
     <div>
       <HeroSection />
       <MissionHighlight />
+      <TurkuAwardSection />
       <PartnersSection />
       <MboaMarketSpotlight />
       <OurvisionHighlight />
