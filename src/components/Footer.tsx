@@ -125,10 +125,22 @@ export default function Footer() {
             </div>
 
             <div className="flex items-center gap-5 text-black/60">
-              <a className="hover:text-black" href="#" aria-label="Instagram">
+              <a
+                className="hover:text-black"
+                href="https://www.instagram.com/earth__angels___/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+              >
                 <InstagramIcon className="h-6 w-6" />
               </a>
-              <a className="hover:text-black" href="#" aria-label="Facebook">
+              <a
+                href="https://www.facebook.com/EarthangelsOfFinland/"
+                className="hover:text-black"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+              >
                 <FacebookIcon className="h-6 w-6" />
               </a>
               <a className="hover:text-black" href="#" aria-label="YouTube">
