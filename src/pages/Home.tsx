@@ -10,12 +10,16 @@ import OurvisionHighlight from "./HomeSections/ourVisionHighlights";
 import PartnersSection from "./HomeSections/Partners";
 import MboaMarketSpotlight from "./HomeSections/Mboa";
 import TurkuAwardSection from "./HomeSections/TurkuAwardSection";
+import YleArticleHighlight from "./HomeSections/YleArticle";
+import HerSpaceRetreat from "./HomeSections/herSpace";
 
 export default function Home() {
   return (
     <div>
       <HeroSection />
       <MissionHighlight />
+      <HerSpaceRetreat />
+      <YleArticleHighlight />
       <TurkuAwardSection />
       <PartnersSection />
       <MboaMarketSpotlight />
