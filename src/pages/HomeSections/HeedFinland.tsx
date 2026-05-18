@@ -22,7 +22,7 @@ export default function ChrodaWeekHighlight() {
             <p className="text-[#6B7280] text-lg md:text-xl lg:text-2xl leading-relaxed mb-6">
               CHRODA Week is a community-driven initiative focused on the
               prevention of chronic diseases. This September, HEED Finland is
-              calling on volunteers to help make it happen — and you can be part
+              calling on volunteers to help make it happen and you can be part
               of it.
             </p>
 
