@@ -26,6 +26,7 @@ import Image23 from "../../assets/WomensDay4.jpeg";
 import Image24 from "../../assets/EarthAngelTeam.jpeg";
 import Blackhistory from "../../assets/blackhistory.png";
 import Hallo from "../../assets/Hallo.jpeg";
+import Memories from "../../assets/Memories.jpeg";
 
 const images = [
   { src: Image23, alt: "Gallery image 23" },
@@ -38,6 +39,7 @@ const images = [
   { src: Image17, alt: "Gallery image 17" },
   { src: Hallo, alt: "Gallery image 25" },
   { src: Image24, alt: "Gallery image 24" },
+  { src: Memories, alt: "Gallery image 26" },
   { src: Image5, alt: "Gallery image 5" },
   { src: Image6, alt: "Gallery image 6" },
   { src: Image7, alt: "Gallery image 7" },
