@@ -13,12 +13,14 @@ import TurkuAwardSection from "./HomeSections/TurkuAwardSection";
 import YleArticleHighlight from "./HomeSections/YleArticle";
 import HerSpaceRetreat from "./HomeSections/herSpace";
 import ChrodaWeekHighlight from "./HomeSections/HeedFinland";
+import MboaTilapiaOffer from "./HomeSections/MboaOffer";
 
 export default function Home() {
   return (
     <div>
       <HeroSection />
       <MissionHighlight />
+      <MboaTilapiaOffer />
       <ChrodaWeekHighlight />
       <HerSpaceRetreat />
       <YleArticleHighlight />
