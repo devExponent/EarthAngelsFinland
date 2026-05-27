@@ -14,12 +14,14 @@ import YleArticleHighlight from "./HomeSections/YleArticle";
 import HerSpaceRetreat from "./HomeSections/herSpace";
 import ChrodaWeekHighlight from "./HomeSections/HeedFinland";
 import MboaTilapiaOffer from "./HomeSections/MboaOffer";
+import VideoAndPetitionSection from "./HomeSections/Petition";
 
 export default function Home() {
   return (
     <div>
       <HeroSection />
       <MissionHighlight />
+      <VideoAndPetitionSection />
       <MboaTilapiaOffer />
       <ChrodaWeekHighlight />
       <HerSpaceRetreat />
