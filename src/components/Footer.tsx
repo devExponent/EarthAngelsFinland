@@ -9,6 +9,10 @@ import {
 } from "./SocialIcons";
 import Logo from "../assets/Logo.png";
 
+import Partner1 from "../assets/Partner1.jpeg";
+import Partner2 from "../assets/Partner2.jpeg";
+import Partner3 from "../assets/Partner3.jpeg";
+
 export default function Footer() {
   const { t } = useTranslation();
   const year = new Date().getFullYear();
@@ -113,6 +117,31 @@ export default function Footer() {
                 </span>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="mx-auto max-w-7xl px-4 pb-10 sm:px-6 lg:px-8">
+        {/* <h3 className="text-sm font-extrabold tracking-[0.22em] uppercase sm:text-base mb-6">
+          Our Partners
+        </h3> */}
+        <div className="flex items-center gap-8 flex-wrap">
+          <img
+            src={Partner1}
+            alt="Mboa Market"
+            className="h-16 w-auto object-contain"
+          />
+          <img
+            src={Partner2}
+            alt="Say It Loud"
+            className="h-16 w-auto object-contain"
+          />
+          <div className="h-16 w-16 rounded-lg bg-[#1a1a2e] flex items-center justify-center p-1.5">
+            <img
+              src={Partner3}
+              alt="Old Folks Matter"
+              className="h-full w-auto object-contain"
+            />
           </div>
         </div>
       </div>

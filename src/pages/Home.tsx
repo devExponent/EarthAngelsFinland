@@ -21,6 +21,7 @@ export default function Home() {
     <div>
       <HeroSection />
       <MissionHighlight />
+      {/* <FacebookReelsSideBySide /> */}
       <VideoAndPetitionSection />
       <MboaTilapiaOffer />
       <ChrodaWeekHighlight />
