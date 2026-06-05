@@ -1,5 +1,8 @@
 import { NavLink } from "react-router-dom";
 import Momma from "../../assets/MommaAria.jpeg";
+import Partner1 from "../../assets/Partner1.jpeg";
+import Partner2 from "../../assets/Partner2.jpeg";
+import Partner3 from "../../assets/Partner3.jpeg";
 import { useTranslation } from "react-i18next";
 
 export default function HeroSection() {
@@ -43,6 +46,31 @@ export default function HeroSection() {
             >
               {t("home.hero.ctaLearnMore")}
             </NavLink>
+          </div>
+
+          <div className="mt-12 flex flex-col items-center md:items-start gap-6">
+            {/* <p className="text-lg md:text-xl uppercase tracking-[0.2em] font-black text-black">
+              Our Partners
+            </p> */}
+            <div className="flex items-center gap-8 flex-wrap justify-center md:justify-start">
+              <img
+                src={Partner1}
+                alt="Mboa Market"
+                className="h-40 w-auto object-contain transition duration-300"
+              />
+              <img
+                src={Partner2}
+                alt="Say It Loud"
+                className="h-40 w-auto object-contain transition duration-300"
+              />
+              <div className="h-40 w-40 rounded-xl bg-[#1a1a2e] flex items-center justify-center p-2">
+                <img
+                  src={Partner3}
+                  alt="Old Folks Matter"
+                  className="h-full w-auto object-contain transition duration-300"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
