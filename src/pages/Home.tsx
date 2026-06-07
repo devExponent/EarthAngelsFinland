@@ -15,13 +15,14 @@ import HerSpaceRetreat from "./HomeSections/herSpace";
 import ChrodaWeekHighlight from "./HomeSections/HeedFinland";
 import MboaTilapiaOffer from "./HomeSections/MboaOffer";
 import VideoAndPetitionSection from "./HomeSections/Petition";
+import BoardMeetingPost from "./HomeSections/BoardMeeting";
 
 export default function Home() {
   return (
     <div>
       <HeroSection />
       <MissionHighlight />
-      {/* <FacebookReelsSideBySide /> */}
+      <BoardMeetingPost />
       <VideoAndPetitionSection />
       <MboaTilapiaOffer />
       <ChrodaWeekHighlight />
