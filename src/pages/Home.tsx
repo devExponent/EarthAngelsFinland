@@ -16,12 +16,14 @@ import ChrodaWeekHighlight from "./HomeSections/HeedFinland";
 import MboaTilapiaOffer from "./HomeSections/MboaOffer";
 import VideoAndPetitionSection from "./HomeSections/Petition";
 import BoardMeetingPost from "./HomeSections/BoardMeeting";
+import TurkuEventsHighlight from "./HomeSections/TurkuEvent";
 
 export default function Home() {
   return (
     <div>
       <HeroSection />
       <MissionHighlight />
+      <TurkuEventsHighlight />
       <BoardMeetingPost />
       <VideoAndPetitionSection />
       <MboaTilapiaOffer />
