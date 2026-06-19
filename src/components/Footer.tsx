@@ -12,6 +12,10 @@ import Logo from "../assets/Logo.png";
 import Partner1 from "../assets/Partner1.jpeg";
 import Partner2 from "../assets/Partner2.jpeg";
 import Partner3 from "../assets/Partner3.jpeg";
+import Partner4 from "../assets/Partner 4.png";
+import Partner5 from "../assets/Partner 5.jpg";
+import Partner6 from "../assets/Partner 6.jpg";
+import Partner7 from "../assets/Partner 7.jpeg";
 
 export default function Footer() {
   const { t } = useTranslation();
@@ -125,24 +129,44 @@ export default function Footer() {
         {/* <h3 className="text-sm font-extrabold tracking-[0.22em] uppercase sm:text-base mb-6">
           Our Partners
         </h3> */}
-        <div className="flex items-center gap-8 flex-wrap">
+        <div className="flex items-center gap-6 flex-wrap">
           <img
             src={Partner1}
             alt="Mboa Market"
-            className="h-16 w-auto object-contain"
+            className="h-12 w-auto object-contain"
           />
           <img
             src={Partner2}
             alt="Say It Loud"
-            className="h-16 w-auto object-contain"
+            className="h-12 w-auto object-contain"
           />
-          <div className="h-16 w-16 rounded-lg bg-[#1a1a2e] flex items-center justify-center p-1.5">
+          <div className="h-12 w-12 rounded-lg bg-[#1a1a2e] flex items-center justify-center p-1.5">
             <img
               src={Partner3}
               alt="Old Folks Matter"
               className="h-full w-auto object-contain"
             />
           </div>
+          <img
+            src={Partner4}
+            alt="Partner 4"
+            className="h-12 w-auto object-contain"
+          />
+          <img
+            src={Partner5}
+            alt="Partner 5"
+            className="h-12 w-auto object-contain"
+          />
+          <img
+            src={Partner6}
+            alt="Partner 6"
+            className="h-12 w-auto object-contain"
+          />
+          <img
+            src={Partner7}
+            alt="Partner 7"
+            className="h-12 w-auto object-contain"
+          />
         </div>
       </div>
 
