@@ -3,6 +3,11 @@ import Momma from "../../assets/MommaAria.jpeg";
 import Partner1 from "../../assets/Partner1.jpeg";
 import Partner2 from "../../assets/Partner2.jpeg";
 import Partner3 from "../../assets/Partner3.jpeg";
+import Partner4 from "../../assets/Partner 4.png";
+import Partner5 from "../../assets/Partner 5.jpg";
+import Partner6 from "../../assets/Partner 6.jpg";
+import Partner7 from "../../assets/Partner 7.jpeg";
+
 import { useTranslation } from "react-i18next";
 
 export default function HeroSection() {
@@ -52,24 +57,44 @@ export default function HeroSection() {
             {/* <p className="text-lg md:text-xl uppercase tracking-[0.2em] font-black text-black">
               Our Partners
             </p> */}
-            <div className="flex items-center gap-8 flex-wrap justify-center md:justify-start">
+            <div className="flex items-center gap-6 flex-wrap justify-center md:justify-start">
               <img
                 src={Partner1}
                 alt="Mboa Market"
-                className="h-40 w-auto object-contain transition duration-300"
+                className="h-20 w-auto object-contain transition duration-300"
               />
               <img
                 src={Partner2}
                 alt="Say It Loud"
-                className="h-40 w-auto object-contain transition duration-300"
+                className="h-20 w-auto object-contain transition duration-300"
               />
-              <div className="h-40 w-40 rounded-xl bg-[#1a1a2e] flex items-center justify-center p-2">
+              <div className="h-20 w-20 rounded-xl bg-[#1a1a2e] flex items-center justify-center p-1.5">
                 <img
                   src={Partner3}
                   alt="Old Folks Matter"
                   className="h-full w-auto object-contain transition duration-300"
                 />
               </div>
+              <img
+                src={Partner4}
+                alt="Partner 4"
+                className="h-20 w-auto object-contain transition duration-300"
+              />
+              <img
+                src={Partner5}
+                alt="Partner 5"
+                className="h-20 w-auto object-contain transition duration-300"
+              />
+              <img
+                src={Partner6}
+                alt="Partner 6"
+                className="h-20 w-auto object-contain transition duration-300"
+              />
+              <img
+                src={Partner7}
+                alt="Partner 7"
+                className="h-20 w-auto object-contain transition duration-300"
+              />
             </div>
           </div>
         </div>
