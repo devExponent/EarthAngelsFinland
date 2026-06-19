@@ -159,6 +159,41 @@ export default function TurkuEventsHighlight() {
             </span>
           </a>
         </div>
+        <section className="bg-[#F7F5F0] py-16 md:py-20 px-4 my-8">
+          <div className="w-10/12 lg:w-8/12 mx-auto">
+            <div className="bg-white border border-[#E2DDD5] rounded-2xl p-8 md:p-10 flex flex-col md:flex-row items-start md:items-center gap-6">
+              <div className="flex-shrink-0 w-14 h-14 rounded-2xl bg-[#0B1D13] flex items-center justify-center">
+                <span className="text-2xl">📱</span>
+              </div>
+
+              <div className="flex-1">
+                <h3
+                  className="text-[#0B1D13] text-2xl md:text-3xl font-semibold mb-2"
+                  style={{ fontFamily: "'Georgia', serif" }}
+                >
+                  New InfoFinland App
+                </h3>
+                <p className="text-[#6B7280] text-base md:text-lg leading-relaxed">
+                  InfoFinland and Fintegrate.fi have launched a new app to help
+                  people who are new to Finland find reliable information about
+                  moving here, your rights and responsibilities, and everyday
+                  life in Finnish society. It is free, easy to use, and
+                  available in 26 languages.
+                </p>
+              </div>
+
+              <a
+                href="https://www.linkedin.com/posts/infofinland-newinfinland-movingtofinland-share-7472244243835781120-aX_Z/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 bg-[#0B1D13] hover:bg-[#C9A84C] text-white hover:text-[#0B1D13] text-base font-semibold px-6 py-3 rounded-full transition-all duration-300 whitespace-nowrap"
+              >
+                Read the Post
+                <span>→</span>
+              </a>
+            </div>
+          </div>
+        </section>
       </div>
     </section>
   );
