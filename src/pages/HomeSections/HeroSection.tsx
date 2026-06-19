@@ -7,6 +7,7 @@ import Partner4 from "../../assets/Partner 4.png";
 import Partner5 from "../../assets/Partner 5.jpg";
 import Partner6 from "../../assets/Partner 6.jpg";
 import Partner7 from "../../assets/Partner 7.jpeg";
+import Partner8 from "../../assets/Partner 8.jpg";
 
 import { useTranslation } from "react-i18next";
 
@@ -92,6 +93,11 @@ export default function HeroSection() {
               />
               <img
                 src={Partner7}
+                alt="Partner 7"
+                className="h-27 w-auto object-contain transition duration-300"
+              />
+              <img
+                src={Partner8}
                 alt="Partner 7"
                 className="h-27 w-auto object-contain transition duration-300"
               />
