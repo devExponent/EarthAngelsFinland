@@ -61,14 +61,14 @@ export default function HeroSection() {
               <img
                 src={Partner1}
                 alt="Mboa Market"
-                className="h-20 w-auto object-contain transition duration-300"
+                className="h-27 w-auto object-contain transition duration-300"
               />
               <img
                 src={Partner2}
                 alt="Say It Loud"
-                className="h-20 w-auto object-contain transition duration-300"
+                className="h-27 w-auto object-contain transition duration-300"
               />
-              <div className="h-20 w-20 rounded-xl bg-[#1a1a2e] flex items-center justify-center p-1.5">
+              <div className="h-27 w-27 rounded-xl bg-[#1a1a2e] flex items-center justify-center p-1.5">
                 <img
                   src={Partner3}
                   alt="Old Folks Matter"
@@ -78,22 +78,22 @@ export default function HeroSection() {
               <img
                 src={Partner4}
                 alt="Partner 4"
-                className="h-20 w-auto object-contain transition duration-300"
+                className="h-27 w-auto object-contain transition duration-300"
               />
               <img
                 src={Partner5}
                 alt="Partner 5"
-                className="h-20 w-auto object-contain transition duration-300"
+                className="h-27 w-auto object-contain transition duration-300"
               />
               <img
                 src={Partner6}
                 alt="Partner 6"
-                className="h-20 w-auto object-contain transition duration-300"
+                className="h-27 w-auto object-contain transition duration-300"
               />
               <img
                 src={Partner7}
                 alt="Partner 7"
-                className="h-20 w-auto object-contain transition duration-300"
+                className="h-27 w-auto object-contain transition duration-300"
               />
             </div>
           </div>
