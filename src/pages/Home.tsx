@@ -17,12 +17,18 @@ import MboaTilapiaOffer from "./HomeSections/MboaOffer";
 import VideoAndPetitionSection from "./HomeSections/Petition";
 import BoardMeetingPost from "./HomeSections/BoardMeeting";
 import TurkuEventsHighlight from "./HomeSections/TurkuEvent";
+import ArtHouseNewsletter from "./HomeSections/ArtHouse";
+import SoundsOfSouthFestival from "./HomeSections/SoundofSoul";
+import CommunitySpotlightSection from "./HomeSections/CommunitySpotlight";
 
 export default function Home() {
   return (
     <div>
       <HeroSection />
       <MissionHighlight />
+      <CommunitySpotlightSection />
+      <SoundsOfSouthFestival />
+      <ArtHouseNewsletter />
       <TurkuEventsHighlight />
       <BoardMeetingPost />
       <VideoAndPetitionSection />
