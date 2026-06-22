@@ -9,6 +9,7 @@ import Partner6 from "../../assets/Partner 6.jpg";
 import Partner7 from "../../assets/Partner 7.jpeg";
 import Partner8 from "../../assets/Partner 8.jpg";
 import Partner9 from "../../assets/Partner9.jpg";
+// import Logo from "../../assets/Logo.png";
 
 import { useTranslation } from "react-i18next";
 
