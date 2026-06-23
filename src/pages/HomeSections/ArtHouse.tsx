@@ -1,10 +1,10 @@
 export default function ArtHouseNewsletter() {
   return (
-    <section className="bg-[#0B1D13] py-16 md:py-24 px-4">
+    <section className="bg-gradient-to-b from-[#7dafc7] to-[#F7F5F0] py-16 md:py-24 px-4">
       <div className="w-10/12 lg:w-8/12 mx-auto">
         <div className="flex items-center gap-3 mb-6">
           <span className="block h-[2px] w-5 bg-[#C9A84C]" />
-          <span className="text-[#C9A84C] text-base md:text-lg tracking-[0.2em] uppercase font-semibold">
+          <span className=" text-base md:text-lg tracking-[0.2em] uppercase font-semibold">
             Partner Update · Art House Turku
           </span>
         </div>
@@ -13,11 +13,10 @@ export default function ArtHouseNewsletter() {
           className="text-white text-4xl md:text-5xl lg:text-6xl leading-snug mb-6"
           style={{ fontFamily: "'Georgia', serif" }}
         >
-          What's Happening at{" "}
-          <span className="text-[#C9A84C]">Art House Turku</span>
+          What's Happening at <span className="">Art House Turku</span>
         </h2>
 
-        <p className="text-[#8BAF96] text-lg md:text-xl lg:text-2xl leading-relaxed mb-12">
+        <p className="text-lg md:text-xl lg:text-2xl leading-relaxed mb-12">
           EarthAngels has an office at Taiteen Talo, Art House Turku, and we
           like to keep our community in the loop. Here is a quick summary of
           this week's newsletter from the building team.
@@ -70,7 +69,7 @@ export default function ArtHouseNewsletter() {
             For more on the Cathedral Bridge project, you can reach out to{" "}
             <a
               href="mailto:laura.klefbohm@turunraitiotie.fi"
-              className="text-[#C9A84C] underline underline-offset-2 hover:text-white transition-colors"
+              className=" underline underline-offset-2 hover:text-white transition-colors"
             >
               laura.klefbohm@turunraitiotie.fi
             </a>

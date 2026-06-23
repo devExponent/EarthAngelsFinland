@@ -1,10 +1,10 @@
 export default function OurvisionHighlight() {
   return (
-    <section className="bg-[#0B1D13] py-16 md:py-24 px-4">
+    <section className="bg-gradient-to-b from-[#7dafc7] to-[#F7F5F0] py-16 md:py-24 px-4">
       <div className="w-10/12 lg:w-8/12 mx-auto">
         <div className="flex items-center gap-3 mb-8">
-          <span className="block h-[2px] w-5 bg-[#C9A84C]" />
-          <span className="text-[#C9A84C] text-xs tracking-[0.2em] uppercase font-semibold">
+          <span className="block h-[2px] w-5 bg-white" />
+          <span className=" text-xs tracking-[0.2em] uppercase font-semibold">
             In The Press
           </span>
         </div>
@@ -16,11 +16,10 @@ export default function OurvisionHighlight() {
               style={{ fontFamily: "'Georgia', serif" }}
             >
               "Ourvision Song Contest" —{" "}
-              <span className="text-[#C9A84C]">Voicing Immigrant Talent</span>{" "}
-              in Finland
+              <span className="">Voicing Immigrant Talent</span> in Finland
             </h2>
 
-            <p className="text-[#8BAF96] text-base md:text-lg lg:text-xl leading-relaxed mb-10">
+            <p className=" text-base md:text-lg lg:text-xl leading-relaxed mb-10">
               A Helsinki-based song contest giving immigrants and those with
               immigrant roots a stage to perform — representing cultures from
               Africa, Asia, the Middle East, and beyond. Over 8,000 people
@@ -32,7 +31,7 @@ export default function OurvisionHighlight() {
               href="https://yle.fi/a/3-5805164"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 border border-[#C9A84C] text-[#C9A84C] hover:bg-[#C9A84C] hover:text-[#0B1D13] text-sm md:text-base font-semibold px-7 py-3 rounded-full transition-all duration-300 group"
+              className="inline-flex items-center gap-3 border border-[#C9A84C]  hover:bg-[#C9A84C] hover:text-[#0B1D13] text-sm md:text-base font-semibold px-7 py-3 rounded-full transition-all duration-300 group"
             >
               Read Full Story on Yle
               <span className="transition-transform duration-300 group-hover:translate-x-1">

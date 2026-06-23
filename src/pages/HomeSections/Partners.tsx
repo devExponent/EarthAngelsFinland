@@ -2,7 +2,7 @@ const partners = [
   {
     name: "Taiteen talo",
     description:
-      "Taiteen talo — House of Art in Turku — is a vibrant cultural hub that hosts EarthAngels events and provides a platform for multicultural expression and community building.",
+      "Taiteen talo House of Art in Turku is a vibrant cultural hub that hosts EarthAngels events and provides a platform for multicultural expression and community building.",
     location: "Nunnegatan 4, 20700 Turku",
     url: "https://taiteentalo.fi/en/community/earthangels-of-finland/",
     icon: "🏛️",
@@ -19,11 +19,11 @@ const partners = [
 
 export default function PartnersSection() {
   return (
-    <section className="bg-[#0B1D13] py-16 md:py-24 px-4">
+    <section className="bg-gradient-to-b from-[#7dafc7] to-[#F7F5F0] py-16 md:py-24 px-4">
       <div className="w-10/12 lg:w-8/12 mx-auto">
         <div className="flex items-center gap-3 mb-4">
-          <span className="block h-[2px] w-5 bg-[#C9A84C]" />
-          <span className="text-[#C9A84C] text-xs tracking-[0.2em] uppercase font-semibold">
+          <span className="block h-[2px] w-5 bg-white" />
+          <span className="text-xs tracking-[0.2em] uppercase font-semibold">
             Our Partners
           </span>
         </div>
@@ -32,11 +32,10 @@ export default function PartnersSection() {
           className="text-white text-3xl md:text-4xl lg:text-5xl leading-snug mb-4"
           style={{ fontFamily: "'Georgia', serif" }}
         >
-          Organisations That Walk{" "}
-          <span className="text-[#C9A84C]">With Us</span>
+          Organisations That Walk <span className="">With Us</span>
         </h2>
 
-        <p className="text-[#8BAF96] text-base md:text-lg mb-12 leading-relaxed w-full md:w-9/12">
+        <p className="text-base md:text-lg mb-12 leading-relaxed w-full md:w-9/12">
           EarthAngels is proud to collaborate with organisations that share our
           vision of inclusion, culture, and community.
         </p>

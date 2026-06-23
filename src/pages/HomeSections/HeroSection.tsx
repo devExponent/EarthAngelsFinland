@@ -9,7 +9,7 @@ import Partner6 from "../../assets/Partner 6.jpg";
 import Partner7 from "../../assets/Partner 7.jpeg";
 import Partner8 from "../../assets/Partner 8.jpg";
 import Partner9 from "../../assets/Partner9.jpg";
-// import Logo from "../../assets/Logo.png";
+import Logo from "../../assets/Logo.png";
 
 import { useTranslation } from "react-i18next";
 
@@ -56,22 +56,37 @@ export default function HeroSection() {
             </NavLink>
           </div>
 
-          <div className="mt-12 flex flex-col items-center md:items-start gap-6">
-            {/* <p className="text-lg md:text-xl uppercase tracking-[0.2em] font-black text-black">
-              Our Partners
-            </p> */}
+          <div className="mt-12 flex flex-col items-center md:items-start gap-4">
             <div className="flex items-center gap-6 flex-wrap justify-center md:justify-start">
+              <img
+                src={Logo}
+                alt="Earth Angels of Finland"
+                className="h-20 w-auto object-contain transition duration-300"
+              />
               <img
                 src={Partner1}
                 alt="Mboa Market"
-                className="h-27 w-auto object-contain transition duration-300"
+                className="h-20 w-auto object-contain transition duration-300"
               />
               <img
                 src={Partner2}
                 alt="Say It Loud"
-                className="h-27 w-auto object-contain transition duration-300"
+                className="h-20 w-auto object-contain transition duration-300"
               />
-              <div className="h-27 w-27 rounded-xl bg-[#1a1a2e] flex items-center justify-center p-1.5">
+              <img
+                src={Partner7}
+                alt="Partner 7"
+                className="h-20 w-auto object-contain transition duration-300"
+              />
+            </div>
+          </div>
+
+          <div className="mt-10 flex flex-col items-center md:items-start gap-4">
+            <p className="text-sm md:text-base uppercase tracking-[0.2em] font-black text-black">
+              Collaborative Partners
+            </p>
+            <div className="flex items-center gap-6 flex-wrap justify-center md:justify-start">
+              <div className="h-20 w-20 rounded-xl bg-[#1a1a2e] flex items-center justify-center p-1.5">
                 <img
                   src={Partner3}
                   alt="Old Folks Matter"
@@ -80,33 +95,28 @@ export default function HeroSection() {
               </div>
               <img
                 src={Partner4}
-                alt="Partner 4"
-                className="h-27 w-auto object-contain transition duration-300"
+                alt="Taiteen Talo"
+                className="h-12 w-auto object-contain transition duration-300"
               />
               <img
                 src={Partner5}
-                alt="Partner 5"
-                className="h-27 w-auto object-contain transition duration-300"
+                alt="Omono's Fashion Concepts"
+                className="h-24 w-auto object-contain transition duration-300"
               />
               <img
                 src={Partner6}
                 alt="Partner 6"
-                className="h-27 w-auto object-contain transition duration-300"
-              />
-              <img
-                src={Partner7}
-                alt="Partner 7"
-                className="h-27 w-auto object-contain transition duration-300"
+                className="h-20 w-auto object-contain transition duration-300"
               />
               <img
                 src={Partner8}
                 alt="Partner 8"
-                className="h-27 w-auto object-contain transition duration-300"
+                className="h-20 w-auto object-contain transition duration-300"
               />
               <img
                 src={Partner9}
                 alt="Partner 9"
-                className="h-27 w-auto object-contain transition duration-300"
+                className="h-20 w-auto object-contain transition duration-300"
               />
             </div>
           </div>
