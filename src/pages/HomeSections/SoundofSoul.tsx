@@ -148,6 +148,11 @@ export default function SoundsOfSouthFestival() {
             show with <strong className="text-white">RemixGear</strong>, who
             will highlight innovative fashions from their extensive line.
           </p>
+
+          <strong className="text-white">
+            Our Own Momma Aria will be modelling in the show
+          </strong>
+
           <p className="text-lg md:text-xl leading-relaxed">
             Expect bold colours, cultural pride, and creativity on full display.
             Get your ticket now, you will not want to miss this.

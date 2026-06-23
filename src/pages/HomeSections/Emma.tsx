@@ -45,7 +45,7 @@ export default function EmmaTamankagSpotlight() {
   return (
     <section
       ref={ref}
-      className="relative overflow-hidden bg-[#0B1D13] text-white py-16 md:py-24 lg:py-32 px-4 md:px-8"
+      className="relative overflow-hidden bg-[#7dafc7] text-white py-16 md:py-24 lg:py-32 px-4 md:px-8"
     >
       <div
         className="pointer-events-none absolute -top-32 -left-32 w-[300px] h-[300px] md:w-[520px] md:h-[520px] rounded-full border border-[#1E4A2B] opacity-40"
@@ -68,8 +68,8 @@ export default function EmmaTamankagSpotlight() {
             visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
           }`}
         >
-          <span className="block w-5 md:w-6 h-[2px] bg-[#C9A84C]" />
-          <span className="text-[#C9A84C] text-xs md:text-sm lg:text-base tracking-[0.18em] uppercase font-semibold">
+          <span className="block w-5 md:w-6 h-[2px] bg-white" />
+          <span className=" text-black text-xs md:text-sm lg:text-base tracking-[0.18em] uppercase font-semibold">
             Earth Angels of Finland · Spotlight
           </span>
         </div>
@@ -80,7 +80,7 @@ export default function EmmaTamankagSpotlight() {
           }`}
           style={{ fontFamily: "'Georgia', serif" }}
         >
-          Celebrating <span className="text-[#C9A84C]">Emma Tamankag</span>
+          Celebrating <span className="">Emma Tamankag</span>
           <br />— a true Earth Angel.
         </h2>
 

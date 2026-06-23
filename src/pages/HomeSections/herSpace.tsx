@@ -37,11 +37,11 @@ const speakers = [
 
 export default function HerSpaceRetreat() {
   return (
-    <section className="bg-[#0B1D13] py-16 md:py-24 px-4">
+    <section className="bg-gradient-to-b from-[#7dafc7] to-[#F7F5F0] py-16 md:py-24 px-4">
       <div className="w-10/12 lg:w-8/12 mx-auto">
         <div className="flex items-center gap-3 mb-6">
-          <span className="block h-[2px] w-5 bg-[#C9A84C]" />
-          <span className="text-[#C9A84C] text-base md:text-lg tracking-[0.2em] uppercase font-semibold">
+          <span className="block h-[2px] w-5 bg-white" />
+          <span className=" text-base md:text-lg tracking-[0.2em] uppercase font-semibold">
             Save the Date · Upcoming Event
           </span>
         </div>
@@ -52,10 +52,10 @@ export default function HerSpaceRetreat() {
               className="text-white text-5xl md:text-6xl lg:text-7xl leading-snug mb-6"
               style={{ fontFamily: "'Georgia', serif" }}
             >
-              Her Space <span className="text-[#C9A84C]">Retreat 2026</span>
+              Her Space <span className="">Retreat 2026</span>
             </h2>
 
-            <p className="text-[#8BAF96] text-xl md:text-2xl lg:text-3xl leading-relaxed mb-10">
+            <p className="text-xl md:text-2xl lg:text-3xl leading-relaxed mb-10">
               A full-day seminar on Women's Health on a Holistic Basis —
               bringing together researchers, nurses, therapists, and
               lived-experience voices for a day of learning, healing, and
@@ -86,7 +86,7 @@ export default function HerSpaceRetreat() {
                     {item.icon}
                   </div>
                   <div>
-                    <p className="text-[#5A8A6A] text-sm md:text-base uppercase tracking-widest mb-0.5">
+                    <p className="text-black text-sm md:text-base uppercase tracking-widest mb-0.5">
                       {item.label}
                     </p>
                     <p className="text-white text-lg md:text-xl lg:text-2xl">
@@ -107,7 +107,7 @@ export default function HerSpaceRetreat() {
 
             <div className="bg-[#0F2419] border border-[#1E4A2B] rounded-2xl p-6 md:p-8">
               <h3
-                className="text-[#C9A84C] text-2xl md:text-3xl font-semibold mb-6"
+                className=" text-2xl md:text-3xl font-semibold mb-6"
                 style={{ fontFamily: "'Georgia', serif" }}
               >
                 Speakers

@@ -1,10 +1,10 @@
 export default function TurkuAwardSection() {
   return (
-    <section className="bg-[#0B1D13] py-16 md:py-24 px-4">
+    <section className="bg-gradient-to-b from-[#7dafc7] to-[#F7F5F0] py-16 md:py-24 px-4">
       <div className="w-10/12 lg:w-8/12 mx-auto">
         <div className="flex items-center gap-3 mb-6">
-          <span className="block h-[2px] w-5 bg-[#C9A84C]" />
-          <span className="text-[#C9A84C] text-sm md:text-base tracking-[0.2em] uppercase font-semibold">
+          <span className="block h-[2px] w-5 bg-white" />
+          <span className=" text-sm md:text-base tracking-[0.2em] uppercase font-semibold">
             City of Turku · 2026
           </span>
         </div>
@@ -12,17 +12,17 @@ export default function TurkuAwardSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16 items-start">
           <div>
             <h2 className="text-white text-4xl md:text-5xl lg:text-6xl leading-snug mb-6">
-              Multicultural &
-              <span className="text-[#C9A84C]">Anti-Racist Act Award</span> 2026
+              Multicultural &<span className="">Anti-Racist Act Award</span>{" "}
+              2026
             </h2>
 
-            <p className="text-[#8BAF96] text-lg md:text-xl lg:text-2xl leading-relaxed mb-6">
+            <p className="text-lg md:text-xl lg:text-2xl leading-relaxed mb-6">
               The City of Turku annually recognises an individual, community, or
               organisation that has made a meaningful contribution to
               multiculturalism and equality in Turku.
             </p>
 
-            <p className="text-[#8BAF96] text-lg md:text-xl lg:text-2xl leading-relaxed mb-10">
+            <p className="text-lg md:text-xl lg:text-2xl leading-relaxed mb-10">
               The 2026 award focuses on
               <strong className="text-white">genuine human encounters</strong>
               everyday interactions that bring together people from different
@@ -47,7 +47,7 @@ export default function TurkuAwardSection() {
                 href="https://www.turku.fi/kotoutumispalvelut/vuoden-2026-monikulttuurinen-ja-antirasistinen-teko"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-3 border border-[#C9A84C] text-[#C9A84C] hover:bg-[#C9A84C] hover:text-[#0B1D13] text-base md:text-lg font-semibold px-8 py-4 rounded-full transition-all duration-300 group"
+                className="inline-flex items-center justify-center gap-3 border border-[#C9A84C]  hover:bg-[#C9A84C] hover:text-[#0B1D13] text-base md:text-lg font-semibold px-8 py-4 rounded-full transition-all duration-300 group"
               >
                 Learn More
                 <span className="transition-transform duration-300 group-hover:translate-x-1">
@@ -61,11 +61,11 @@ export default function TurkuAwardSection() {
             <div className="bg-[#C9A84C]/10 border border-[#C9A84C]/30 rounded-2xl p-6 md:p-8">
               <div className="flex items-center gap-3 mb-3">
                 <span className="text-2xl md:text-3xl">⏳</span>
-                <p className="text-[#C9A84C] font-semibold text-lg md:text-xl">
+                <p className=" font-semibold text-lg md:text-xl">
                   Nominations Close April 30, 2026
                 </p>
               </div>
-              <p className="text-[#8BAF96] text-base md:text-lg leading-relaxed">
+              <p className="text-base md:text-lg leading-relaxed">
                 Nominations are open right now until April 30th. Don't miss the
                 chance to recognise someone doing extraordinary work in Turku.
               </p>

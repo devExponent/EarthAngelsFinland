@@ -2,12 +2,12 @@ import rapuExtravaganzaFlyer from "../../assets/RapuExtravaganza.jpeg";
 
 export default function CommunitySpotlightSection() {
   return (
-    <section className="bg-[#0B1D13] py-16 md:py-24 px-4">
+    <section className="bg-gradient-to-b from-[#7dafc7] to-[#F7F5F0] py-16 md:py-24 px-4">
       <div className="w-10/12 lg:w-8/12 mx-auto flex flex-col gap-16 md:gap-24">
         <div>
           <div className="flex items-center gap-3 mb-6">
-            <span className="block h-[2px] w-5 bg-[#C9A84C]" />
-            <span className="text-[#C9A84C] text-base md:text-lg tracking-[0.2em] uppercase font-semibold">
+            <span className="block h-[2px] w-5" />
+            <span className="text-base md:text-lg tracking-[0.2em] uppercase font-semibold">
               Upcoming Event
             </span>
           </div>
@@ -18,16 +18,16 @@ export default function CommunitySpotlightSection() {
                 className="text-white text-4xl md:text-5xl lg:text-6xl leading-snug mb-6"
                 style={{ fontFamily: "'Georgia', serif" }}
               >
-                Rapu <span className="text-[#C9A84C]">Extravaganza!</span>
+                Rapu <span className="">Extravaganza!</span>
               </h2>
 
-              <p className="text-[#8BAF96] text-lg md:text-xl lg:text-2xl leading-relaxed mb-4">
+              <p className=" text-lg md:text-xl lg:text-2xl leading-relaxed mb-4">
                 Join us for the traditional Finnish crayfish party. Come eat,
                 sing, and celebrate with a full crayfish dinner, karaoke, and
                 good company.
               </p>
 
-              <p className="text-[#8BAF96] text-lg md:text-xl leading-relaxed mb-8">
+              <p className="text-lg md:text-xl leading-relaxed mb-8">
                 Dress in your favourite cultural attire and celebrate with us.
                 Funny hats and bibs are encouraged. Only 25 spots are available,
                 so reserve yours early.
@@ -80,7 +80,7 @@ export default function CommunitySpotlightSection() {
         <div className="border-t border-[#1E4A2B] pt-16 md:pt-24">
           <div className="flex items-center gap-3 mb-6">
             <span className="block h-[2px] w-5 bg-[#C9A84C]" />
-            <span className="text-[#C9A84C] text-base md:text-lg tracking-[0.2em] uppercase font-semibold">
+            <span className="text-base md:text-lg tracking-[0.2em] uppercase font-semibold">
               A Look Back
             </span>
           </div>
@@ -90,17 +90,17 @@ export default function CommunitySpotlightSection() {
             style={{ fontFamily: "'Georgia', serif" }}
           >
             The Miss XL Story and{" "}
-            <span className="text-[#C9A84C]">Aria Arai's Role in It</span>
+            <span className="">Aria Arai's Role in It</span>
           </h2>
 
-          <p className="text-[#8BAF96] text-lg md:text-xl leading-relaxed mb-6">
+          <p className="text-lg md:text-xl leading-relaxed mb-6">
             Twenty years ago, the Miss XL pageant arrived in Finland and changed
             how the country talked about beauty and body confidence. American
             born presenter Aria Arai is credited with bringing the idea to
             Finland and pitching it first to Seiska magazine.
           </p>
 
-          <p className="text-[#8BAF96] text-lg md:text-xl leading-relaxed mb-10">
+          <p className="text-lg md:text-xl leading-relaxed mb-10">
             The first contest was held in 1999 at Ikaalisten Kylpylä, drawing
             over 300 entrants and nearly 2,000 spectators at the final, which
             was broadcast on MTV3. It was one of the earliest mainstream
@@ -124,26 +124,26 @@ export default function CommunitySpotlightSection() {
         <div className="border-t border-[#1E4A2B] pt-16 md:pt-24">
           <div className="flex items-center gap-3 mb-6">
             <span className="block h-[2px] w-5 bg-[#C9A84C]" />
-            <span className="text-[#C9A84C] text-base md:text-lg tracking-[0.2em] uppercase font-semibold">
+            <span className=" text-base md:text-lg tracking-[0.2em] uppercase font-semibold">
               Honouring Our Founder
             </span>
           </div>
 
           <h2
-            className="text-white text-3xl md:text-4xl lg:text-5xl leading-snug mb-6"
+            className="text-black text-3xl md:text-4xl lg:text-5xl leading-snug mb-6"
             style={{ fontFamily: "'Georgia', serif" }}
           >
             Momma Aria Receives{" "}
-            <span className="text-[#C9A84C]">a Citation of Honour</span>
+            <span className="text-black">a Citation of Honour</span>
           </h2>
 
-          <p className="text-[#8BAF96] text-lg md:text-xl leading-relaxed mb-6">
+          <p className="text-lg md:text-xl leading-relaxed mb-6">
             Ceci Educare Oy, Finland honoured Momma Aria as their first awardee,
             recognising her remarkable contributions to promoting inclusivity
             within the African diaspora community, both in Finland and globally.
           </p>
 
-          <p className="text-[#8BAF96] text-lg md:text-xl leading-relaxed mb-10">
+          <p className="text-lg md:text-xl leading-relaxed mb-10">
             Through her leadership, she has carved a path of community, unity,
             and belonging, while inspiring others toward determination and
             achievement. Her work spans body acceptance advocacy, founding

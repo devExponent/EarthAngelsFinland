@@ -39,11 +39,11 @@ const highlights = [
 
 export default function TurkuEventsHighlight() {
   return (
-    <section className="bg-[#0B1D13] py-16 md:py-24 px-4">
+    <section className="bg-gradient-to-b from-[#7dafc7] to-[#F7F5F0] py-16 md:py-24 px-4">
       <div className="w-10/12 lg:w-8/12 mx-auto">
         <div className="flex items-center gap-3 mb-6">
           <span className="block h-[2px] w-5 bg-[#C9A84C]" />
-          <span className="text-[#C9A84C] text-base md:text-lg tracking-[0.2em] uppercase font-semibold">
+          <span className=" text-base md:text-lg tracking-[0.2em] uppercase font-semibold">
             Explore Turku · Community Resource
           </span>
         </div>
@@ -54,18 +54,17 @@ export default function TurkuEventsHighlight() {
               className="text-white text-4xl md:text-5xl lg:text-6xl leading-snug mb-6"
               style={{ fontFamily: "'Georgia', serif" }}
             >
-              Things to Do in{" "}
-              <span className="text-[#C9A84C]">Turku Year-Round</span>
+              Things to Do in <span className="">Turku Year-Round</span>
             </h2>
 
-            <p className="text-[#8BAF96] text-lg md:text-xl lg:text-2xl leading-relaxed mb-6">
+            <p className="text-lg md:text-xl lg:text-2xl leading-relaxed mb-6">
               Turku has something happening every single month. From medieval
               festivals and rock concerts to Christmas markets and New Year
               fireworks over the Aura River, the city's calendar is packed with
               experiences for everyone.
             </p>
 
-            <p className="text-[#8BAF96] text-lg md:text-xl leading-relaxed mb-10">
+            <p className="text-lg md:text-xl leading-relaxed mb-10">
               Whether you are newly arrived in Finland or have been here for
               years, getting out and joining local events is one of the best
               ways to feel at home and connect with people around you.
@@ -86,7 +85,7 @@ export default function TurkuEventsHighlight() {
 
           <div className="bg-[#0F2419] border border-[#1E4A2B] rounded-2xl p-6 md:p-8">
             <h3
-              className="text-[#C9A84C] text-xl md:text-2xl font-semibold mb-2"
+              className=" text-xl md:text-2xl font-semibold mb-2 text-white"
               style={{ fontFamily: "'Georgia', serif" }}
             >
               Good to Know
@@ -151,7 +150,7 @@ export default function TurkuEventsHighlight() {
             href="https://thingstodointurku.com/events/"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-3 border border-[#C9A84C] text-[#C9A84C] hover:bg-[#C9A84C] hover:text-[#0B1D13] text-base md:text-lg font-semibold px-8 py-4 rounded-full transition-all duration-300 group"
+            className="inline-flex items-center justify-center gap-3 border border-[#C9A84C]  hover:bg-[#C9A84C] hover:text-[#0B1D13] text-base md:text-lg font-semibold px-8 py-4 rounded-full transition-all duration-300 group"
           >
             View the Full Events Calendar
             <span className="transition-transform duration-300 group-hover:translate-x-1">
