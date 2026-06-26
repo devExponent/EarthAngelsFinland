@@ -9,6 +9,8 @@ import OpenMic from "../assets/OpenMIC.jpg";
 import Workshop from "../assets/Workshop.jpg";
 import Thomas from "../assets/Thomas.jpg";
 import EventBGG from "../assets/EventBGG.jpeg";
+import SoundofSouth from "../assets/SoundsOfSouth2.jpeg";
+import Rapu from "../assets/RapuExtravaganza.png";
 
 const EVENTS_2026 = [
   {
@@ -95,6 +97,30 @@ const EVENTS_2026 = [
     type: "performance",
     link: "https://www.eventbrite.com/e/international-open-mic-youth-night-competition-tickets-1980313720647?aff=odcleoeventsincollection&keep_tld=1",
   },
+  {
+    id: 8,
+    image: SoundofSouth,
+    title: "Sounds of South Festival, Cultural Street Parade",
+    date: "2026-07-10",
+    time: "15:00",
+    location: "Turku Market Square",
+    description:
+      "Join the Cultural Street Parade at the Turku Cultural Carnival 2026. We welcome cultural groups and individuals to showcase their traditions, music, dance, and cultural expressions from Africa, South America, or the Caribbean. The parade route runs from Market Square through Kauppiaskatu, Library Bridge, Länttinen Pitkäkatu, and Nunnankatu. There is an optional competition eligible only for registered groups, with winners announced at the closing ceremony, judged on authenticity, costume and presentation, and entertainment value. Registration fee for groups who want to compete is 100€, with a registration deadline of 15 June 2026. The fashion show will not be missed, with Omono's Fashion Concepts providing one of a kind fashions, co coordinating with RemixGear who will highlight innovative fashions from their extensive line.",
+    type: "festival",
+    link: "https://www.soundsofsouth.fi",
+  },
+  {
+    id: 9,
+    image: Rapu,
+    title: "Rapu Extravaganza, Traditional Crayfish Party",
+    date: "2026-09-26",
+    time: "19:00 - 24:00",
+    location: "Taiteen Talo (Auditorio), Nunnankatu 4, Turku",
+    description:
+      "Perinteiset Rapujuhlat. Come eat, sing, and have fun at this traditional Finnish crayfish party. The evening includes shots of vodka, non-alcoholic beverages, and sparkling wine, alongside a full crayfish dinner featuring cold and warm crayfish, fresh garden salad, assorted fruit, corn on the cob, side dishes, and fresh bread. Funny hats and bibs are encouraged, and you are welcome to dress in your favourite cultural attire and celebrate with us. There will also be a karaoke session where you can showcase your talent, with the audience favourite winning a prize, plus party favours of hats, bibs, and balloons. Ticket price is 25.00 euros. Only 25 spots are available, so reserve yours early. RSVP by 15 September 2026.",
+    type: "social",
+    link: "https://www.eventbrite.com",
+  },
 ];
 
 export default function Events() {
@@ -129,10 +155,10 @@ export default function Events() {
 
         {/* Filter Tabs */}
         <div className="flex gap-2 border-b border-gray-500 pb-4">
-          {["all", "upcoming", "past"].map((tab) => (
+          {(["all", "upcoming", "past"] as const).map((tab) => (
             <button
               key={tab}
-              onClick={() => setFilter(tab as any)}
+              onClick={() => setFilter(tab)}
               className={[
                 "rounded-lg px-4 py-2 font-medium transition",
                 filter === tab
