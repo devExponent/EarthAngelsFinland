@@ -14,6 +14,30 @@ import Rapu from "../assets/RapuExtravaganza.png";
 
 const EVENTS_2026 = [
   {
+    id: 8,
+    image: SoundofSouth,
+    title: "Sounds of South Festival, Cultural Street Parade",
+    date: "2026-07-10",
+    time: "15:00",
+    location: "Turku Market Square",
+    description:
+      "Join the Cultural Street Parade at the Turku Cultural Carnival 2026. We welcome cultural groups and individuals to showcase their traditions, music, dance, and cultural expressions from Africa, South America, or the Caribbean. The parade route runs from Market Square through Kauppiaskatu, Library Bridge, Länttinen Pitkäkatu, and Nunnankatu. There is an optional competition eligible only for registered groups, with winners announced at the closing ceremony, judged on authenticity, costume and presentation, and entertainment value. Registration fee for groups who want to compete is 100€, with a registration deadline of 15 June 2026. The fashion show will not be missed, with Omono's Fashion Concepts providing one of a kind fashions, co coordinating with RemixGear who will highlight innovative fashions from their extensive line.",
+    type: "festival",
+    link: "https://www.soundsofsouth.fi",
+  },
+  {
+    id: 9,
+    image: Rapu,
+    title: "Rapu Extravaganza, Traditional Crayfish Party",
+    date: "2026-09-26",
+    time: "19:00 - 24:00",
+    location: "Taiteen Talo (Auditorio), Nunnankatu 4, Turku",
+    description:
+      "Perinteiset Rapujuhlat. Come eat, sing, and have fun at this traditional Finnish crayfish party. The evening includes shots of vodka, non-alcoholic beverages, and sparkling wine, alongside a full crayfish dinner featuring cold and warm crayfish, fresh garden salad, assorted fruit, corn on the cob, side dishes, and fresh bread. Funny hats and bibs are encouraged, and you are welcome to dress in your favourite cultural attire and celebrate with us. There will also be a karaoke session where you can showcase your talent, with the audience favourite winning a prize, plus party favours of hats, bibs, and balloons. Ticket price is 25.00 euros. Only 25 spots are available, so reserve yours early. RSVP by 15 September 2026.",
+    type: "social",
+    link: "https://www.eventbrite.com",
+  },
+  {
     id: 1,
     image: EventBGG,
     title: "Say it Loud, Opening Day Celebration",
@@ -96,30 +120,6 @@ const EVENTS_2026 = [
       "Come and join an evening of entertainment, with you as one of the stars. Take this opportunity to garner stage experience and test your talent. The city and our production team will be in contact with music schools, clubs, organizations and media so that this call for artists reaches everyone. Come and support your Favorite artist. All communities are invited to be very active in supporting these young artists. Remember the age limit is 29 years. So, if you can dance, sing, do magic, acrobatics, play an instrument, or recite a poem, artists from all talents should come and represent their native country and heritage. You could leave with the trophy and cash prize of 1st 200€, 2nd 150€, and 3rd 100€. Celebrity judges will be on hand to give their professional opinion of all performances fairly. There will be a buffet, and plenty of music. Tickets will go on sales from January 15th. Early bird tickets will be sold for 10€ online and 15€ at the event day.",
     type: "performance",
     link: "https://www.eventbrite.com/e/international-open-mic-youth-night-competition-tickets-1980313720647?aff=odcleoeventsincollection&keep_tld=1",
-  },
-  {
-    id: 8,
-    image: SoundofSouth,
-    title: "Sounds of South Festival, Cultural Street Parade",
-    date: "2026-07-10",
-    time: "15:00",
-    location: "Turku Market Square",
-    description:
-      "Join the Cultural Street Parade at the Turku Cultural Carnival 2026. We welcome cultural groups and individuals to showcase their traditions, music, dance, and cultural expressions from Africa, South America, or the Caribbean. The parade route runs from Market Square through Kauppiaskatu, Library Bridge, Länttinen Pitkäkatu, and Nunnankatu. There is an optional competition eligible only for registered groups, with winners announced at the closing ceremony, judged on authenticity, costume and presentation, and entertainment value. Registration fee for groups who want to compete is 100€, with a registration deadline of 15 June 2026. The fashion show will not be missed, with Omono's Fashion Concepts providing one of a kind fashions, co coordinating with RemixGear who will highlight innovative fashions from their extensive line.",
-    type: "festival",
-    link: "https://www.soundsofsouth.fi",
-  },
-  {
-    id: 9,
-    image: Rapu,
-    title: "Rapu Extravaganza, Traditional Crayfish Party",
-    date: "2026-09-26",
-    time: "19:00 - 24:00",
-    location: "Taiteen Talo (Auditorio), Nunnankatu 4, Turku",
-    description:
-      "Perinteiset Rapujuhlat. Come eat, sing, and have fun at this traditional Finnish crayfish party. The evening includes shots of vodka, non-alcoholic beverages, and sparkling wine, alongside a full crayfish dinner featuring cold and warm crayfish, fresh garden salad, assorted fruit, corn on the cob, side dishes, and fresh bread. Funny hats and bibs are encouraged, and you are welcome to dress in your favourite cultural attire and celebrate with us. There will also be a karaoke session where you can showcase your talent, with the audience favourite winning a prize, plus party favours of hats, bibs, and balloons. Ticket price is 25.00 euros. Only 25 spots are available, so reserve yours early. RSVP by 15 September 2026.",
-    type: "social",
-    link: "https://www.eventbrite.com",
   },
 ];
 
