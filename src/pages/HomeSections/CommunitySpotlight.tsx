@@ -1,4 +1,4 @@
-import rapuExtravaganzaFlyer from "../../assets/RapuExtravaganza.jpeg";
+import rapuExtravaganzaFlyer from "../../assets/RapuExtravaganza.png";
 
 export default function CommunitySpotlightSection() {
   return (
