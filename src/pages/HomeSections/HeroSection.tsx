@@ -23,70 +23,89 @@ export default function HeroSection() {
     >
       <div className="absolute inset-0 bg-white/80" />
 
-      <div className="relative z-10 w-10/12 grid grid-cols-1 items-center">
-        <div className="col-span-1 md:col-span-7 flex justify-center md:justify-end items-center">
+      <div className="relative z-10 w-12/12 flex flex-col items-center mx-12">
+        <div className="w-full grid grid-cols-1 md:grid-cols-5 items-center gap-4">
+          <div className="md:col-span-1 flex flex-col items-center md:items-start text-center md:text-left gap-4 order-2 md:order-1">
+            <p className="text-5xl md:text-4xl uppercase tracking-[0.2em] font-black text-black"></p>
+
+            <p className="text-black/70 font-bold text-xl md:text-5xl">
+              Taiteen Talo, Nunnankatu 4{" "}
+              <p>
+                <br></br>Turku, Finland.
+                <br></br>20700
+              </p>
+            </p>
+            <a
+              href="mailto:info@sayitloudfinland.org"
+              className="text-black/70 font-bold text-4xl md:text-5xl hover:underline underline-offset-4"
+            >
+              info@sayitloudfinland.org
+            </a>
+          </div>
+
           <img
             src={Momma}
             alt="Momma Aria"
-            className="w-full h-auto rounded-2xl"
+            className="md:col-span-3 w-full max-w-[1100px] mx-auto h-auto rounded-2xl order-1 md:order-2"
           />
+
+          <div className="md:col-span-1 flex flex-col items-center md:items-end gap-6 order-3">
+            <div className="flex items-center gap-6 flex-wrap justify-center md:justify-end">
+              <img
+                src={Logo}
+                alt="Earth Angels of Finland"
+                className="h-52 w-auto object-contain transition duration-300"
+              />
+              <img
+                src={Partner1}
+                alt="Mboa Market"
+                className="h-52 w-auto object-contain transition duration-300"
+              />
+              <img
+                src={Partner2}
+                alt="Say It Loud"
+                className="h-52 w-auto object-contain transition duration-300"
+              />
+              <img
+                src={Partner7}
+                alt="Partner 7"
+                className="h-52 w-auto object-contain transition duration-300"
+              />
+            </div>
+          </div>
         </div>
-        <div className="col-span-1 md:col-span-5 flex flex-col my-5 justify-center text-center md:text-left">
+
+        <div className="flex flex-col my-5 justify-center text-center">
           <h1 className="text-4xl font-extrabold leading-tight text-blue-600 sm:text-6xl md:text-7xl">
             {t("home.hero.title")}
           </h1>
 
-          <p className="mt-5 text-base font-extrabold leading-relaxed text-black/70 sm:text-lg">
+          <p className="mt-5 text-lg font-extrabold leading-relaxed text-black/70 sm:text-2xl">
             {t("home.hero.subtitle")}
           </p>
 
-          <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center md:justify-start">
+          <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center">
             <NavLink
               to="/events"
-              className="rounded-full bg-black px-8 py-4 text-base font-bold text-white transition hover:bg-black/90"
+              className="rounded-full bg-black px-6 py-3 text-sm font-bold text-white transition hover:bg-black/90"
             >
               {t("home.hero.ctaEvents")}
             </NavLink>
 
             <NavLink
               to="/about"
-              className="rounded-full border-2 border-blue-500 px-8 py-4 text-base font-bold text-black transition hover:bg-black/5"
+              className="rounded-full border-2 border-blue-500 px-6 py-3 text-sm font-bold text-black transition hover:bg-black/5"
             >
               {t("home.hero.ctaLearnMore")}
             </NavLink>
           </div>
 
-          <div className="mt-12 flex flex-col items-center md:items-start gap-4">
-            <div className="flex items-center gap-6 flex-wrap justify-center md:justify-start">
-              <img
-                src={Logo}
-                alt="Earth Angels of Finland"
-                className="h-20 w-auto object-contain transition duration-300"
-              />
-              <img
-                src={Partner1}
-                alt="Mboa Market"
-                className="h-20 w-auto object-contain transition duration-300"
-              />
-              <img
-                src={Partner2}
-                alt="Say It Loud"
-                className="h-20 w-auto object-contain transition duration-300"
-              />
-              <img
-                src={Partner7}
-                alt="Partner 7"
-                className="h-20 w-auto object-contain transition duration-300"
-              />
-            </div>
-          </div>
-
-          <div className="mt-10 flex flex-col items-center md:items-start gap-4">
-            <p className="text-sm md:text-base uppercase tracking-[0.2em] font-black text-black">
+          <div className="mt-10 flex flex-col items-center gap-4">
+            <p className="text-2xl md:text-3xl uppercase tracking-[0.2em] font-black text-black">
               Collaborative Partners
             </p>
-            <div className="flex items-center gap-6 flex-wrap justify-center md:justify-start">
-              <div className="h-20 w-20 rounded-xl bg-[#1a1a2e] flex items-center justify-center p-1.5">
+            <div className="flex items-center gap-6 flex-wrap justify-center">
+              <div className="h-24 w-24 rounded-xl bg-[#1a1a2e] flex items-center justify-center p-2">
                 <img
                   src={Partner3}
                   alt="Old Folks Matter"
@@ -96,27 +115,27 @@ export default function HeroSection() {
               <img
                 src={Partner4}
                 alt="Taiteen Talo"
-                className="h-12 w-auto object-contain transition duration-300"
+                className="h-16 w-auto object-contain transition duration-300"
               />
               <img
                 src={Partner5}
                 alt="Omono's Fashion Concepts"
-                className="h-24 w-auto object-contain transition duration-300"
+                className="h-28 w-auto object-contain transition duration-300"
               />
               <img
                 src={Partner6}
                 alt="Partner 6"
-                className="h-20 w-auto object-contain transition duration-300"
+                className="h-24 w-auto object-contain transition duration-300"
               />
               <img
                 src={Partner8}
                 alt="Partner 8"
-                className="h-20 w-auto object-contain transition duration-300"
+                className="h-24 w-auto object-contain transition duration-300"
               />
               <img
                 src={Partner9}
                 alt="Partner 9"
-                className="h-20 w-auto object-contain transition duration-300"
+                className="h-24 w-auto object-contain transition duration-300"
               />
             </div>
           </div>

@@ -150,7 +150,7 @@ export default function SoundsOfSouthFestival() {
           </p>
 
           <strong className="text-white">
-            Our Own Momma Aria will be modelling in the show
+            Our Own Momma Aria will be modelling in the show.
           </strong>
 
           <p className="text-lg md:text-xl leading-relaxed">

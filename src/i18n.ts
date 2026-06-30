@@ -14,7 +14,7 @@ const resources = {
 
       home: {
         hero: {
-          title: "Welcome to Earth Angels of Finland",
+          title: "Welcome to Earth Angels of Finland RY",
           subtitle:
             "Celebrate the achievements of people of color and marginalized communities through education, events, and cultural exchange.",
           ctaEvents: "Browse Events",
