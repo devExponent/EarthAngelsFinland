@@ -28,9 +28,9 @@ export default function Home() {
       <MissionHighlight />
       <SoundsOfSouthFestival />
       <CommunitySpotlightSection />
+      <BoardMeetingPost />
       <ArtHouseNewsletter />
       <TurkuEventsHighlight />
-      <BoardMeetingPost />
       <VideoAndPetitionSection />
       <MboaTilapiaOffer />
       <ChrodaWeekHighlight />
