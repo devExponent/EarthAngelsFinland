@@ -25,19 +25,17 @@ export default function HeroSection() {
 
       <div className="relative z-10 w-12/12 flex flex-col items-center mx-12">
         <div className="w-full grid grid-cols-1 md:grid-cols-5 items-center gap-4">
-          <div className="md:col-span-1 flex flex-col items-center md:items-start text-center md:text-left gap-4 order-2 md:order-1">
-            <p className="text-5xl md:text-4xl uppercase tracking-[0.2em] font-black text-black"></p>
-
-            <p className="text-black/70 font-bold text-xl md:text-5xl">
-              Taiteen Talo, Nunnankatu 4{" "}
-              <p>
+          <div className="md:col-span-1 flex flex-col items-center md:items-start text-center md:text-left gap-2 order-2 md:order-1">
+            <div className="text-black/70 font-bold">
+              <p className="text-xl md:text-6xl">Taiteen Talo, Nunnankatu 4</p>
+              <p className="text-2xl md:text-5xl">
                 <br></br>Turku, Finland.
                 <br></br>20700
               </p>
-            </p>
+            </div>
             <a
               href="mailto:info@sayitloudfinland.org"
-              className="text-black/70 font-bold text-4xl md:text-5xl hover:underline underline-offset-4"
+              className="text-black/70 font-bold text-3xl md:text-4xl hover:underline underline-offset-4"
             >
               info@sayitloudfinland.org
             </a>
