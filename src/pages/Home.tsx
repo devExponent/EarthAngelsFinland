@@ -11,7 +11,7 @@ import PartnersSection from "./HomeSections/Partners";
 import MboaMarketSpotlight from "./HomeSections/Mboa";
 import TurkuAwardSection from "./HomeSections/TurkuAwardSection";
 import YleArticleHighlight from "./HomeSections/YleArticle";
-import HerSpaceRetreat from "./HomeSections/herSpace";
+// import HerSpaceRetreat from "./HomeSections/herSpace";
 import ChrodaWeekHighlight from "./HomeSections/HeedFinland";
 import MboaTilapiaOffer from "./HomeSections/MboaOffer";
 import VideoAndPetitionSection from "./HomeSections/Petition";
@@ -29,13 +29,12 @@ export default function Home() {
       <SoundsOfSouthFestival />
       <CommunitySpotlightSection />
       <BoardMeetingPost />
-
       <ArtHouseNewsletter />
       <TurkuEventsHighlight />
       <VideoAndPetitionSection />
       <MboaTilapiaOffer />
       <ChrodaWeekHighlight />
-      <HerSpaceRetreat />
+      {/* <HerSpaceRetreat /> */}
       <YleArticleHighlight />
       <TurkuAwardSection />
       <PartnersSection />
