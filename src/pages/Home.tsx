@@ -27,8 +27,8 @@ export default function Home() {
       <HeroSection />
       <MissionHighlight />
       <SoundsOfSouthFestival />
-      <BoardMeetingPost />
       <CommunitySpotlightSection />
+      <BoardMeetingPost />
 
       <ArtHouseNewsletter />
       <TurkuEventsHighlight />
