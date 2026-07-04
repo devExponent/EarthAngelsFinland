@@ -8,6 +8,7 @@ import Contact from "../pages/Contact";
 // import AdminLayout from "../pages/admin/AdminLayout";
 import Events from "../pages/Events";
 import Layout from "../Layout/Layout";
+import PostDetailPage from "../components/postDetail";
 
 const AppRoutes = () => {
   return (
@@ -17,6 +18,7 @@ const AppRoutes = () => {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/events" element={<Events />} />
+        <Route path="/posts/:id" element={<PostDetailPage />} />
       </Route>
       {/* <Route path="/upload-test" element={<UploadTest />} />
       <Route path="/admin/login" element={<AdminLogin />} />
