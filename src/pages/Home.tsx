@@ -1,25 +1,11 @@
 import HeroSection from "./HomeSections/HeroSection";
-import OpenMic from "./HomeSections/OpenMic";
 import MissionHighlight from "./HomeSections/MissionHighlight";
 import ImpactThreeCards from "./HomeSections/Impact";
-import WomensDay from "./HomeSections/WomensDay";
-import JuneteenthSaveTheDate from "./HomeSections/Juneteenth";
-import EmmaTamankagSpotlight from "./HomeSections/Emma";
 import CollaborateWithUs from "./HomeSections/CollaborateWithUs";
-import OurvisionHighlight from "./HomeSections/ourVisionHighlights";
-import PartnersSection from "./HomeSections/Partners";
-import MboaMarketSpotlight from "./HomeSections/Mboa";
-import TurkuAwardSection from "./HomeSections/TurkuAwardSection";
-import YleArticleHighlight from "./HomeSections/YleArticle";
-// import HerSpaceRetreat from "./HomeSections/herSpace";
-import ChrodaWeekHighlight from "./HomeSections/HeedFinland";
-import MboaTilapiaOffer from "./HomeSections/MboaOffer";
-import VideoAndPetitionSection from "./HomeSections/Petition";
-import BoardMeetingPost from "./HomeSections/BoardMeeting";
-import TurkuEventsHighlight from "./HomeSections/TurkuEvent";
-import ArtHouseNewsletter from "./HomeSections/ArtHouse";
-import SoundsOfSouthFestival from "./HomeSections/SoundofSoul";
-import CommunitySpotlightSection from "./HomeSections/CommunitySpotlight";
+import BoardMeetingPost from "../components/Posts/BoardMeeting";
+import SoundsOfSouthFestival from "../components/Posts/SoundofSoul";
+import CommunitySpotlightSection from "../components/Posts/CommunitySpotlight";
+import NewsPostsCarousel from "../components/newsPostCarousel";
 
 export default function Home() {
   return (
@@ -29,22 +15,8 @@ export default function Home() {
       <SoundsOfSouthFestival />
       <CommunitySpotlightSection />
       <BoardMeetingPost />
-      <ArtHouseNewsletter />
-      <TurkuEventsHighlight />
-      <VideoAndPetitionSection />
-      <MboaTilapiaOffer />
-      <ChrodaWeekHighlight />
-      {/* <HerSpaceRetreat /> */}
-      <YleArticleHighlight />
-      <TurkuAwardSection />
-      <PartnersSection />
-      <MboaMarketSpotlight />
-      <OurvisionHighlight />
+      <NewsPostsCarousel />
       <CollaborateWithUs />
-      <EmmaTamankagSpotlight />
-      <JuneteenthSaveTheDate />
-      <WomensDay />
-      <OpenMic />
       <ImpactThreeCards />
     </div>
   );
