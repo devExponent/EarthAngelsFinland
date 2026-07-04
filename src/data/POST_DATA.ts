@@ -6,11 +6,13 @@ export type Post = {
   tag?: string;
 };
 
+import SoundofSouth from "../assets/SoundsOfSouth2.jpeg"
+
 export const POSTS: Post[] = [
    {
     id: "sounds-of-south",
     title: "Sounds of South Festival — Cultural Street Parade",
-    image: "/src/assets/SoundsOfSouth2.jpeg",
+    image: SoundofSouth,
     description: "Showcase your heritage at the Turku Cultural Carnival. 10 July 2026, starting at Turku Market Square.",
     tag: "Festival",
   },
