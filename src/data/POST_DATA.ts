@@ -7,6 +7,18 @@ export type Post = {
 };
 
 import SoundofSouth from "../assets/SoundsOfSouth2.jpeg"
+import herSpace from "../assets/HerSpace.png"
+import Rapu  from "../assets/RapuExtravaganza.png"
+import Meeting from "../assets/Meeting.jpeg"
+import Award from "../assets/mommaAward.png"
+import Mboa from "../assets/MboaTilapiaOffer.jpeg"
+import WomensDay from "../assets/WomensDay.jpeg"
+import HeedFinland from "../assets/HeedFinlandVolunter.png"
+import TurkuAward from "../assets/TurkuAward.png"
+import  openMic from "../assets/OpenMIC.jpg"
+import Juneteeth from "../assets/Juneteeth.jpg"
+import Turkuevent  from "../assets/Turkuevent.png"
+import  Gender from "../assets/Gender.png"
 
 export const POSTS: Post[] = [
    {
@@ -19,14 +31,14 @@ export const POSTS: Post[] = [
   {
     id: "her-space-retreat",
     title: "Her Space Retreat 2026",
-    image: "/src/assets/HerSpace.png",
+    image: herSpace,
     description: "A full-day seminar on women's health, healing, and connection. Saturday 26 September 2026 at Taiteen Talo, Turku.",
     tag: "Event",
   },
   {
     id: "community-spotlight",
     title: "Rapu Extravaganza & Momma Aria Citation of Honour",
-    image: "/src/assets/RapuExtravaganza.png",
+    image: Rapu,
     description: "Join our traditional Finnish crayfish party, and read about Momma Aria's Citation of Honour from Ceci Educare Oy Finland.",
     tag: "Event",
   },
@@ -34,7 +46,7 @@ export const POSTS: Post[] = [
    {
     id: "board-meeting",
     title: "EarthAngels Meets Hon. Mari Lahti, City of Turku",
-    image: "/src/assets/Meeting.jpeg",
+    image: Meeting,
     description: "A successful meeting with the City of Turku covering mental health, women's health, cultural integration, and support for the elderly.",
     tag: "News",
   },
@@ -42,7 +54,7 @@ export const POSTS: Post[] = [
     {
     id: "momma-award",
     title: "Momma Aria Receives a Citation of Honour",
-    image: "/src/assets/mommaAward.png",
+    image: Award,
     description:"Ceci Educare Oy, Finland honoured Momma Aria as their first awardee, recognising her remarkable contributions to promoting inclusivity within the African diaspora community, both in Finland and globally.",
     tag: "Event",
   },
@@ -50,7 +62,7 @@ export const POSTS: Post[] = [
   {
     id: "mboa-tilapia-offer",
     title: "Box Tilapia Special Offer at Mboa Market",
-    image: "/src/assets/MboaTilapiaOffer.jpeg",
+    image: Mboa,
     description: "Fresh whole box tilapia at only €17.99. Limited stock available at Mboa Market, Turku.",
     tag: "Offer",
   },
@@ -63,7 +75,7 @@ export const POSTS: Post[] = [
    {
     id: "WomensDayCelebration",
     title: "Celebrating International Women's Day",
-    image: "/src/assets/WomensDay.jpeg",
+    image: WomensDay,
     description: "We gather not only to celebrate how far we have come, but to remind each other of how powerful we already are.",
     tag: "News",
   },
@@ -77,7 +89,7 @@ export const POSTS: Post[] = [
   {
     id: "chroda-week",
     title: "CHRODA Week 2026 — Volunteers Needed",
-    image: "/src/assets/HeedFinlandVolunter.png",
+    image: HeedFinland,
     description: "HEED Finland is calling for volunteers for Chronic Disease Awareness Week, 7 to 12 September 2026 in Helsinki.",
     tag: "Volunteer",
   },
@@ -85,7 +97,7 @@ export const POSTS: Post[] = [
   {
     id: "turku-award",
     title: "2026 Multicultural and Anti-Racist Act Award",
-    image: "/src/assets/TurkuAward.png",
+    image: TurkuAward,
     description: "The City of Turku is accepting nominations for organisations building genuine connection between immigrants and the local population.",
     tag: "Award",
   },
@@ -99,7 +111,7 @@ export const POSTS: Post[] = [
     {
     id: "openMicEvent",
     title: "International Open Mic Youth Night",
-    image: "/src/assets/OpenMic.jpeg",
+    image: openMic,
     description: "An electrifying evening of talent, culture, and community celebrating young artists from across the world.",
     tag: "Event",
   },
@@ -114,7 +126,7 @@ export const POSTS: Post[] = [
   {
     id: "JuneteenthFreedomDay",
     title: "Juneteenth InternationalFreedom Day",
-    image: "/src/assets/Juneteeth.jpg",
+    image: Juneteeth,
     description: "Juneteenth marks the day in 1865 when the last enslaved people in the United States finally heard the news of their freedom. It is a day that belongs to all of us.",
     tag: "News",
   },
@@ -122,7 +134,7 @@ export const POSTS: Post[] = [
   {
     id: "turku-events",
     title: "Things to Do in Turku Year-Round",
-    image: "/src/assets/Turkuevent.png",
+    image: Turkuevent,
     description: "From Ruisrock to the Christmas Market, Turku has something happening every month for everyone.",
     tag: "Resource",
   },
@@ -135,7 +147,7 @@ export const POSTS: Post[] = [
   {
     id: "video-and-petition",
     title: "Stand for Gender Equality — UN Women Finland",
-    image: "/src/assets/Gender.png",
+    image: Gender,
     description: "Visit UN Women Finland, take part in their survey, and watch a powerful video on Islam and equality.",
     tag: "Action",
   },
