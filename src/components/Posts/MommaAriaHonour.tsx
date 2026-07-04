@@ -1,5 +1,3 @@
-import React from "react";
-
 const MommaAriaHonour = () => {
   return (
     <div className="w-10/12 lg:w-8/12 mx-auto flex flex-col gap-16 md:gap-24 my-8">
