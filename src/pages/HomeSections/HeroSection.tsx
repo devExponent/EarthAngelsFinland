@@ -8,7 +8,7 @@ import Partner5 from "../../assets/Partner 5.jpg";
 import Partner6 from "../../assets/Partner 6.jpg";
 import Partner7 from "../../assets/Partner 7.jpeg";
 import Partner8 from "../../assets/Partner 8.jpg";
-import Partner9 from "../../assets/Partner9.jpg";
+
 import Logo from "../../assets/Logo.png";
 
 import { useTranslation } from "react-i18next";
@@ -78,14 +78,14 @@ export default function HeroSection() {
             {t("home.hero.title")}
           </h1>
 
-          <p className="mt-5 text-lg font-extrabold leading-relaxed text-black/70 sm:text-2xl">
+          <p className="mt-5 text-lg font-extrabold leading-relaxed text-blue-400 sm:text-2xl">
             {t("home.hero.subtitle")}
           </p>
 
           <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center">
             <NavLink
               to="/events"
-              className="rounded-full bg-black px-6 py-3 text-sm font-bold text-white transition hover:bg-black/90"
+              className="rounded-full bg-[blue] px-6 py-3 text-sm font-bold text-white transition hover:bg-black/90"
             >
               {t("home.hero.ctaEvents")}
             </NavLink>
@@ -99,7 +99,7 @@ export default function HeroSection() {
           </div>
 
           <div className="mt-10 flex flex-col items-center gap-4">
-            <p className="text-2xl md:text-3xl uppercase tracking-[0.2em] font-black text-black">
+            <p className="text-2xl md:text-3xl uppercase tracking-[0.2em] font-black text-blue-600">
               Collaborative Partners
             </p>
             <div className="flex items-center gap-6 flex-wrap justify-center">
@@ -128,11 +128,6 @@ export default function HeroSection() {
               <img
                 src={Partner8}
                 alt="Partner 8"
-                className="h-24 w-auto object-contain transition duration-300"
-              />
-              <img
-                src={Partner9}
-                alt="Partner 9"
                 className="h-24 w-auto object-contain transition duration-300"
               />
             </div>
