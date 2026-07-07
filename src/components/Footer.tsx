@@ -13,11 +13,10 @@ import Partner1 from "../assets/Partner1.jpeg";
 import Partner2 from "../assets/Partner2.jpeg";
 import Partner3 from "../assets/Partner3.jpeg";
 import Partner4 from "../assets/Partner 4.png";
-import Partner5 from "../assets/Partner5.jpg";
-import Partner6 from "../assets/Partner 6.jpg";
-import Partner7 from "../assets/Partner 7.jpeg";
-import Partner8 from "../assets/Partner 8.jpg";
-import Partner9 from "../assets/Partner9.jpg";
+import Partner5 from "../assets/Partner 5.png";
+import Partner6 from "../assets/Partner 6.png";
+import Partner7 from "../assets/Partner 7.png";
+import Partner8 from "../assets/Partner 8.png";
 
 export default function Footer() {
   const { t } = useTranslation();
@@ -172,11 +171,6 @@ export default function Footer() {
           <img
             src={Partner8}
             alt="Partner 8"
-            className="h-12 w-auto object-contain"
-          />
-          <img
-            src={Partner9}
-            alt="Partner 9"
             className="h-12 w-auto object-contain"
           />
         </div>
