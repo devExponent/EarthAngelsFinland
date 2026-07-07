@@ -4,7 +4,7 @@ import Partner1 from "../../assets/Partner1.jpeg";
 import Partner2 from "../../assets/Partner2.jpeg";
 import Partner3 from "../../assets/Partner3.jpeg";
 import Partner4 from "../../assets/Partner 4.png";
-import Partner5 from "../../assets/Partner 5.jpg";
+import Partner5 from "../../assets/Partner5.jpg";
 import Partner6 from "../../assets/Partner 6.jpg";
 import Partner7 from "../../assets/Partner 7.jpeg";
 import Partner8 from "../../assets/Partner 8.jpg";
@@ -103,7 +103,7 @@ export default function HeroSection() {
               Collaborative Partners
             </p>
             <div className="flex items-center gap-6 flex-wrap justify-center">
-              <div className="h-24 w-24 rounded-xl bg-[#1a1a2e] flex items-center justify-center p-2">
+              <div className="h-24 w-24 rounded-xl flex items-center justify-center p-2">
                 <img
                   src={Partner3}
                   alt="Old Folks Matter"
