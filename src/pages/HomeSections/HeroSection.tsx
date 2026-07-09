@@ -8,6 +8,8 @@ import Partner5 from "../../assets/Partner 5.png";
 import Partner6 from "../../assets/Partner 6.png";
 import Partner7 from "../../assets/Partner 7.png";
 import Partner8 from "../../assets/Partner 8.png";
+import Partner9 from "../../assets/jarritos.png";
+import Partner10 from "../../assets/MUUSA.png";
 
 import Logo from "../../assets/Logo.png";
 
@@ -128,6 +130,16 @@ export default function HeroSection() {
               <img
                 src={Partner8}
                 alt="Partner 8"
+                className="h-24 w-auto object-contain transition duration-300"
+              />
+              <img
+                src={Partner9}
+                alt="Partner 9"
+                className="h-24 w-auto object-contain transition duration-300"
+              />
+              <img
+                src={Partner10}
+                alt="Partner 10"
                 className="h-24 w-auto object-contain transition duration-300"
               />
             </div>
