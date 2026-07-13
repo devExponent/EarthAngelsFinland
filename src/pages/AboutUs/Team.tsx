@@ -41,7 +41,7 @@ const team: TeamMember[] = [
     imageUrl: Muhammad,
   },
   {
-    name: "David",
+    name: "David Amanor",
     role: "Social Media Manager",
     imageUrl: David,
   },
