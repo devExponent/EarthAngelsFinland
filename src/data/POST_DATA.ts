@@ -21,13 +21,7 @@ import Turkuevent  from "../assets/Turkuevent.png"
 import  Gender from "../assets/Gender.png"
 
 export const POSTS: Post[] = [
-   {
-    id: "sounds-of-south",
-    title: "Sounds of South Festival — Cultural Street Parade",
-    image: SoundofSouth,
-    description: "Showcase your heritage at the Turku Cultural Carnival. 10 July 2026, starting at Turku Market Square.",
-    tag: "Festival",
-  },
+  
   {
     id: "her-space-retreat",
     title: "Her Space Retreat 2026",
@@ -50,7 +44,13 @@ export const POSTS: Post[] = [
     description: "A successful meeting with the City of Turku covering mental health, women's health, cultural integration, and support for the elderly.",
     tag: "News",
   },
-
+ {
+    id: "sounds-of-south",
+    title: "Sounds of South Festival — Cultural Street Parade",
+    image: SoundofSouth,
+    description: "Showcase your heritage at the Turku Cultural Carnival. 10 July 2026, starting at Turku Market Square.",
+    tag: "Festival",
+  },
     {
     id: "momma-award",
     title: "Momma Aria Receives a Citation of Honour",
