@@ -18,8 +18,10 @@ import OurvisionHighlight from "../components/Posts/ourVisionHighlights";
 import JuneteenthSaveTheDate from "../components/Posts/Juneteenth";
 import WomensDay from "../components/Posts/WomensDay";
 import OpenMic from "../components/Posts/OpenMic";
+import ChrodaWellbeingEvening from "../components/Posts/Chrodawellbeingevening"
 
 const POST_COMPONENTS: Record<string, React.ComponentType> = {
+  "chroda-wellbeing-evening": ChrodaWellbeingEvening,
   "art-house-newsletter": ArtHouseNewsletter,
   "chroda-week": ChrodaWeekHighlight,
   "mboa-market": MboaMarketSpotlight,
