@@ -1,4 +1,4 @@
-import chrodaFlyer from "../../assets/ChrodaWellbeingEvening.png";
+
 
 export default function ChrodaWellbeingEvening() {
   return (
@@ -80,13 +80,7 @@ export default function ChrodaWellbeingEvening() {
 
           </div>
 
-          <div className="rounded-2xl overflow-hidden shadow-lg">
-            <img
-              src={chrodaFlyer}
-              alt="CHRODA Week Cultural Well-being Evening programme flyer"
-              className="w-full h-auto object-cover"
-            />
-          </div>
+         
 
         </div>
       </div>
