@@ -5,7 +5,8 @@ export default function CommunitySpotlightSection() {
   return (
     <section className="bg-gradient-to-b from-[#7dafc7] to-[#F7F5F0] my-16  py-16 md:py-24 px-4">
       <div className="w-10/12 lg:w-8/12 mx-auto flex flex-col gap-16 md:gap-24">
-      <h1 className="text-center text-3xl md:text-4xl lg:text-5xl"><strong>JOIN THE HER SPACE RETREAT AND GET THE RAPU FOR FREE</strong></h1>
+      <h1 className="text-center text-3xl md:text-4xl lg:text-5xl"><strong>JOIN HER SPACE RETREAT AND GET A FREE PASS TO THE RAPU PARTY EXTRAVAGANZA FOR FREE
+</strong></h1>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 md:gap-24 items-start">
           <div className="flex flex-col gap-6">
             <div className="rounded-2xl overflow-hidden shadow-lg">
