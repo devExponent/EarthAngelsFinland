@@ -1,6 +1,5 @@
 import herSpaceImage from "../../assets/HerSpace.png";
 import rapuExtravaganzaFlyer from "../../assets/RapuExtravaganza.png";
-import rapuPromoVideo from "../../assets/rapuPromoVideo.mp4";
 
 export default function CommunitySpotlightSection() {
   return (
@@ -59,12 +58,10 @@ export default function CommunitySpotlightSection() {
 
           <div className="flex flex-col gap-6">
             <div className="rounded-2xl overflow-hidden shadow-lg">
-              <video
-                src={rapuPromoVideo}
-                controls
-                playsInline
-                poster={rapuExtravaganzaFlyer}
-                className="w-full h-auto rounded-2xl"
+              <img
+                src={rapuExtravaganzaFlyer}
+                alt="Rapu Extravaganza traditional crayfish party flyer"
+                className="w-full h-auto object-cover"
               />
             </div>
             <div>
