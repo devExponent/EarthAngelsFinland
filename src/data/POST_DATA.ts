@@ -19,6 +19,7 @@ import  openMic from "../assets/OpenMIC.jpg"
 import Juneteeth from "../assets/Juneteeth.jpg"
 import Turkuevent  from "../assets/Turkuevent.png"
 import  Gender from "../assets/Gender.png"
+import Chrowd from "../assets/chrowd.jpeg"
 
 
 export const POSTS: Post[] = [
@@ -40,6 +41,7 @@ export const POSTS: Post[] = [
   {
     id: "chroda-wellbeing-evening",
     title: "Cultural Well-being Evening — CHRODA Week 2026",
+    image: Chrowd,
     description: "Join us for the closing evening of CHRODA Week. A night of keynotes, performances, panel discussions, a fashion show, and an award ceremony at Malmitalo, Helsinki on 12 September 2026.",
     tag: "Event",
   },
