@@ -1,8 +1,8 @@
-
+import chrodaInvite from "../../assets/chrowd.jpeg";
 
 export default function ChrodaWellbeingEvening() {
   return (
-    <section className="bg-gradient-to-b from-[#7dafc7] to-[#F7F5F0] py-16 md:py-24 px-4">
+    <section className="bg-gradient-to-b from-[#7dafc7] to-[#F7F5F0] py-16 md:py-24 px-4 my-12">
       <div className="w-10/12 lg:w-8/12 mx-auto">
 
         <div className="flex items-center gap-3 mb-6">
@@ -12,9 +12,7 @@ export default function ChrodaWellbeingEvening() {
           </span>
         </div>
 
-        <h2
-          className="text-white text-4xl md:text-5xl lg:text-6xl leading-snug mb-4"
-        >
+        <h2 className="text-white text-4xl md:text-5xl lg:text-6xl leading-snug mb-4">
           Cultural Well-being Evening
         </h2>
 
@@ -60,9 +58,7 @@ export default function ChrodaWellbeingEvening() {
             </div>
 
             <div className="bg-[#0B1D13] rounded-2xl p-6 md:p-8">
-              <h3
-                className="text-[#C9A84C] text-xl md:text-2xl font-semibold mb-4"
-              >
+              <h3 className="text-[#C9A84C] text-xl md:text-2xl font-semibold mb-4">
                 About the Event
               </h3>
               <p className="text-[#8BAF96] text-base md:text-lg leading-relaxed mb-4">
@@ -77,10 +73,15 @@ export default function ChrodaWellbeingEvening() {
                 ceremony and networking reception.
               </p>
             </div>
-
           </div>
 
-         
+          <div className="rounded-2xl overflow-hidden shadow-2xl">
+            <img
+              src={chrodaInvite}
+              alt="CHRODA Week Cultural Well-being Evening official invitation"
+              className="w-full h-auto object-cover"
+            />
+          </div>
 
         </div>
       </div>
