@@ -7,6 +7,7 @@ import CommunitySpotlightSection from "../components/Posts/CommunitySpotlight";
 import NewsPostsCarousel from "../components/newsPostCarousel";
 import RapuVideoHero from "../components/Posts/RapuVideo";
 import ChrodaWellbeingEvening from "../components/Posts/Chrodawellbeingevening";
+import SayItLoudMenEvent from "../components/Posts/Sayitloundmenevent";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <RapuVideoHero />
       <MissionHighlight />
       <CommunitySpotlightSection />
+      <SayItLoudMenEvent />
       <ChrodaWellbeingEvening />
       <BoardMeetingPost />
       <NewsPostsCarousel />
