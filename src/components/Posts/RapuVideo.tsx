@@ -71,7 +71,7 @@ export default function RapuVideoHero() {
       </div>
 
       <a
-        href="https://www.eventbrite.com"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSf3ofzn99OWf42G_R8h3qEBumW6Z-bnH9KZeL1zov8IveVNNQ/viewform"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center gap-3 bg-[#C9A84C] hover:bg-white text-[#0B1D13] text-base md:text-lg font-semibold px-8 py-4 rounded-full transition-all duration-300"
