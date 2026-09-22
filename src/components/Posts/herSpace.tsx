@@ -14,10 +14,6 @@ const speakers = [
     role: "President / Founder of Earth Angels Finland Ry. Producer of Her Space Retreat",
   },
   {
-    name: "Elizabeth Eta Ph.D",
-    role: "Postdoctoral Researcher, Tampere University — Talk: 'Don't Guess, Get Checked.'",
-  },
-  {
     name: "Selene Gama",
     role: "Holistic Therapist Specializing in Women's Well Being, Mental Health Facilitator, Myth or Fact? Movement Game",
   },
@@ -82,7 +78,7 @@ export default function HerSpaceRetreat() {
                 },
               ].map((item) => (
                 <div key={item.label} className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-[#C9A84C]/10 border border-[#C9A84C]/20 flex items-center justify-center text-xl">
+                  <div className="flex-shrink-0 w-12 h-12 rounded-xl bg- border border-[#C9A84C]/20 flex items-center justify-center text-xl">
                     {item.icon}
                   </div>
                   <div>
@@ -105,22 +101,22 @@ export default function HerSpaceRetreat() {
               className="w-full rounded-2xl object-cover shadow-lg"
             />
 
-            <div className="bg-[#0F2419] border border-[#1E4A2B] rounded-2xl p-6 md:p-8">
+            <div className="bg-[#51809b] rounded-2xl p-6 md:p-8">
               <h3
                 className=" text-2xl md:text-3xl font-semibold mb-6"
                 style={{ fontFamily: "'Georgia', serif" }}
               >
                 Speakers
               </h3>
-              <ul className="flex flex-col gap-5">
+              <ul className="flex flex-col gap-5 text-black">
                 {speakers.map((s) => (
                   <li key={s.name} className="flex items-start gap-3">
                     <span className="w-2 h-2 rounded-full bg-[#C9A84C] flex-shrink-0 mt-2.5" />
                     <div>
-                      <p className="text-white font-semibold text-lg md:text-xl">
+                      <p className="font-semibold text-lg md:text-xl">
                         {s.name}
                       </p>
-                      <p className="text-[#5A8A6A] text-base md:text-lg leading-relaxed">
+                      <p className="text-white text-base md:text-lg leading-relaxed">
                         {s.role}
                       </p>
                     </div>

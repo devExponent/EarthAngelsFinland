@@ -14,49 +14,7 @@ export default function CommunitySpotlightSection() {
         </h1>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 md:gap-24 items-start">
-
-          <div className="flex flex-col gap-6">
-            <div className="rounded-2xl overflow-hidden shadow-lg">
-              <img
-                src={herSpaceImage}
-                alt="Her Space Retreat 2026 Save the Date poster"
-                className="w-full h-auto object-cover"
-              />
-            </div>
-            <div>
-              <h2 className="text-black font-extrabold text-3xl md:text-4xl lg:text-5xl leading-snug mb-4">
-                Her Space Retreat 2026
-              </h2>
-              <p className="text-xl md:text-2xl leading-relaxed mb-4 font-bold text-black">
-                A full-day seminar on Women's Health on a Holistic Basis,
-                bringing together researchers, nurses, therapists, and
-                lived-experience voices for a day of learning, healing, and
-                connection.
-              </p>
-              <ul className="flex flex-col gap-3 mb-8">
-                <li className="flex items-start gap-3">
-                  <span className="text-xl">📅</span>
-                  <span className="text-black font-bold text-lg md:text-xl">
-                    Saturday, 26 September 2026, 10:00 AM to 17:00 PM
-                  </span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-xl">📍</span>
-                  <span className="text-black font-bold text-lg md:text-xl">
-                    Taiteen Talo, Nunnankatu 4, 20700 Turku
-                  </span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-xl">✉️</span>
-                  <span className="text-black font-bold text-lg md:text-xl">
-                    info@earthangelsfinland.com
-                  </span>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="flex flex-col gap-6">
+         <div className="flex flex-col gap-6">
             <div className="rounded-2xl overflow-hidden shadow-lg">
               <img
                 src={rapuExtravaganzaFlyer}
@@ -106,18 +64,63 @@ export default function CommunitySpotlightSection() {
                 </li>
               </ul>
               <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSf3ofzn99OWf42G_R8h3qEBumW6Z-bnH9KZeL1zov8IveVNNQ/viewform"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-3 bg-[#C9A84C] hover:bg-white text-[#0B1D13] text-base md:text-lg font-semibold px-8 py-4 rounded-full transition-all duration-300 group"
+
+               
+                className="inline-flex items-center justify-center gap-3 bg-[#C9A84C] hover:bg-white text-[#0B1D13]  md:text-lg font-extrabold px-8 py-4 rounded-full transition-all duration-300 group"
               >
-                Book Now — Early Bird €10
-                <span className="transition-transform duration-300 group-hover:translate-x-1">
-                  →
-                </span>
+              Online booking is now closed. Tickets can be booked at the gate.
+
               </a>
             </div>
           </div>
+          
+          <div className="flex flex-col gap-6">
+            <div className="rounded-2xl overflow-hidden shadow-lg">
+              <img
+                src={herSpaceImage}
+                alt="Her Space Retreat 2026 Save the Date poster"
+                className="w-full h-auto object-cover"
+              />
+            </div>
+            <div>
+              <h2 className="text-black font-extrabold text-3xl md:text-4xl lg:text-5xl leading-snug mb-4">
+                Her Space Retreat 2026
+              </h2>
+              <p className="text-xl md:text-2xl leading-relaxed mb-4 font-bold text-black">
+                A full-day seminar on Women's Health on a Holistic Basis,
+                bringing together researchers, nurses, therapists, and
+                lived-experience voices for a day of learning, healing, and
+                connection.
+              </p>
+              <ul className="flex flex-col gap-3 mb-8">
+                <li className="flex items-start gap-3">
+                  <span className="text-xl">📅</span>
+                  <span className="text-black font-bold text-lg md:text-xl">
+                    Saturday, 26 September 2026, 10:00 AM to 17:00 PM
+                  </span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-xl">📍</span>
+                  <span className="text-black font-bold text-lg md:text-xl">
+                    Taiteen Talo, Nunnankatu 4, 20700 Turku
+                  </span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-xl">✉️</span>
+                  <span className="text-black font-bold text-lg md:text-xl">
+                    info@earthangelsfinland.com
+                  </span>
+                </li>
+              </ul>
+               <div
+  className="inline-flex items-center justify-center gap-3 bg-[#0B1D13] text-white md:text-lg font-extrabold px-8 py-4 rounded-full border border-[#C9A84C]"
+>
+  Registration is now closed
+</div>
+            </div>
+          </div>
+
+ 
 
         </div>
       </div>

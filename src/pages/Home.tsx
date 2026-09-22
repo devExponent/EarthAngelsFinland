@@ -12,10 +12,10 @@ import SayItLoudMenEvent from "../components/Posts/Sayitloundmenevent";
 export default function Home() {
   return (
     <div>
+      <CommunitySpotlightSection />
       <HeroSection />
       <RapuVideoHero />
       <MissionHighlight />
-      <CommunitySpotlightSection />
       <SayItLoudMenEvent />
       <ChrodaWellbeingEvening />
       <BoardMeetingPost />

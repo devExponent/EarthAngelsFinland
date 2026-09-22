@@ -2,7 +2,7 @@ import sayItLoudFlyer from "../../assets/Sayitloudmen.jpeg"
 
 export default function SayItLoudMenEvent() {
   return (
-    <section className="bg-[#F7F5F0] py-16 md:py-24 px-4">
+    <section className="bg-gradient-to-b from-[#759fb3] to-[#F7F5F0] py-16 md:py-24 px-4 mt-6">
       <div className="w-10/12 lg:w-8/12 mx-auto">
 
         <div className="flex items-center gap-3 mb-6">
@@ -48,7 +48,7 @@ export default function SayItLoudMenEvent() {
             </ul>
           </div>
 
-          <div className="rounded-2xl overflow-hidden shadow-lg">
+          <div className="rounded-2xl overflow-hidden shadow-lg -mx-6 md:-mx-12 lg:-mr-24">
             <img
               src={sayItLoudFlyer}
               alt="Say It Loud — In Celebration of Men in Finland event flyer"

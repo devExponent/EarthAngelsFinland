@@ -11,8 +11,21 @@ import Thomas from "../assets/Thomas.jpg";
 import EventBGG from "../assets/EventBGG.jpeg";
 import SoundofSouth from "../assets/SoundsOfSouth2.jpeg";
 import Rapu from "../assets/RapuExtravaganza.png";
+import HerSpace from "../assets/HerSpace.png";
 
 const EVENTS_2026 = [
+  {
+    id: 10,
+    image: HerSpace,
+    title: "Her Space Retreat 2026",
+    date: "2026-09-26",
+    time: "10:00 - 17:00",
+    location: "Taiteen Talo, Nunnankatu 4, 20700 Turku",
+    description:
+      "A full-day seminar on Women's Health on a Holistic Basis, bringing together researchers, nurses, therapists, and lived-experience voices for a day of learning, healing, and connection. Featuring speakers including Emma Tamankang, Momma Aria Arai, Elizabeth Eta Ph.D, Selene Gama, Zainab Shahbaz, Floriane Kamto, and Heidi Layne Ph.D. Contact info@earthangelsfinland.com for more information.",
+    type: "seminar",
+    link: "https://www.eventbrite.fi/e/1989138655264?aff=oddtdtcreator",
+  },
   {
     id: 8,
     image: SoundofSouth,
@@ -30,12 +43,12 @@ const EVENTS_2026 = [
     image: Rapu,
     title: "Rapu Extravaganza, Traditional Crayfish Party",
     date: "2026-09-26",
-    time: "19:00 - 24:00",
-    location: "Taiteen Talo (Auditorio), Nunnankatu 4, Turku",
+    time: "19:00 - 23:30",
+    location: "Taiteen Talo, Basement Factory Auditorium, Nunnankatu 4, 20700 Turku",
     description:
-      "Perinteiset Rapujuhlat. Come eat, sing, and have fun at this traditional Finnish crayfish party. The evening includes shots of vodka, non-alcoholic beverages, and sparkling wine, alongside a full crayfish dinner featuring cold and warm crayfish, fresh garden salad, assorted fruit, corn on the cob, side dishes, and fresh bread. Funny hats and bibs are encouraged, and you are welcome to dress in your favourite cultural attire and celebrate with us. There will also be a karaoke session where you can showcase your talent, with the audience favourite winning a prize, plus party favours of hats, bibs, and balloons. Ticket price is 25.00 euros. Only 25 spots are available, so reserve yours early. RSVP by 15 September 2026.",
+      "Perinteiset Rapujuhlat. Come eat, sing, and have fun at this traditional Finnish crayfish party. The evening includes shots of vodka, non-alcoholic beverages, and sparkling wine, alongside a full crayfish dinner. Funny hats and bibs are encouraged, and you are welcome to dress in your favourite cultural attire — dress code is Red, White, Yellow or Blue. There will also be a karaoke battle where the audience favourite wins a prize. Early bird ticket is €10 online (expires 23 Sep) and €15 at the gate. Only 50 spots available so reserve yours early.",
     type: "social",
-    link: "https://www.eventbrite.com",
+    link: "",
   },
   {
     id: 1,
@@ -45,7 +58,7 @@ const EVENTS_2026 = [
     time: "11:00 - 12:45",
     location: "Turku City Main Library, 2nd Floor",
     description:
-      "This special  exhibition features three diverse women artists residing in Finland. Aino Keinänen, from Finland Nayeli Ortiz, from Mexico, and Natalia Ochoa from Peru. Each artist brings her special aspect and artistic inspiration to their exhibits will highlight their skill of painting, photography, and sculpture. The opening day will consist of an opening speech by Dr. Theresia Bilola. The TUNISIAN AMBASSADOR, Ambassador Hajjaji will be the Keynote Speaker. The entertainment will be provided by a Ukrainian musician, performance by a singer from Indonesia accompanied by a pianist from Turkey. The showstopper will be a Fashion show with couture designs by OMONO'S FASHION CONCEPTS.",
+      "This special exhibition features three diverse women artists residing in Finland. Aino Keinänen, from Finland Nayeli Ortiz, from Mexico, and Natalia Ochoa from Peru. Each artist brings her special aspect and artistic inspiration to their exhibits will highlight their skill of painting, photography, and sculpture. The opening day will consist of an opening speech by Dr. Theresia Bilola. The TUNISIAN AMBASSADOR, Ambassador Hajjaji will be the Keynote Speaker. The entertainment will be provided by a Ukrainian musician, performance by a singer from Indonesia accompanied by a pianist from Turkey. The showstopper will be a Fashion show with couture designs by OMONO'S FASHION CONCEPTS.",
     type: "exhibition",
     link: "https://www.eventbrite.com/e/2026-say-it-loud-black-history-month-in-celebration-of-women-of-color-tickets-1980220341347?aff=odcleoeventsincollection&keep_tld=1",
   },
@@ -93,7 +106,7 @@ const EVENTS_2026 = [
     time: "14:00 - 18:00",
     location: "Turku City Main Library (Studio)",
     description:
-      "This year’s movie is a documentary about the achievements of Shirley Chisholm. This is intended to be thought provoking, educational and inspiring. Take time out for an escape with a movie about this legendary lady.",
+      "This year's movie is a documentary about the achievements of Shirley Chisholm. This is intended to be thought provoking, educational and inspiring. Take time out for an escape with a movie about this legendary lady.",
     type: "movie",
     link: "https://www.eventbrite.com/e/movie-night-tickets-1980309985475?aff=odcleoeventsincollection&keep_tld=1",
   },
@@ -143,7 +156,6 @@ export default function Events() {
 
       <div className="absolute inset-0 bg-black/20" />
 
-      {/* Content */}
       <div className="relative z-10 space-y-6 py-30 w-10/12 md:w-6/12 mx-auto text-white">
         <div>
           <h1 className="text-3xl font-extrabold">Events</h1>
@@ -153,7 +165,6 @@ export default function Events() {
           </p>
         </div>
 
-        {/* Filter Tabs */}
         <div className="flex gap-2 border-b border-gray-500 pb-4">
           {(["all", "upcoming", "past"] as const).map((tab) => (
             <button
