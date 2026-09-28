@@ -3,21 +3,21 @@ import MissionHighlight from "./HomeSections/MissionHighlight";
 import ImpactThreeCards from "./HomeSections/Impact";
 import CollaborateWithUs from "./HomeSections/CollaborateWithUs";
 import BoardMeetingPost from "../components/Posts/BoardMeeting";
-import CommunitySpotlightSection from "../components/Posts/CommunitySpotlight";
+// import CommunitySpotlightSection from "../components/Posts/CommunitySpotlight";
 import NewsPostsCarousel from "../components/newsPostCarousel";
-import RapuVideoHero from "../components/Posts/RapuVideo";
+// import RapuVideoHero from "../components/Posts/RapuVideo";
 import ChrodaWellbeingEvening from "../components/Posts/Chrodawellbeingevening";
 import SayItLoudMenEvent from "../components/Posts/Sayitloundmenevent";
 
 export default function Home() {
   return (
     <div>
-      <CommunitySpotlightSection />
+    
       <HeroSection />
-      <RapuVideoHero />
+  
       <MissionHighlight />
-      <SayItLoudMenEvent />
       <ChrodaWellbeingEvening />
+      <SayItLoudMenEvent />
       <BoardMeetingPost />
       <NewsPostsCarousel />
       <CollaborateWithUs />
