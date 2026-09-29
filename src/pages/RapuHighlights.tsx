@@ -107,9 +107,6 @@ const RapuHighlights = () => {
             Rapu Party Extravaganza was a night to remember, and we cannot wait
             to do it again.
           </p>
-          <p className="text-[#0B2A4A] text-lg md:text-2xl font-bold">
-            Follow Earth Angels Finland for upcoming events.
-          </p>
         </div>
       </div>
 
