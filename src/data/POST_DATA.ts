@@ -21,10 +21,18 @@ import Turkuevent  from "../assets/Turkuevent.png"
 import  Gender from "../assets/Gender.png"
 import Chrowd from "../assets/chrowd.jpeg"
 import herSpacehigh from "../assets/Herspace6.jpeg";
+import Rapuhigh from "../assets/Rapu1.jpg";
 
 
 export const POSTS: Post[] = [
 
+    {
+    id: "Rapu highlights",
+    title: "Rapu Extravaganza",
+    image: Rapuhigh,
+    description: "How Rapu party went.",
+    tag: "Event",
+  },
    {
     id: "her-space-retreat-highlights",
     title: "Her Space Retreat 2026",

@@ -20,8 +20,10 @@ import WomensDay from "../components/Posts/WomensDay";
 import OpenMic from "../components/Posts/OpenMic";
 import ChrodaWellbeingEvening from "../components/Posts/Chrodawellbeingevening"
 import HerSpaceHighlights from "../pages/HerSpaceHighlights";
+import RapuHighlights from "../pages/RapuHighlights";
 
 const POST_COMPONENTS: Record<string, React.ComponentType> = {
+"Rapu highlights": RapuHighlights,
 "her-space-retreat-highlights": HerSpaceHighlights,
   "chroda-wellbeing-evening": ChrodaWellbeingEvening,
   "art-house-newsletter": ArtHouseNewsletter,

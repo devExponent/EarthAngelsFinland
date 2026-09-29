@@ -9,12 +9,14 @@ import NewsPostsCarousel from "../components/newsPostCarousel";
 import ChrodaWellbeingEvening from "../components/Posts/Chrodawellbeingevening";
 import SayItLoudMenEvent from "../components/Posts/Sayitloundmenevent";
 import HerSpaceHighlights from "./HerSpaceHighlights";
+import RapuHighlights from "./RapuHighlights";
 
 export default function Home() {
   return (
     <div>
     
       <HeroSection />
+      <RapuHighlights/>
   <HerSpaceHighlights/>
       <MissionHighlight />
       <ChrodaWellbeingEvening />
