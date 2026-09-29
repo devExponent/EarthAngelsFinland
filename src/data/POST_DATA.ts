@@ -20,9 +20,18 @@ import Juneteeth from "../assets/Juneteeth.jpg"
 import Turkuevent  from "../assets/Turkuevent.png"
 import  Gender from "../assets/Gender.png"
 import Chrowd from "../assets/chrowd.jpeg"
+import herSpacehigh from "../assets/Herspace6.jpeg";
 
 
 export const POSTS: Post[] = [
+
+   {
+    id: "her-space-retreat-highlights",
+    title: "Her Space Retreat 2026",
+    image: herSpacehigh,
+    description: "Her Space Retreat: How It Went.",
+    tag: "Event",
+  },
   
   {
     id: "her-space-retreat",
