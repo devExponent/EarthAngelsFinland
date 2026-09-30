@@ -50,26 +50,27 @@ export default function HeroSection() {
           />
 
           <div className="md:col-span-1 flex flex-col items-center md:items-end gap-6 order-3">
-            <div className="flex items-center gap-6 flex-wrap justify-center md:justify-end">
+            {/* Mobile: 2 logos per row. Desktop: unchanged wrapping row */}
+            <div className="w-full grid grid-cols-2 gap-4 place-items-center md:flex md:items-center md:gap-6 md:flex-wrap md:justify-end">
               <img
                 src={Logo}
                 alt="Earth Angels of Finland"
-                className="h-52 w-auto object-contain transition duration-300"
+                className="h-28 md:h-52 w-auto max-w-full object-contain transition duration-300"
               />
               <img
                 src={Partner1}
                 alt="Mboa Market"
-                className="h-52 w-auto object-contain transition duration-300"
+                className="h-28 md:h-52 w-auto max-w-full object-contain transition duration-300"
               />
               <img
                 src={Partner2}
                 alt="Say It Loud"
-                className="h-52 w-auto object-contain transition duration-300"
+                className="h-28 md:h-52 w-auto max-w-full object-contain transition duration-300"
               />
               <img
                 src={Partner7}
                 alt="Partner 7"
-                className="h-52 w-auto object-contain transition duration-300"
+                className="h-28 md:h-52 w-auto max-w-full object-contain transition duration-300"
               />
             </div>
           </div>

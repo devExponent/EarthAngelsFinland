@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import Rapu1 from "../assets/Rapu1.jpg";
 import Rapu2 from "../assets/Rapu2.jpg";
 import Rapu3 from "../assets/Rapu3.jpg";
@@ -11,7 +11,7 @@ import Rapu9 from "../assets/Rapu9.jpg";
 import Rapu10 from "../assets/Rapu10.jpg";
 import Rapu11 from "../assets/Rapu11.jpg";
 import Rapu12 from "../assets/Rapu12.jpg";
-// import rapuHighlightVideo from "../assets/RapuHighlight.mp4";
+import rapuHighlightVideo from "../assets/Rapu.mp4";
 
 const photos = [
   Rapu1, Rapu2, Rapu3, Rapu4, Rapu5, Rapu6,
@@ -19,8 +19,14 @@ const photos = [
 ];
 
 const RapuHighlights = () => {
-  // null = lightbox closed, otherwise the index of the open photo
+  
   const [open, setOpen] = useState<number | null>(null);
+
+  const scroller = useRef<HTMLDivElement>(null);
+  const scrollByPage = (dir: 1 | -1) => {
+    const el = scroller.current;
+    if (el) el.scrollBy({ left: dir * el.clientWidth * 0.8, behavior: "smooth" });
+  };
 
   const close = useCallback(() => setOpen(null), []);
   const next = useCallback(
@@ -32,7 +38,7 @@ const RapuHighlights = () => {
     []
   );
 
-  // Keyboard controls + stop the page scrolling behind the lightbox
+  
   useEffect(() => {
     if (open === null) return;
     const onKey = (e: KeyboardEvent) => {
@@ -65,12 +71,12 @@ const RapuHighlights = () => {
             Party Extravaganza. Guests arrived in their finest, the music kept
             the floor full from start to finish, and the energy in the room
             never dropped. Here are some of the moments from the night. Tap
-            any photo to see it full size.
+            any photo to see it full screen.
           </p>
         </div>
 
-        {/* Video slot: uncomment this block and the import above when the video is ready */}
-        {/*
+        
+        
         <div className="w-full max-w-5xl mx-auto rounded-2xl overflow-hidden shadow-2xl">
           <video
             src={rapuHighlightVideo}
@@ -79,28 +85,55 @@ const RapuHighlights = () => {
             className="w-full max-h-[75vh] object-cover bg-black"
           />
         </div>
-        */}
+       
 
-        {/* Photo grid: every photo the same size, in even rows */}
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-8">
-          {photos.map((src, i) => (
-            <button
-              key={i}
-              onClick={() => setOpen(i)}
-              aria-label={`Open photo ${i + 1}`}
-              className="group relative overflow-hidden rounded-2xl shadow-xl aspect-[4/5] focus:outline-none focus-visible:ring-4 focus-visible:ring-[#0B2A4A]"
-            >
-              <img
-                src={src}
-                alt={`Rapu Party Extravaganza moment ${i + 1}`}
-                className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
-              />
-              <div className="absolute inset-0 bg-[#0B2A4A]/0 group-hover:bg-[#0B2A4A]/20 transition-colors duration-300" />
-            </button>
-          ))}
+        
+        <div className="relative">
+          <div
+            ref={scroller}
+            className="flex items-center gap-4 md:gap-8 overflow-x-auto snap-x snap-mandatory py-4 px-1 [scrollbar-width:thin]"
+          >
+            {photos.map((src, i) => (
+              <button
+                key={i}
+                onClick={() => setOpen(i)}
+                aria-label={`Open photo ${i + 1}`}
+                className="snap-center shrink-0 rounded-2xl focus:outline-none focus-visible:ring-4 focus-visible:ring-[#0B2A4A]"
+              >
+                <img
+                  src={src}
+                  alt={`Rapu Party Extravaganza moment ${i + 1}`}
+                  className="block h-auto w-auto max-h-[70vh] max-w-[85vw] md:h-[70vh] md:max-h-none md:max-w-none rounded-2xl shadow-xl"
+                />
+              </button>
+            ))}
+          </div>
+
+          
+          <button
+            onClick={() => scrollByPage(-1)}
+            aria-label="Scroll left"
+            className="hidden md:flex absolute left-2 top-1/2 -translate-y-1/2 w-14 h-14 rounded-full bg-[#0B2A4A]/80 hover:bg-[#0B2A4A] text-white items-center justify-center transition-colors"
+          >
+            <svg className="w-6 h-6 fill-current" viewBox="0 0 24 24">
+              <path d="M15.4 7.4 14 6l-6 6 6 6 1.4-1.4L10.8 12z" />
+            </svg>
+          </button>
+          <button
+            onClick={() => scrollByPage(1)}
+            aria-label="Scroll right"
+            className="hidden md:flex absolute right-2 top-1/2 -translate-y-1/2 w-14 h-14 rounded-full bg-[#0B2A4A]/80 hover:bg-[#0B2A4A] text-white items-center justify-center transition-colors"
+          >
+            <svg className="w-6 h-6 fill-current" viewBox="0 0 24 24">
+              <path d="M8.6 16.6 10 18l6-6-6-6-1.4 1.4 4.6 4.6z" />
+            </svg>
+          </button>
         </div>
+        <p className="text-[#0B2A4A] text-center text-xl md:text-3xl font-extrabold -mt-6">
+          Swipe or use the arrows to see more
+        </p>
 
-        {/* Closing */}
+        
         <div className="text-center flex flex-col gap-3">
           <p className="text-[#0B2A4A] text-lg md:text-2xl leading-relaxed max-w-4xl mx-auto">
             Thank you to everyone who came, danced and celebrated with us.
@@ -110,7 +143,7 @@ const RapuHighlights = () => {
         </div>
       </div>
 
-      {/* Lightbox: shows the full, uncropped photo */}
+      
       {open !== null && (
         <div
           className="fixed inset-0 z-50 bg-[#0B2A4A]/95 flex items-center justify-center p-4 md:p-10"
