@@ -15,7 +15,6 @@ export default function Home() {
       <HeroSection />
       <HealthwellnessHighlights />
       <MissionHighlight />
-      <ChrodaWellbeingEvening />
       <SayItLoudMenEvent />
       <BoardMeetingPost />
       <NewsPostsCarousel />
