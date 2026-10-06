@@ -22,9 +22,18 @@ import  Gender from "../assets/Gender.png"
 import Chrowd from "../assets/chrowd.jpeg"
 import herSpacehigh from "../assets/Herspace6.jpeg";
 import Rapuhigh from "../assets/Rapu1.jpg";
+import Health7 from "../assets/Health7.jpeg"
 
 
 export const POSTS: Post[] = [
+
+    {
+    id: "HealthWellness",
+    title: "Well-being Day for Immigrants.",
+    image: Health7,
+    description: "Free Health Checks and Guidance - How it went",
+    tag: "Event",
+  },
 
     {
     id: "Rapu highlights",

@@ -5,12 +5,10 @@ import herspace3 from "../assets/herSpace3.jpeg";
 import herspace4 from "../assets/Herspace4.jpeg";
 import herspace5 from "../assets/Herspace5.jpeg";
 import herspace6 from "../assets/Herspace6.jpeg";
-// import herspaceVideoHighlight from "../assets/HerSpaceHighlight.mp4";
 
 const photos = [herspace1, herspace2, herspace3, herspace4, herspace5, herspace6];
 
 const HerSpaceHighlights = () => {
-  // null = lightbox closed, otherwise the index of the open photo
   const [open, setOpen] = useState<number | null>(null);
   const scroller = useRef<HTMLDivElement>(null);
 
@@ -29,7 +27,6 @@ const HerSpaceHighlights = () => {
     []
   );
 
-  // Keyboard controls + stop the page scrolling behind the lightbox
   useEffect(() => {
     if (open === null) return;
     const onKey = (e: KeyboardEvent) => {
@@ -82,7 +79,7 @@ const HerSpaceHighlights = () => {
           </p>
         </div>
 
-        {/* Photos: side by side in a horizontal strip, each shown in full */}
+        
         <div className="relative">
           <div
             ref={scroller}
@@ -90,22 +87,12 @@ const HerSpaceHighlights = () => {
           >
             {photos.slice(0, 3).map((src, i) => renderPhoto(src, i))}
 
-            {/* Video slot: uncomment this block and the import above when the video is ready */}
-            {/*
-            <div className="snap-center shrink-0 rounded-2xl overflow-hidden shadow-2xl">
-              <video
-                src={herspaceVideoHighlight}
-                controls
-                playsInline
-                className="h-[60vh] md:h-[70vh] w-auto max-w-[85vw] md:max-w-none bg-black"
-              />
-            </div>
-            */}
+          
 
             {photos.slice(3).map((src, i) => renderPhoto(src, i + 3))}
           </div>
 
-          {/* Arrows (desktop) */}
+          
           <button
             onClick={() => scrollByPage(-1)}
             aria-label="Scroll left"
@@ -129,7 +116,7 @@ const HerSpaceHighlights = () => {
           Swipe or use the arrows to see more
         </p>
 
-        {/* Closing */}
+        
         <div className="text-center flex flex-col gap-3">
           <p className="text-[#0B2A4A] text-lg md:text-2xl leading-relaxed max-w-4xl mx-auto">
             Thank you to every speaker, volunteer and guest who made the day
@@ -142,7 +129,7 @@ const HerSpaceHighlights = () => {
         </div>
       </div>
 
-      {/* Lightbox: shows the full, uncropped photo */}
+      
       {open !== null && (
         <div
           className="fixed inset-0 z-50 bg-[#0B2A4A]/95 flex items-center justify-center p-4 md:p-10"

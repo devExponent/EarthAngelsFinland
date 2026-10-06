@@ -21,8 +21,10 @@ import OpenMic from "../components/Posts/OpenMic";
 import ChrodaWellbeingEvening from "../components/Posts/Chrodawellbeingevening"
 import HerSpaceHighlights from "../pages/HerSpaceHighlights";
 import RapuHighlights from "../pages/RapuHighlights";
+import HealthwellnessHighlights from "./Posts/HealthwellnessHighlights";
 
 const POST_COMPONENTS: Record<string, React.ComponentType> = {
+  "HealthWellness" : HealthwellnessHighlights,
 "Rapu highlights": RapuHighlights,
 "her-space-retreat-highlights": HerSpaceHighlights,
   "chroda-wellbeing-evening": ChrodaWellbeingEvening,
