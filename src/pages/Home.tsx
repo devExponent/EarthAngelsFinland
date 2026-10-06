@@ -4,7 +4,6 @@ import ImpactThreeCards from "./HomeSections/Impact";
 import CollaborateWithUs from "./HomeSections/CollaborateWithUs";
 import BoardMeetingPost from "../components/Posts/BoardMeeting";
 import NewsPostsCarousel from "../components/newsPostCarousel";
-import ChrodaWellbeingEvening from "../components/Posts/Chrodawellbeingevening";
 import SayItLoudMenEvent from "../components/Posts/Sayitloundmenevent";
 import HealthwellnessHighlights from "../components/Posts/HealthwellnessHighlights";
 
