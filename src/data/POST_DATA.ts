@@ -23,9 +23,27 @@ import Chrowd from "../assets/chrowd.jpeg"
 import herSpacehigh from "../assets/Herspace6.jpeg";
 import Rapuhigh from "../assets/Rapu1.jpg";
 import Health7 from "../assets/Health7.jpeg"
+import Indepednce1 from "../assets/independence1.jpeg"
+import MommaLahti from "../assets/Momma-Lahti.jpeg"
 
 
 export const POSTS: Post[] = [
+
+  {
+  id: "mari-lahti-support",
+  title: "EarthAngels Supports Mari Lahti for Parliament",
+  image: MommaLahti,
+  description: "We stand with Mari Lahti in her bid for Parliament. A genuine ally to our community who has shown up, listened, and taken action.",
+  tag: "Community",
+},
+
+  {
+    id: "Nigeria-independence",
+    title: "Nigeria @66 Independence Day",
+    image: Indepednce1,
+    description: "Nigeria @66 Independence Day Recap. The full event pictures and story",
+    tag: "Event",
+  },
 
     {
     id: "HealthWellness",

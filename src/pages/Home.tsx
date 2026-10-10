@@ -5,15 +5,15 @@ import CollaborateWithUs from "./HomeSections/CollaborateWithUs";
 import BoardMeetingPost from "../components/Posts/BoardMeeting";
 import NewsPostsCarousel from "../components/newsPostCarousel";
 import SayItLoudMenEvent from "../components/Posts/Sayitloundmenevent";
-import HealthwellnessHighlights from "../components/Posts/HealthwellnessHighlights";
+import NigeriaIndependence from "../components/Posts/NigeriaIndependece";
 
 export default function Home() {
   return (
     <div>
     
       <HeroSection />
-      <HealthwellnessHighlights />
       <MissionHighlight />
+      <NigeriaIndependence />
       <SayItLoudMenEvent />
       <BoardMeetingPost />
       <NewsPostsCarousel />

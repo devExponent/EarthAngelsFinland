@@ -22,8 +22,12 @@ import ChrodaWellbeingEvening from "../components/Posts/Chrodawellbeingevening"
 import HerSpaceHighlights from "../pages/HerSpaceHighlights";
 import RapuHighlights from "../pages/RapuHighlights";
 import HealthwellnessHighlights from "./Posts/HealthwellnessHighlights";
+import NigeriaIndependence from "./Posts/NigeriaIndependece";
+
 
 const POST_COMPONENTS: Record<string, React.ComponentType> = {
+  // "mari-lahti-support": MariLahtiSupport,
+  "Nigeria-independence" : NigeriaIndependence,
   "HealthWellness" : HealthwellnessHighlights,
 "Rapu highlights": RapuHighlights,
 "her-space-retreat-highlights": HerSpaceHighlights,
