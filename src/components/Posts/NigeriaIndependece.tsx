@@ -80,13 +80,13 @@ export default function NigeriaIndependence() {
             </span>
           </div>
 
-          <div className="grid grid-cols-2 gap-3 mb-3">
-            <div className="rounded-2xl overflow-hidden shadow-md col-span-2">
+          <div className="grid grid-cols-1 gap-3 mb-3">
+            <div className="rounded-2xl overflow-hidden shadow-md">
               <img src={independence1} alt="Nigeria at 66 celebration" className="w-full h-auto object-cover" />
             </div>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-3 mb-3">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mb-3">
             <div className="rounded-2xl overflow-hidden shadow-md">
               <img src={independence2} alt="Nigeria at 66 celebration" className="w-full h-auto object-cover" />
             </div>
@@ -98,7 +98,7 @@ export default function NigeriaIndependence() {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 gap-3 mb-3">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-3">
             <div className="rounded-2xl overflow-hidden shadow-md">
               <img src={independence5} alt="Nigeria at 66 celebration" className="w-full h-auto object-cover" />
             </div>
@@ -107,7 +107,7 @@ export default function NigeriaIndependence() {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 gap-3">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             <div className="rounded-2xl overflow-hidden shadow-md">
               <img src={independence7} alt="Nigeria at 66 celebration" className="w-full h-auto object-cover" />
             </div>
