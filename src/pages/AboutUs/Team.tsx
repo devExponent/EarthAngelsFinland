@@ -5,7 +5,7 @@ import Ekemini from "../../assets/Ekemini.jpeg";
 import Nayeli from "../../assets/Nayelli.jpeg";
 import Muhammad from "../../assets/Muhammad.jpeg";
 // import Zainab from "../../assets/Zainab.jpeg";
-import David from "../../assets/David.jpeg";
+// import David from "../../assets/David.jpeg";
 
 type TeamMember = {
   name: string;
@@ -39,11 +39,6 @@ const team: TeamMember[] = [
     name: "Muhammad Okunlola",
     role: "Web Master",
     imageUrl: Muhammad,
-  },
-  {
-    name: "David Amanor",
-    role: "Social Media Manager",
-    imageUrl: David,
   },
 ];
 
