@@ -75,7 +75,7 @@ const resources = {
         cards: {
           email: {
             title: "Email",
-            line1: "info@sayitloudfinland.org",
+            line1: "earthangels@earthangelsfinland.org",
           
           },
           phone: {

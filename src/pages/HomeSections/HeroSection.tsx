@@ -36,21 +36,21 @@ export default function HeroSection() {
               </p>
             </div>
             <a
-              href="mailto:info@sayitloudfinland.org"
+              href="mailto:earthangels@earthangelsfinland.org"
               className="text-black/70 font-bold text-3xl md:text-4xl hover:underline underline-offset-4"
             >
-              info@sayitloudfinland.org
+              earthangels@earthangelsfinland.org
             </a>
           </div>
 
           <img
             src={Momma}
             alt="Momma Aria"
-            className="md:col-span-3 w-full max-w-[1100px] mx-auto h-auto rounded-2xl order-1 md:order-2"
+            className="md:col-span-3 w-full max-w-[1000px] mx-auto h-auto rounded-2xl order-1 md:order-2"
           />
 
           <div className="md:col-span-1 flex flex-col items-center md:items-end gap-6 order-3">
-            {/* Mobile: 2 logos per row. Desktop: unchanged wrapping row */}
+  
             <div className="w-full grid grid-cols-2 gap-4 place-items-center md:flex md:items-center md:gap-6 md:flex-wrap md:justify-end">
               <img
                 src={Logo}

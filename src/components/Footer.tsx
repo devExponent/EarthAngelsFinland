@@ -109,10 +109,10 @@ export default function Footer() {
             <div className="mt-6 space-y-4 text-base font-bold sm:text-lg">
               <a
                 className="flex items-start gap-3 hover:underline underline-offset-4"
-                href="mailto:info@sayitloudfinland.org"
+                href="mailto:earthangels@earthangelsfinland.org"
               >
                 <EnvelopeIcon className="mt-1 h-6 w-6 shrink-0" />
-                <span className="break-all">info@sayitloudfinland.org</span>
+                <span className="break-all">earthangels@earthangelsfinland.org</span>
               </a>
 
               <div className="flex items-start gap-3">

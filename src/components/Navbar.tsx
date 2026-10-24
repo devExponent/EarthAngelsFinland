@@ -84,7 +84,7 @@ export default function Navbar() {
                 alt="Earth Angels Finland Logo"
                 className="h-16 sm:h-20 lg:h-24 xl:h-28 w-auto object-contain"
               />
-              <p className="font-bold text-lg">EarthAngelsFinland</p>
+              <p className="font-bold text-lg">EarthAngelsFinland Ry</p>
             </NavLink>
 
             <div className="hidden md:flex items-center gap-3">
