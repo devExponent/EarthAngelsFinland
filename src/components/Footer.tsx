@@ -186,7 +186,7 @@ export default function Footer() {
             <div className="flex items-center gap-5 text-black/60">
               <a
                 className="hover:text-black"
-                href="https://www.instagram.com/earth__angels___/"
+                href="https://www.instagram.com/earthangelsfinland"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
