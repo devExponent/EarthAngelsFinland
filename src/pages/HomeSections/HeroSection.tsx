@@ -27,21 +27,7 @@ export default function HeroSection() {
 
       <div className="relative z-10 w-12/12 flex flex-col items-center mx-12">
         <div className="w-full grid grid-cols-1 md:grid-cols-5 items-center gap-4">
-          <div className="md:col-span-1 flex flex-col items-center md:items-start text-center md:text-left gap-2 order-2 md:order-1">
-            <div className="text-black/70 font-bold">
-              <p className="text-xl md:text-6xl">Taiteen Talo, Nunnankatu 4</p>
-              <p className="text-2xl md:text-5xl">
-                <br></br>Turku, Finland.
-                <br></br>20700
-              </p>
-            </div>
-            <a
-              href="mailto:earthangels@earthangels.org"
-              className="text-black/70 font-bold text-3xl md:text-4xl hover:underline underline-offset-4"
-            >
-              earthangels@earthangels.org
-            </a>
-          </div>
+          
 
           <img
             src={Momma}
