@@ -36,10 +36,10 @@ export default function HeroSection() {
               </p>
             </div>
             <a
-              href="mailto:earthangels@earthangelsfinland.org"
+              href="mailto:earthangels@earthangels.org"
               className="text-black/70 font-bold text-3xl md:text-4xl hover:underline underline-offset-4"
             >
-              earthangels@earthangelsfinland.org
+              earthangels@earthangels.org
             </a>
           </div>
 
