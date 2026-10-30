@@ -103,7 +103,7 @@ export default function NominateAnEarthAngel() {
                 <span className="transition-transform duration-300 group-hover:translate-x-1">→</span>
               </a>
               <a
-                href="mailto:earthangels@earthangels.org"
+                href="mailto:earthangels@earthangelsfinland.org"
                 className="inline-flex items-center justify-center gap-3 border border-[#0B1D13] text-[#0B1D13] hover:bg-[#0B1D13] hover:text-white text-base md:text-lg font-semibold px-8 py-4 rounded-full transition-all duration-300"
               >
                 Nominate by Email
