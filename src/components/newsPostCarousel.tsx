@@ -54,7 +54,7 @@ export default function NewsPostsCarousel() {
     <section className="bg-[#F7F5F0] py-16 md:py-24 px-4 my-8">
       <div className="w-10/12 lg:w-9/12 mx-auto">
         <div className="text-center mb-12">
-          <span className="inline-block text-[#0097D0] text-2xl uppercase tracking-[0.25em] font-bold mb-3">
+          <span className="inline-block bg-white text-[#4a4a4a] text-2xl uppercase tracking-[0.25em] font-extrabold mb-3 px-16 py-3 rounded-full">
             Stay Updated
           </span>
           <h2
@@ -96,7 +96,7 @@ export default function NewsPostsCarousel() {
           </button>
         </div>
 
-        <p className="text-center text-[#9CA3AF] text-sm mt-6 md:hidden">
+        <p className="text-center text-blue-500 text-lg mt-6 md:hidden font-extrabold">
           Swipe to see more
         </p>
       </div>

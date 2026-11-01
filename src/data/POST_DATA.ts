@@ -6,46 +6,56 @@ export type Post = {
   tag?: string;
 };
 
-import SoundofSouth from "../assets/SoundsOfSouth2.jpeg"
-import herSpace from "../assets/HerSpace.png"
-import Rapu  from "../assets/RapuExtravaganza.png"
-import Meeting from "../assets/Meeting.jpeg"
-import Award from "../assets/mommaAward.png"
-import Mboa from "../assets/MboaTilapiaOffer.jpeg"
-import WomensDay from "../assets/WomensDay.jpeg"
-import HeedFinland from "../assets/HeedFinlandVolunter.png"
-import TurkuAward from "../assets/TurkuAward.png"
-import  openMic from "../assets/OpenMIC.jpg"
-import Juneteeth from "../assets/Juneteeth.jpg"
-import Turkuevent  from "../assets/Turkuevent.png"
-import  Gender from "../assets/Gender.png"
-import Chrowd from "../assets/chrowd.jpeg"
+import SoundofSouth from "../assets/SoundsOfSouth2.jpeg";
+import herSpace from "../assets/HerSpace.png";
+import Rapu from "../assets/RapuExtravaganza.png";
+import Meeting from "../assets/Meeting.jpeg";
+import Award from "../assets/mommaAward.png";
+import Mboa from "../assets/MboaTilapiaOffer.jpeg";
+import WomensDay from "../assets/WomensDay.jpeg";
+import HeedFinland from "../assets/HeedFinlandVolunter.png";
+import TurkuAward from "../assets/TurkuAward.png";
+import openMic from "../assets/OpenMIC.jpg";
+import Juneteeth from "../assets/Juneteeth.jpg";
+import Turkuevent from "../assets/Turkuevent.png";
+import Gender from "../assets/Gender.png";
+import Chrowd from "../assets/chrowd.jpeg";
 import herSpacehigh from "../assets/Herspace6.jpeg";
 import Rapuhigh from "../assets/Rapu1.jpg";
-import Health7 from "../assets/Health7.jpeg"
-import Indepednce1 from "../assets/independence1.jpeg"
-import MommaLahti from "../assets/Momma-Lahti.jpeg"
-
+import Health7 from "../assets/Health7.jpeg";
+import Indepednce1 from "../assets/independence1.jpeg";
+import MommaLahti from "../assets/Momma-Lahti.jpeg";
+import NominatAnEarthAngel from "../assets/NominateAnEarthangel.png";
 
 export const POSTS: Post[] = [
+  {
+    id: "nominateAnEarthAngel",
+    title: "Nominate an Earth Angel",
+    image: NominatAnEarthAngel,
+    description:
+      "For the 2027 Say It Loud Black History Month in Finland, we are celebrating the men of Turku who quietly hold their communities together. Do you know a man who deserves to be seen? Nominate him today.",
+    tag: "event",
+  },
 
   {
-  id: "mari-lahti-support",
-  title: "EarthAngels Supports Mari Lahti for Parliament",
-  image: MommaLahti,
-  description: "We stand with Mari Lahti in her bid for Parliament. A genuine ally to our community who has shown up, listened, and taken action.",
-  tag: "Community",
-},
+    id: "mari-lahti-support",
+    title: "EarthAngels Supports Mari Lahti for Parliament",
+    image: MommaLahti,
+    description:
+      "We stand with Mari Lahti in her bid for Parliament. A genuine ally to our community who has shown up, listened, and taken action.",
+    tag: "Community",
+  },
 
   {
     id: "Nigeria-independence",
     title: "Nigeria @66 Independence Day",
     image: Indepednce1,
-    description: "Nigeria @66 Independence Day Recap. The full event pictures and story",
+    description:
+      "Nigeria @66 Independence Day Recap. The full event pictures and story",
     tag: "Event",
   },
 
-    {
+  {
     id: "HealthWellness",
     title: "Well-being Day for Immigrants.",
     image: Health7,
@@ -53,126 +63,141 @@ export const POSTS: Post[] = [
     tag: "Event",
   },
 
-    {
+  {
     id: "Rapu highlights",
     title: "Rapu Extravaganza",
     image: Rapuhigh,
     description: "How Rapu party went.",
     tag: "Event",
   },
-   {
+  {
     id: "her-space-retreat-highlights",
     title: "Her Space Retreat 2026",
     image: herSpacehigh,
     description: "Her Space Retreat: How It Went.",
     tag: "Event",
   },
-  
+
   {
     id: "her-space-retreat",
     title: "Her Space Retreat 2026",
     image: herSpace,
-    description: "A full-day seminar on women's health, healing, and connection. Saturday 26 September 2026 at Taiteen Talo, Turku.",
+    description:
+      "A full-day seminar on women's health, healing, and connection. Saturday 26 September 2026 at Taiteen Talo, Turku.",
     tag: "Event",
   },
   {
     id: "community-spotlight",
     title: "Rapu Extravaganza & Momma Aria Citation of Honour",
     image: Rapu,
-    description: "Join our traditional Finnish crayfish party, and read about Momma Aria's Citation of Honour from Ceci Educare Oy Finland.",
+    description:
+      "Join our traditional Finnish crayfish party, and read about Momma Aria's Citation of Honour from Ceci Educare Oy Finland.",
     tag: "Event",
   },
   {
     id: "chroda-wellbeing-evening",
     title: "Cultural Well-being Evening — CHRODA Week 2026",
     image: Chrowd,
-    description: "Join us for the closing evening of CHRODA Week. A night of keynotes, performances, panel discussions, a fashion show, and an award ceremony at Malmitalo, Helsinki on 12 September 2026.",
+    description:
+      "Join us for the closing evening of CHRODA Week. A night of keynotes, performances, panel discussions, a fashion show, and an award ceremony at Malmitalo, Helsinki on 12 September 2026.",
     tag: "Event",
   },
 
-   {
+  {
     id: "board-meeting",
     title: "EarthAngels Meets Hon. Mari Lahti, City of Turku",
     image: Meeting,
-    description: "A successful meeting with the City of Turku covering mental health, women's health, cultural integration, and support for the elderly.",
+    description:
+      "A successful meeting with the City of Turku covering mental health, women's health, cultural integration, and support for the elderly.",
     tag: "News",
   },
- {
+  {
     id: "sounds-of-south",
     title: "Sounds of South Festival — Cultural Street Parade",
     image: SoundofSouth,
-    description: "Showcase your heritage at the Turku Cultural Carnival. 10 July 2026, starting at Turku Market Square.",
+    description:
+      "Showcase your heritage at the Turku Cultural Carnival. 10 July 2026, starting at Turku Market Square.",
     tag: "Festival",
   },
-    {
+  {
     id: "momma-award",
     title: "Momma Aria Receives a Citation of Honour",
     image: Award,
-    description:"Ceci Educare Oy, Finland honoured Momma Aria as their first awardee, recognising her remarkable contributions to promoting inclusivity within the African diaspora community, both in Finland and globally.",
+    description:
+      "Ceci Educare Oy, Finland honoured Momma Aria as their first awardee, recognising her remarkable contributions to promoting inclusivity within the African diaspora community, both in Finland and globally.",
     tag: "Event",
   },
- 
+
   {
     id: "mboa-tilapia-offer",
     title: "Box Tilapia Special Offer at Mboa Market",
     image: Mboa,
-    description: "Fresh whole box tilapia at only €17.99. Limited stock available at Mboa Market, Turku.",
+    description:
+      "Fresh whole box tilapia at only €17.99. Limited stock available at Mboa Market, Turku.",
     tag: "Offer",
   },
   {
     id: "mboa-market",
     title: "A Taste of Home — Mboa Market Turku",
-    description: "Mboa Market is Turku's African mini-shop stocked with authentic ingredients, fresh produce, spices, and traditional products.",
+    description:
+      "Mboa Market is Turku's African mini-shop stocked with authentic ingredients, fresh produce, spices, and traditional products.",
     tag: "Community",
   },
-   {
+  {
     id: "WomensDayCelebration",
     title: "Celebrating International Women's Day",
     image: WomensDay,
-    description: "We gather not only to celebrate how far we have come, but to remind each other of how powerful we already are.",
+    description:
+      "We gather not only to celebrate how far we have come, but to remind each other of how powerful we already are.",
     tag: "News",
   },
   {
     id: "emma-tamankag",
     title: "Celebrating Emma Tamankag",
-    description: "Emma Tamankag runs a free health advisory service for immigrants at Itäkeskus, featured in Helsingin Sanomat March 2026.",
+    description:
+      "Emma Tamankag runs a free health advisory service for immigrants at Itäkeskus, featured in Helsingin Sanomat March 2026.",
     tag: "Spotlight",
   },
- 
+
   {
     id: "chroda-week",
     title: "CHRODA Week 2026 — Volunteers Needed",
     image: HeedFinland,
-    description: "HEED Finland is calling for volunteers for Chronic Disease Awareness Week, 7 to 12 September 2026 in Helsinki.",
+    description:
+      "HEED Finland is calling for volunteers for Chronic Disease Awareness Week, 7 to 12 September 2026 in Helsinki.",
     tag: "Volunteer",
   },
-  
+
   {
     id: "turku-award",
     title: "2026 Multicultural and Anti-Racist Act Award",
     image: TurkuAward,
-    description: "The City of Turku is accepting nominations for organisations building genuine connection between immigrants and the local population.",
+    description:
+      "The City of Turku is accepting nominations for organisations building genuine connection between immigrants and the local population.",
     tag: "Award",
   },
-  
+
   {
     id: "yle-article",
     title: "Not Finnish Enough — Who Gets to Belong?",
-    description: "A Yle podcast episode explores language, identity, and what belonging really means in a changing Finland.",
+    description:
+      "A Yle podcast episode explores language, identity, and what belonging really means in a changing Finland.",
     tag: "News",
   },
-    {
+  {
     id: "openMicEvent",
     title: "International Open Mic Youth Night",
     image: openMic,
-    description: "An electrifying evening of talent, culture, and community celebrating young artists from across the world.",
+    description:
+      "An electrifying evening of talent, culture, and community celebrating young artists from across the world.",
     tag: "Event",
   },
-  
+
   {
     id: "art-house-newsletter",
     title: "What's Happening at Art House Turku",
-    description: "Summer holiday hours, the Cathedral Bridge tram project info session, and upcoming Brinkkala courtyard events.",
+    description:
+      "Summer holiday hours, the Cathedral Bridge tram project info session, and upcoming Brinkkala courtyard events.",
     tag: "News",
   },
 
@@ -180,7 +205,8 @@ export const POSTS: Post[] = [
     id: "JuneteenthFreedomDay",
     title: "Juneteenth InternationalFreedom Day",
     image: Juneteeth,
-    description: "Juneteenth marks the day in 1865 when the last enslaved people in the United States finally heard the news of their freedom. It is a day that belongs to all of us.",
+    description:
+      "Juneteenth marks the day in 1865 when the last enslaved people in the United States finally heard the news of their freedom. It is a day that belongs to all of us.",
     tag: "News",
   },
 
@@ -188,27 +214,30 @@ export const POSTS: Post[] = [
     id: "turku-events",
     title: "Things to Do in Turku Year-Round",
     image: Turkuevent,
-    description: "From Ruisrock to the Christmas Market, Turku has something happening every month for everyone.",
+    description:
+      "From Ruisrock to the Christmas Market, Turku has something happening every month for everyone.",
     tag: "Resource",
   },
   {
     id: "infofinland-app",
     title: "New InfoFinland App — Now in 26 Languages",
-    description: "A free app helping newcomers find reliable information about life, rights, and working in Finland.",
+    description:
+      "A free app helping newcomers find reliable information about life, rights, and working in Finland.",
     tag: "Resource",
   },
   {
     id: "video-and-petition",
     title: "Stand for Gender Equality — UN Women Finland",
     image: Gender,
-    description: "Visit UN Women Finland, take part in their survey, and watch a powerful video on Islam and equality.",
+    description:
+      "Visit UN Women Finland, take part in their survey, and watch a powerful video on Islam and equality.",
     tag: "Action",
   },
   {
     id: "ourvision",
     title: "Ourvision Song Contest — Voicing Immigrant Talent",
-    description: "A Helsinki-based song contest giving immigrants a stage to perform, representing cultures from Africa, Asia, the Middle East, and beyond.",
+    description:
+      "A Helsinki-based song contest giving immigrants a stage to perform, representing cultures from Africa, Asia, the Middle East, and beyond.",
     tag: "News",
   },
-  
 ];

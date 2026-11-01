@@ -21,11 +21,11 @@ const resources = {
           ctaLearnMore: "Learn More",
         },
 
-        mission: {
+      mission: {
   kicker: "OUR MISSION",
   title: "Building Confidence, Belonging, and Understanding through Educational Events",
   body:
-    "Founded in 2003 in Helsinki, Earth Angels of Finland ry, works to improve the well-being of immigrants and marginalized communities through education, visibility, and cultural exchange. We educate immigrants, students, youth, and indigenous Finnish people of all ages about the achievements of people of color. Our objective is to bring untold history and contributions to the next generation.\n\nThrough our yearly programs like “Say It Loud, Black History Month, Juneteenth, International Open Mic Competition, along with various exhibitions and workshops”  we highlight the legacies of our ancestors and descendants affected by the Transatlantic slave trade. Sharing these achievements strengthens self-esteem for marginalized communities and supports broader acceptance by challenging the false idea that these communities have not contributed to humanity’s progress.",
+    "Founded in 2003 in Helsinki, Earth Angels of Finland ry works to improve the well-being of immigrants and marginalized communities through education, visibility, and cultural exchange. We educate immigrants, students, youth, and indigenous Finnish people of all ages about the achievements of people of color. Our objective is to bring untold history and contributions to the next generation.\n\nThrough our yearly programs like 'Say It Loud!', 'Black History Month', 'Juneteenth', and 'International Open Mic Youth Night Competition', we also produce various exhibitions and workshops. We highlight the legacies of our ancestors and descendants affected by the Transatlantic slave trade. Sharing these achievements strengthens self-esteem for marginalized communities and supports broader acceptance by challenging the false idea that these communities have not contributed to humanity's progress.",
 },
 
 
@@ -75,7 +75,7 @@ const resources = {
         cards: {
           email: {
             title: "Email",
-            line1: "earthangels@earthangels.org",
+            line1: "earthangels@earthangelsfinland.org",
           
           },
           phone: {
@@ -159,7 +159,7 @@ about: {
   ],
   cards: {
     mission: {
-      title: "Our mission",
+      title: "Our Commitment",
       body:
         "To improve well-being and acceptance by educating communities in Finland about the achievements of people of color and other marginalized groups.",
     },
@@ -243,7 +243,7 @@ team: {
   kicker: "MISSIOMME",
   title: "Rakennamme itseluottamusta, osallisuutta ja ymmärrystä koulutuksen ja tapahtumien kautta",
   body:
-    "Vuonna 2003 Helsingissä perustettu Earth Angels of Finland parantaa maahanmuuttajien ja marginalisoitujen yhteisöjen hyvinvointia koulutuksen, näkyvyyden ja kulttuurivaihdon avulla. Koulutamme maahanmuuttajia, opiskelijoita, nuoria sekä alkuperäisiä suomalaisia kaikenikäisiä värillisten ihmisten saavutuksista ja tuomme kertomattomia tarinoita ja panosta näkyviin.\n\nVuosittaisissa helmikuun ohjelmissamme, kuten “Say It Loud”, nostamme esiin transatlanttisen orjakaupan sekä muiden sivuutettujen historian ilmiöiden vaikutuspiirissä eläneiden ihmisten saavutuksia. Näiden saavutusten jakaminen vahvistaa marginalisoitujen yhteisöjen itsetuntoa ja lisää ymmärrystä sekä hyväksyntää haastamalla väärän käsityksen siitä, etteivät nämä yhteisöt olisi vaikuttaneet ihmiskunnan kehitykseen.",
+    "Vuonna 2003 Helsingissä perustettu Earth Angels of Finland ry edistää maahanmuuttajien ja syrjäytymisvaarassa olevien yhteisöjen hyvinvointia koulutuksen, näkyvyyden ja kulttuurivaihdon avulla. Järjestö lisää maahanmuuttajien, opiskelijoiden, nuorten sekä kaikenikäisten suomalaisten ja alkuperäiskansojen edustajien tietoisuutta värillisten ihmisten saavutuksista. Tavoitteenamme on tuoda esiin vaiettua historiaa ja näiden ihmisten merkittävää panosta tuleville sukupolville.nnVuosittaisten ohjelmiemme, kuten Say It Loud! -tapahtuman, Black History Month -kuukauden, Juneteenth-juhlan ja International Open Mic Youth Night Competition -kilpailun, lisäksi järjestämme erilaisia näyttelyitä ja työpajoja. Tuomme esiin esi-isiemme ja jälkeläistemme perintöä sekä transatlanttisen orjakaupan vaikutuksia kokeneiden ihmisten historiaa. Näiden saavutusten esiin tuominen vahvistaa syrjäytymisvaarassa olevien yhteisöjen itsetuntoa ja edistää laajempaa hyväksyntää haastamalla virheellisen käsityksen siitä, etteivät nämä yhteisöt olisi edistäneet ihmiskunnan kehitystä.",
 },
 
 
@@ -380,7 +380,7 @@ about: {
   ],
   cards: {
     mission: {
-      title: "Missiomme",
+      title: "Sitoumuksemme",
       body:
         "Parantaa hyvinvointia ja hyväksyntää kouluttamalla Suomessa yhteisöjä värillisten ihmisten sekä muiden marginalisoitujen ryhmien saavutuksista.",
     },

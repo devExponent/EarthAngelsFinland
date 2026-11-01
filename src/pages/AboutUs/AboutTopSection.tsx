@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import Image from "../../assets/Image3.jpg";
 import { Target, Eye, BookOpen } from "lucide-react";
 import type { ReactNode } from "react"; // icon prop typing [web:1249]
+import MissionHighlight from "../AboutUs/MissionHighlight";
 
 export default function AboutTop() {
   const { t } = useTranslation();
@@ -60,7 +61,7 @@ export default function AboutTop() {
             </div>
           </div>
         </div>
-
+<MissionHighlight />
         <div className="mt-12 md:mt-16">
           <div className="rounded-3xl bg-emerald-900 px-6 py-10 text-white shadow-xl md:px-10 md:py-12">
             <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">

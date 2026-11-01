@@ -24,9 +24,11 @@ import RapuHighlights from "../pages/RapuHighlights";
 import HealthwellnessHighlights from "./Posts/HealthwellnessHighlights";
 import NigeriaIndependence from "./Posts/NigeriaIndependece";
 import MariLahtiSupport from "./Posts/MariLahtiSupport";
+import NominateAnEarthAngel from "../pages/HomeSections/Nominateanearthangel";
 
 
 const POST_COMPONENTS: Record<string, React.ComponentType> = {
+  "nominateAnEarthAngel" : NominateAnEarthAngel,
   "mari-lahti-support": MariLahtiSupport,
   "Nigeria-independence" : NigeriaIndependence,
   "HealthWellness" : HealthwellnessHighlights,

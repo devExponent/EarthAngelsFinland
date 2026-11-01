@@ -1,136 +1,69 @@
+import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
-import Momma from "../../assets/MommaAria.jpeg";
-import Partner1 from "../../assets/Partner1.jpeg";
-import Partner2 from "../../assets/Partner2.jpeg";
-import Partner3 from "../../assets/Partner3.jpeg";
-import Partner4 from "../../assets/Partner 4.png";
-import Partner5 from "../../assets/Partner 5.png";
-import Partner6 from "../../assets/Partner 6.png";
-import Partner7 from "../../assets/Partner 7.png";
-import Partner8 from "../../assets/Partner 8.png";
-import Partner9 from "../../assets/jarritos.png";
-import Partner10 from "../../assets/MUUSA.png";
-
-import Logo from "../../assets/Logo.png";
-
 import { useTranslation } from "react-i18next";
+import Momma from "../../assets/MommaAria.jpeg";
+import MeetingImage from "../../assets/EarthAngelTeam.jpeg";
+import OpenMicImg from "../../assets/OpenMic.jpeg";
+import TeamatHealthWealth from "../../assets/TeamatHealthWeath.jpeg";
+
+const SLIDES = [
+  { src: Momma, fit: "object-cover object-right md:object-center" },
+  { src: MeetingImage, fit: "object-cover object-[center_30%]" },
+  { src: OpenMicImg, fit: "object-cover object-center" },
+  { src: TeamatHealthWealth, fit: "object-cover object-center" },
+];
+const SLIDE_INTERVAL_MS = 5000;
 
 export default function HeroSection() {
   const { t } = useTranslation();
+  const [active, setActive] = useState(0);
+
+  useEffect(() => {
+    const timer = window.setInterval(() => {
+      setActive((i) => (i + 1) % SLIDES.length);
+    }, SLIDE_INTERVAL_MS);
+    return () => window.clearInterval(timer);
+  }, []);
 
   return (
-    <section
-      className="relative py-25 bg-cover bg-center bg-no-repeat flex items-center justify-center"
-      style={{ backgroundImage: `url(${Momma})` }}
-    >
-      <div className="absolute inset-0 bg-white/80" />
+    <section className="relative h-[70vh] min-h-[460px] overflow-hidden bg-white">
+      {SLIDES.map((slide, i) => (
+        <img
+          key={slide.src}
+          src={slide.src}
+          alt=""
+          aria-hidden="true"
+          className={`absolute inset-0 h-full w-full ${slide.fit} transition-opacity duration-1000 motion-reduce:transition-none ${
+            i === active ? "opacity-100" : "opacity-0"
+          }`}
+        />
+      ))}
 
-      <div className="relative z-10 w-12/12 flex flex-col items-center mx-12">
-        <div className="w-full grid grid-cols-1 md:grid-cols-5 items-center gap-4">
-          
+      <div className="absolute inset-x-0 bottom-0 h-2/5 bg-gradient-to-t from-white/70 via-white/50 to-transparent" />
 
-          <img
-            src={Momma}
-            alt="Momma Aria"
-            className="md:col-span-3 w-full max-w-[1000px] mx-auto h-auto rounded-2xl order-1 md:order-2"
-          />
+      <div className="absolute inset-x-0 bottom-0 z-10 flex flex-col items-center px-6 pb-10 text-center md:pb-14">
+        <h1 className="text-5xl font-extrabold leading-tight text-blue-700 sm:text-6xl md:text-7xl">
+          {t("home.hero.title")}
+        </h1>
 
-          <div className="md:col-span-1 flex flex-col items-center md:items-end gap-6 order-3">
-  
-            <div className="w-full grid grid-cols-2 gap-4 place-items-center md:flex md:items-center md:gap-6 md:flex-wrap md:justify-end">
-              <img
-                src={Logo}
-                alt="Earth Angels of Finland"
-                className="h-28 md:h-52 w-auto max-w-full object-contain transition duration-300"
-              />
-              <img
-                src={Partner1}
-                alt="Mboa Market"
-                className="h-28 md:h-52 w-auto max-w-full object-contain transition duration-300"
-              />
-              <img
-                src={Partner2}
-                alt="Say It Loud"
-                className="h-28 md:h-52 w-auto max-w-full object-contain transition duration-300"
-              />
-              <img
-                src={Partner7}
-                alt="Partner 7"
-                className="h-28 md:h-52 w-auto max-w-full object-contain transition duration-300"
-              />
-            </div>
-          </div>
-        </div>
+        <p className="mt-4 max-w-4xl text-balance text-lg font-bold leading-relaxed text-black sm:text-2xl md:text-3xl">
+          {t("home.hero.subtitle")}
+        </p>
 
-        <div className="flex flex-col my-5 justify-center text-center">
-          <h1 className="text-4xl font-extrabold leading-tight text-blue-600 sm:text-6xl md:text-7xl">
-            {t("home.hero.title")}
-          </h1>
+        <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center">
+          <NavLink
+            to="/events"
+            className="rounded-full bg-blue-700 px-10 py-4 text-base font-bold text-white shadow-lg transition hover:bg-blue-800 sm:text-lg"
+          >
+            {t("home.hero.ctaEvents")}
+          </NavLink>
 
-          <p className="mt-5 text-lg font-extrabold leading-relaxed text-blue-400 sm:text-2xl">
-            {t("home.hero.subtitle")}
-          </p>
-
-          <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center">
-            <NavLink
-              to="/events"
-              className="rounded-full bg-[blue] px-6 py-3 text-sm font-bold text-white transition hover:bg-black/90"
-            >
-              {t("home.hero.ctaEvents")}
-            </NavLink>
-
-            <NavLink
-              to="/about"
-              className="rounded-full border-2 border-blue-500 px-6 py-3 text-sm font-bold text-black transition hover:bg-black/5"
-            >
-              {t("home.hero.ctaLearnMore")}
-            </NavLink>
-          </div>
-
-          <div className="mt-10 flex flex-col items-center gap-4">
-            <p className="text-2xl md:text-3xl uppercase tracking-[0.2em] font-black text-blue-600">
-              Collaborative Partners
-            </p>
-            <div className="flex items-center gap-6 flex-wrap justify-center">
-              <div className="h-24 w-24 rounded-xl flex items-center justify-center p-2">
-                <img
-                  src={Partner3}
-                  alt="Old Folks Matter"
-                  className="h-full w-auto object-contain transition duration-300"
-                />
-              </div>
-              <img
-                src={Partner4}
-                alt="Taiteen Talo"
-                className="h-16 w-auto object-contain transition duration-300"
-              />
-              <img
-                src={Partner5}
-                alt="Omono's Fashion Concepts"
-                className="h-28 w-auto object-contain transition duration-300"
-              />
-              <img
-                src={Partner6}
-                alt="Partner 6"
-                className="h-24 w-auto object-contain transition duration-300"
-              />
-              <img
-                src={Partner8}
-                alt="Partner 8"
-                className="h-24 w-auto object-contain transition duration-300"
-              />
-              <img
-                src={Partner9}
-                alt="Partner 9"
-                className="h-24 w-auto object-contain transition duration-300"
-              />
-              <img
-                src={Partner10}
-                alt="Partner 10"
-                className="h-24 w-auto object-contain transition duration-300"
-              />
-            </div>
-          </div>
+          <NavLink
+            to="/about"
+            className="rounded-full border-2 border-blue-700 bg-white px-10 py-4 text-base font-bold text-blue-700 shadow-lg transition hover:bg-blue-50 sm:text-lg"
+          >
+            {t("home.hero.ctaLearnMore")}
+          </NavLink>
         </div>
       </div>
     </section>

@@ -11,12 +11,28 @@ import Logo from "../assets/Logo.png";
 
 import Partner1 from "../assets/Partner1.jpeg";
 import Partner2 from "../assets/Partner2.jpeg";
-import Partner3 from "../assets/Partner3.jpeg";
 import Partner4 from "../assets/Partner 4.png";
 import Partner5 from "../assets/Partner 5.png";
 import Partner6 from "../assets/Partner 6.png";
 import Partner7 from "../assets/Partner 7.png";
 import Partner8 from "../assets/Partner 8.png";
+import Jarritos from "../assets/jarritos.png";
+import Muusa from "../assets/MUUSA.png";
+
+const topPartners = [
+  { src: Partner1, alt: "Old Folks" },
+  { src: Partner2, alt: "Say It Loud" },
+  { src: Partner7, alt: "Partner 7" },
+];
+
+const partners = [
+  { src: Partner4, alt: "Partner 4" },
+  { src: Partner5, alt: "Partner 5" },
+  { src: Partner6, alt: "Partner 6" },
+  { src: Partner8, alt: "Partner 8" },
+  { src: Muusa, alt: "Partner 9" },
+  { src: Jarritos, alt: "Partner 10" },
+];
 
 export default function Footer() {
   const { t } = useTranslation();
@@ -109,10 +125,12 @@ export default function Footer() {
             <div className="mt-6 space-y-4 text-base font-bold sm:text-lg">
               <a
                 className="flex items-start gap-3 hover:underline underline-offset-4"
-                href="mailto:earthangels@earthangels.org"
+                href="mailto:earthangels@earthangelsfinland.org"
               >
                 <EnvelopeIcon className="mt-1 h-6 w-6 shrink-0" />
-                <span className="break-all">earthangels@earthangels.org</span>
+                <span className="break-all">
+                  eearthangels@earthangelsfinland.org
+                </span>
               </a>
 
               <div className="flex items-start gap-3">
@@ -125,54 +143,31 @@ export default function Footer() {
           </div>
         </div>
       </div>
-
       <div className="mx-auto max-w-7xl px-4 pb-10 sm:px-6 lg:px-8">
-        {/* <h3 className="text-sm font-extrabold tracking-[0.22em] uppercase sm:text-base mb-6">
-          Our Partners
-        </h3> */}
-        <div className="flex items-center gap-6 flex-wrap">
-          <img
-            src={Partner1}
-            alt="Mboa Market"
-            className="h-12 w-auto object-contain"
-          />
-          <img
-            src={Partner2}
-            alt="Say It Loud"
-            className="h-12 w-auto object-contain"
-          />
-          <div className="h-12 w-12 rounded-lg bg-[#1a1a2e] flex items-center justify-center p-1.5">
+        <div className="flex flex-nowrap items-center gap-6">
+          {topPartners.map((partner) => (
             <img
-              src={Partner3}
-              alt="Old Folks Matter"
-              className="h-full w-auto object-contain"
+              key={partner.alt}
+              src={partner.src}
+              alt={partner.alt}
+              className="h-12 w-auto shrink-0 object-contain"
             />
-          </div>
-          <img
-            src={Partner4}
-            alt="Partner 4"
-            className="h-12 w-auto object-contain"
-          />
-          <img
-            src={Partner5}
-            alt="Partner 5"
-            className="h-12 w-auto object-contain"
-          />
-          <img
-            src={Partner6}
-            alt="Partner 6"
-            className="h-12 w-auto object-contain"
-          />
-          <img
-            src={Partner7}
-            alt="Partner 7"
-            className="h-12 w-auto object-contain"
-          />
-          <img
-            src={Partner8}
-            alt="Partner 8"
-            className="h-12 w-auto object-contain"
-          />
+          ))}
+        </div>
+
+        <h2 className="my-6 text-2xl font-black uppercase tracking-[0.2em] sm:text-3xl">
+          Collaborating Partners
+        </h2>
+
+        <div className="grid grid-cols-3 items-center gap-x-6 gap-y-6 sm:flex sm:flex-nowrap sm:overflow-x-auto">
+          {partners.map((partner) => (
+            <img
+              key={partner.alt}
+              src={partner.src}
+              alt={partner.alt}
+              className="h-10 w-auto max-w-full object-contain sm:h-12 sm:shrink-0"
+            />
+          ))}
         </div>
       </div>
 
@@ -183,30 +178,38 @@ export default function Footer() {
               © {year} {t("footer.bottom.copyright")}
             </div>
 
-            <div className="flex items-center gap-5 text-black/60">
+            <div className="flex items-center gap-6">
               <a
-                className="hover:text-black"
+                className="text-[#E4405F] transition-opacity hover:opacity-80"
                 href="https://www.instagram.com/earthangelsfinland"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
               >
-                <InstagramIcon className="h-6 w-6" />
+                <InstagramIcon className="h-8 w-8" />
               </a>
               <a
+                className="text-[#1877F2] transition-opacity hover:opacity-80"
                 href="https://www.facebook.com/EarthangelsOfFinland/"
-                className="hover:text-black"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
               >
-                <FacebookIcon className="h-6 w-6" />
+                <FacebookIcon className="h-8 w-8" />
               </a>
-              <a className="hover:text-black" href="#" aria-label="YouTube">
-                <YoutubeIcon className="h-6 w-6" />
+              <a
+                className="text-[#FF0000] transition-opacity hover:opacity-80"
+                href="#"
+                aria-label="YouTube"
+              >
+                <YoutubeIcon className="h-8 w-8" />
               </a>
-              <a className="hover:text-black" href="#" aria-label="LinkedIn">
-                <LinkedinIcon className="h-6 w-6" />
+              <a
+                className="text-[#0A66C2] transition-opacity hover:opacity-80"
+                href="#"
+                aria-label="LinkedIn"
+              >
+                <LinkedinIcon className="h-8 w-8" />
               </a>
             </div>
           </div>

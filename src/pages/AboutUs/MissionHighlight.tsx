@@ -4,8 +4,8 @@ export default function MissionHighlight() {
   const { t } = useTranslation();
 
   return (
-    <section className="bg-gray-100 text-black md:py-25">
-      <h1 className="md:text-3xl lg:text-5xl text-xl font-extrabold py-2 text-center text-blue-600">OUR MISSION</h1>
+    <section className="text-black md:py-25">
+      <h1 className="md:text-3xl lg:text-5xl text-xl font-extrabold py-2 text-center text-blue-600">{t("home.mission.kicker")}</h1>
       <div className="mx-auto w-10/12 md:w-8/12 lg:w-6/12 px-4 py-10 md:py-20">
         <h2 className="md:text-3xl text-xl font-extrabold leading-tight">
           {t("home.mission.title")}
