@@ -26,7 +26,7 @@ export default function HeroSection() {
   }, []);
 
   return (
-    <section className="relative h-[70vh] min-h-[460px] overflow-hidden bg-white">
+    <section className="relative h-[80vh] min-h-[560px] overflow-hidden bg-white md:h-[70vh] md:min-h-[460px]">
       {SLIDES.map((slide, i) => (
         <img
           key={slide.src}
@@ -39,28 +39,28 @@ export default function HeroSection() {
         />
       ))}
 
-      <div className="absolute inset-x-0 bottom-0 h-2/5 bg-gradient-to-t from-white/70 via-white/50 to-transparent" />
+      <div className="absolute inset-x-0 bottom-0 h-[65%] bg-gradient-to-t from-white via-white/90 to-transparent md:h-2/5 md:from-white/70 md:via-white/50" />
 
-      <div className="absolute inset-x-0 bottom-0 z-10 flex flex-col items-center px-6 pb-10 text-center md:pb-14">
-        <h1 className="text-5xl font-extrabold leading-tight text-blue-700 sm:text-6xl md:text-7xl">
+      <div className="absolute inset-x-0 bottom-0 z-10 flex flex-col items-center px-5 pb-8 text-center md:pb-14">
+        <h1 className="text-3xl font-extrabold leading-tight text-blue-700 sm:text-6xl md:text-7xl">
           {t("home.hero.title")}
         </h1>
 
-        <p className="mt-4 max-w-4xl text-balance text-lg font-bold leading-relaxed text-black sm:text-2xl md:text-3xl">
+        <p className="mt-3 max-w-4xl text-balance text-sm font-semibold leading-relaxed text-blue-950 sm:text-2xl md:mt-4 md:text-3xl md:font-bold md:text-black">
           {t("home.hero.subtitle")}
         </p>
 
-        <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center">
+        <div className="mt-5 flex w-full max-w-xs flex-col gap-3 sm:mt-8 sm:max-w-none sm:flex-row sm:justify-center sm:gap-4">
           <NavLink
             to="/events"
-            className="rounded-full bg-blue-700 px-10 py-4 text-base font-bold text-white shadow-lg transition hover:bg-blue-800 sm:text-lg"
+            className="rounded-full bg-blue-700 px-8 py-3 text-sm font-bold text-white shadow-lg transition hover:bg-blue-800 sm:px-10 sm:py-4 sm:text-lg"
           >
             {t("home.hero.ctaEvents")}
           </NavLink>
 
           <NavLink
             to="/about"
-            className="rounded-full border-2 border-blue-700 bg-white px-10 py-4 text-base font-bold text-blue-700 shadow-lg transition hover:bg-blue-50 sm:text-lg"
+            className="rounded-full border-2 border-blue-700 bg-white px-8 py-3 text-sm font-bold text-blue-700 shadow-lg transition hover:bg-blue-50 sm:px-10 sm:py-4 sm:text-lg"
           >
             {t("home.hero.ctaLearnMore")}
           </NavLink>
