@@ -3,7 +3,15 @@ import nominateFlyer from "../../assets/NominateAnEarthangel.png";
 const NOMINATION_FORM_URL =
   "https://docs.google.com/forms/d/e/1FAIpQLSehGX_879V9bpGH38lYKMKnmuJOP-kfxRFwR0bsdEYRf5z-4Q/viewform";
 
-const communities = ["Sami", "Roma", "Africa", "Americas", "Asia", "Nordic", "Arabia"];
+const communities = [
+  "Sami",
+  "Roma",
+  "Africa",
+  "Americas",
+  "Asia",
+  "Nordic",
+  "Arabia",
+];
 
 const criteria = [
   "Volunteer, mentor, or activist",
@@ -16,9 +24,8 @@ const criteria = [
 
 export default function NominateAnEarthAngel() {
   return (
-    <section className="bg-gradient-to-b from-[#7dafc7] to-[#F7F5F0] py-16 md:py-24 px-4">
+    <section className="bg-gradient-to-b from-[#7dafc7] to-[#F7F5F0] py-16 md:py-24 px-4 my-8">
       <div className="w-10/12 lg:w-8/12 mx-auto">
-
         <div className="flex items-center gap-3 mb-6">
           <span className="block h-[2px] w-5 bg-white" />
           <span className="text-white text-base md:text-lg tracking-[0.2em] uppercase font-semibold">
@@ -27,7 +34,6 @@ export default function NominateAnEarthAngel() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16 items-start">
-
           <div className="flex flex-col gap-6">
             <h2 className="text-white text-4xl md:text-5xl lg:text-6xl font-extrabold leading-snug">
               Nominate an <span className="text-[#0B1D13]">Earth Angel</span>
@@ -51,12 +57,16 @@ export default function NominateAnEarthAngel() {
                 {criteria.map((c) => (
                   <li key={c} className="flex items-start gap-3">
                     <span className="w-2 h-2 rounded-full bg-[#0097D0] flex-shrink-0 mt-2.5" />
-                    <span className="text-[#0B1D13] font-semibold text-base md:text-lg">{c}</span>
+                    <span className="text-[#0B1D13] font-semibold text-base md:text-lg">
+                      {c}
+                    </span>
                   </li>
                 ))}
               </ul>
               <p className="text-[#4B5563] text-base md:text-lg">
-                Tell us <strong className="text-[#0B1D13]">why he is worthy</strong> in 100 to 200 words.
+                Tell us{" "}
+                <strong className="text-[#0B1D13]">why he is worthy</strong> in
+                100 to 200 words.
               </p>
             </div>
 
@@ -82,13 +92,21 @@ export default function NominateAnEarthAngel() {
             <div className="grid grid-cols-2 gap-4">
               <div className="bg-[#C62828] rounded-2xl p-5 md:p-6">
                 <span className="text-2xl block mb-2">⏳</span>
-                <p className="text-white/80 text-xs uppercase tracking-widest mb-1">Deadline</p>
-                <p className="text-white font-extrabold text-lg md:text-xl">15 December 2026</p>
+                <p className="text-white/80 text-xs uppercase tracking-widest mb-1">
+                  Deadline
+                </p>
+                <p className="text-white font-extrabold text-lg md:text-xl">
+                  15 December 2026
+                </p>
               </div>
               <div className="bg-[#C9A84C] rounded-2xl p-5 md:p-6">
                 <span className="text-2xl block mb-2">🖼️</span>
-                <p className="text-[#0B1D13]/70 text-xs uppercase tracking-widest mb-1">Exhibition</p>
-                <p className="text-[#0B1D13] font-extrabold text-lg md:text-xl">February 2027</p>
+                <p className="text-[#0B1D13]/70 text-xs uppercase tracking-widest mb-1">
+                  Exhibition
+                </p>
+                <p className="text-[#0B1D13] font-extrabold text-lg md:text-xl">
+                  February 2027
+                </p>
               </div>
             </div>
 
@@ -100,7 +118,9 @@ export default function NominateAnEarthAngel() {
                 className="inline-flex items-center justify-center gap-3 bg-blue-500 hover:bg-white text-white hover:text-[#0B1D13] text-base md:text-lg font-semibold px-8 py-4 rounded-full transition-all duration-300 group"
               >
                 Nominate via Google Form
-                <span className="transition-transform duration-300 group-hover:translate-x-1">→</span>
+                <span className="transition-transform duration-300 group-hover:translate-x-1">
+                  →
+                </span>
               </a>
               <a
                 href="mailto:earthangels@earthangelsfinland.org"
@@ -119,9 +139,7 @@ export default function NominateAnEarthAngel() {
                 className="w-full h-auto object-cover"
               />
             </div>
-            
           </div>
-
         </div>
       </div>
     </section>
