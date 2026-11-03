@@ -1,39 +1,39 @@
 import nominateFlyer from "../../assets/NominateAnEarthangel.png";
 
-const NOMINATION_FORM_URL =
-  "https://docs.google.com/forms/d/e/1FAIpQLSehGX_879V9bpGH38lYKMKnmuJOP-kfxRFwR0bsdEYRf5z-4Q/viewform";
+// const NOMINATION_FORM_URL =
+//   "https://docs.google.com/forms/d/e/1FAIpQLSehGX_879V9bpGH38lYKMKnmuJOP-kfxRFwR0bsdEYRf5z-4Q/viewform";
 
-const communities = [
-  "Sami",
-  "Roma",
-  "Africa",
-  "Americas",
-  "Asia",
-  "Nordic",
-  "Arabia",
-];
+// const communities = [
+//   "Sami",
+//   "Roma",
+//   "Africa",
+//   "Americas",
+//   "Asia",
+//   "Nordic",
+//   "Arabia",
+// ];
 
-const criteria = [
-  "Volunteer, mentor, or activist",
-  "Leader and inclusion champion",
-  "Fights discrimination",
-  "Advocate for marginalized communities",
-  "Lives in the Turku region",
-  "Inspires youth and builds bridges",
-];
+// const criteria = [
+//   "Volunteer, mentor, or activist",
+//   "Leader and inclusion champion",
+//   "Fights discrimination",
+//   "Advocate for marginalized communities",
+//   "Lives in the Turku region",
+//   "Inspires youth and builds bridges",
+// ];
 
 export default function NominateAnEarthAngel() {
   return (
     <section className="bg-gradient-to-b from-[#7dafc7] to-[#F7F5F0] py-16 md:py-24 px-4 my-8">
       <div className="w-10/12 lg:w-8/12 mx-auto">
-        <div className="flex items-center gap-3 mb-6">
+        {/* <div className="flex items-center gap-3 mb-6">
           <span className="block h-[2px] w-5 bg-white" />
           <span className="text-white text-base md:text-lg tracking-[0.2em] uppercase font-semibold">
             Say It Loud · Men in Turku · 2027
           </span>
-        </div>
+        </div> */}
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16 items-start">
+        {/* <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16 items-start">
           <div className="flex flex-col gap-6">
             <h2 className="text-white text-4xl md:text-5xl lg:text-6xl font-extrabold leading-snug">
               Nominate an <span className="text-[#0B1D13]">Earth Angel</span>
@@ -68,9 +68,9 @@ export default function NominateAnEarthAngel() {
                 <strong className="text-[#0B1D13]">why he is worthy</strong> in
                 100 to 200 words.
               </p>
-            </div>
+            </div> */}
 
-            <div className="bg-[#0B1D13] rounded-2xl p-6 md:p-8">
+        {/* <div className="bg-[#0B1D13] rounded-2xl p-6 md:p-8">
               <h3 className="text-[#C9A84C] text-xl md:text-2xl font-bold mb-2">
                 From 7 Communities
               </h3>
@@ -87,9 +87,9 @@ export default function NominateAnEarthAngel() {
                   </span>
                 ))}
               </div>
-            </div>
+            </div> */}
 
-            <div className="grid grid-cols-2 gap-4">
+        {/* <div className="grid grid-cols-2 gap-4">
               <div className="bg-[#C62828] rounded-2xl p-5 md:p-6">
                 <span className="text-2xl block mb-2">⏳</span>
                 <p className="text-white/80 text-xs uppercase tracking-widest mb-1">
@@ -108,9 +108,9 @@ export default function NominateAnEarthAngel() {
                   February 2027
                 </p>
               </div>
-            </div>
+            </div> */}
 
-            <div className="flex flex-col sm:flex-row gap-4">
+        {/* <div className="flex flex-col sm:flex-row gap-4">
               <a
                 href={NOMINATION_FORM_URL}
                 target="_blank"
@@ -129,18 +129,18 @@ export default function NominateAnEarthAngel() {
                 Nominate by Email
               </a>
             </div>
-          </div>
+          </div> */}
 
-          <div className="flex flex-col gap-4">
-            <div className="rounded-2xl overflow-hidden shadow-2xl">
-              <img
-                src={nominateFlyer}
-                alt="Say It Loud Men in Turku, Nominate an Earth Angel flyer"
-                className="w-full h-auto object-cover"
-              />
-            </div>
+        <div className="flex flex-col gap-4">
+          <div className="rounded-2xl overflow-hidden shadow-2xl">
+            <img
+              src={nominateFlyer}
+              alt="Say It Loud Men in Turku, Nominate an Earth Angel flyer"
+              className="w-full h-auto object-cover"
+            />
           </div>
         </div>
+        {/* </div> */}
       </div>
     </section>
   );

@@ -49,22 +49,6 @@ export default function HeroSection() {
         <p className="mt-3 max-w-4xl text-balance text-sm font-semibold leading-relaxed text-blue-950 sm:text-2xl md:mt-4 md:text-3xl md:font-bold md:text-black">
           {t("home.hero.subtitle")}
         </p>
-
-        <div className="mt-5 flex w-full max-w-xs flex-col gap-3 sm:mt-8 sm:max-w-none sm:flex-row sm:justify-center sm:gap-4">
-          <NavLink
-            to="/events"
-            className="rounded-full bg-blue-700 px-8 py-3 text-sm font-bold text-white shadow-lg transition hover:bg-blue-800 sm:px-10 sm:py-4 sm:text-lg"
-          >
-            {t("home.hero.ctaEvents")}
-          </NavLink>
-
-          <NavLink
-            to="/about"
-            className="rounded-full border-2 border-blue-700 bg-white px-8 py-3 text-sm font-bold text-blue-700 shadow-lg transition hover:bg-blue-50 sm:px-10 sm:py-4 sm:text-lg"
-          >
-            {t("home.hero.ctaLearnMore")}
-          </NavLink>
-        </div>
       </div>
     </section>
   );
