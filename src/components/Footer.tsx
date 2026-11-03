@@ -129,7 +129,7 @@ export default function Footer() {
               >
                 <EnvelopeIcon className="mt-1 h-6 w-6 shrink-0" />
                 <span className="break-all">
-                  eearthangels@earthangelsfinland.org
+                  earthangels@earthangelsfinland.org
                 </span>
               </a>
 

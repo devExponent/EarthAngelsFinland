@@ -57,7 +57,7 @@ export default function CollaborateWithUs() {
           >
             <span className="block h-[2px] w-8 bg-[#C9A84C]" />
             <span className="text-[#C9A84C] text-xs md:text-sm tracking-[0.2em] uppercase font-semibold">
-              Partnership & Collaboration
+              Partnership and Collaboration
             </span>
             <span className="block h-[2px] w-8 bg-[#C9A84C]" />
           </div>
