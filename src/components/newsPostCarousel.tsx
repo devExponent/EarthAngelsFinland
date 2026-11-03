@@ -51,7 +51,7 @@ export default function NewsPostsCarousel() {
   };
 
   return (
-    <section className="bg-[#F7F5F0] py-16 md:py-24 px-4 my-8">
+    <section className="bg-[#F7F5F0] py-16 md:py-24 px-4 ">
       <div className="w-10/12 lg:w-9/12 mx-auto">
         <div className="text-center mb-12">
           <span className="inline-block bg-white text-[#4a4a4a] text-2xl uppercase tracking-[0.25em] font-extrabold mb-3 px-16 py-3 rounded-full">
