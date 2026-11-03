@@ -1,4 +1,3 @@
-
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 
@@ -16,18 +15,17 @@ const resources = {
         hero: {
           title: "Welcome to Earth Angels of Finland RY",
           subtitle:
-            "Celebrate the achievements of marginalised people of color through education, events, and cultural exchanges.",
+            "Celebrate the achievements of marginalised people including the elderly, LGBTQ+, and people of color through education, events, and cultural exchanges.",
           ctaEvents: "Browse Events",
           ctaLearnMore: "Learn More",
         },
 
-      mission: {
-  kicker: "OUR MISSION",
-  title: "Building Confidence, Belonging, and Understanding through Educational Events",
-  body:
-    "Founded in 2003 in Helsinki, Earth Angels of Finland ry works to improve the well-being of immigrants and marginalized communities through education, visibility, and cultural exchange. We educate immigrants, students, youth, and indigenous Finnish people of all ages about the achievements of people of color. Our objective is to bring untold history and contributions to the next generation.\n\nThrough our yearly programs like 'Say It Loud!', 'Black History Month', 'Juneteenth', and 'International Open Mic Youth Night Competition', we also produce various exhibitions and workshops. We highlight the legacies of our ancestors and descendants affected by the Transatlantic slave trade. Sharing these achievements strengthens self-esteem for marginalized communities and supports broader acceptance by challenging the false idea that these communities have not contributed to humanity's progress.",
-},
-
+        mission: {
+          kicker: "OUR MISSION",
+          title:
+            "Building Confidence, Belonging, and Understanding through Educational Events",
+          body: "Founded in 2003 in Helsinki, Earth Angels of Finland ry works to improve the well-being of immigrants and marginalized communities through education, visibility, and cultural exchange. We educate immigrants, students, youth, and indigenous Finnish people of all ages about the achievements of people of color. Our objective is to bring untold history and contributions to the next generation.\n\nThrough our yearly programs like 'Say It Loud!', 'Black History Month', 'Juneteenth', and 'International Open Mic Youth Night Competition', we also produce various exhibitions and workshops. We highlight the legacies of our ancestors and descendants affected by the Transatlantic slave trade. Sharing these achievements strengthens self-esteem for marginalized communities and supports broader acceptance by challenging the false idea that these communities have not contributed to humanity's progress.",
+        },
 
         impact: {
           title: "What We Do",
@@ -36,24 +34,22 @@ const resources = {
           items: [
             {
               title: "Community Well‑Being",
-              body:
-                "Supporting the well‑being of immigrants and marginalized communities through connection, visibility, and shared cultural understanding.",
+              body: "Supporting the well‑being of immigrants and marginalized communities through connection, visibility, and shared cultural understanding.",
             },
             {
               title: "Education & Awareness",
-              body:
-                "Educating people of all ages about the achievements of people of color—helping restore histories that have been diminished or erased.",
+              body: "Educating people of all ages about the achievements of people of color—helping restore histories that have been diminished or erased.",
             },
             {
-              title: 'Yearly “Say It Loud” Events',
-              body:
-                "Producing high‑quality annual programs that spotlight untold contributions and inspire pride, confidence, and acceptance across communities.",
+              title: "Yearly “Say It Loud” Events",
+              body: "Producing high‑quality annual programs that spotlight untold contributions and inspire pride, confidence, and acceptance across communities.",
             },
           ],
         },
 
         join: {
-          title: "Join our mission. Educate, Celebrate, Empower. Get Started Today.",
+          title:
+            "Join our mission. Educate, Celebrate, Empower. Get Started Today.",
           emailLabel: "Email:",
           callLabel: "Call Anytime:",
           ctaEvents: "BROWSE EVENTS",
@@ -76,7 +72,6 @@ const resources = {
           email: {
             title: "Email",
             line1: "earthangels@earthangelsfinland.org",
-          
           },
           phone: {
             title: "Phone",
@@ -90,13 +85,11 @@ const resources = {
         },
       },
 
-      
       contactExtras: {
         visit: {
           kicker: "VISIT",
           title: "Visit our office in Turku",
-          body:
-            "Earth Angels of Finland was founded in 2003 to improve the well‑being of immigrants and marginalized communities through education and cultural events, including our yearly “Say It Loud” program.",
+          body: "Earth Angels of Finland was founded in 2003 to improve the well‑being of immigrants and marginalized communities through education and cultural events, including our yearly “Say It Loud” program.",
           cta: "GET DIRECTIONS",
         },
         hours: {
@@ -112,81 +105,67 @@ const resources = {
           items: [
             {
               q: "What is Earth Angels of Finland?",
-              a:
-                "Earth Angels of Finland is an organization founded in 2003 that focuses on improving the well‑being of immigrants and marginalized communities through education and community programs.",
+              a: "Earth Angels of Finland is an organization founded in 2003 that focuses on improving the well‑being of immigrants and marginalized communities through education and community programs.",
             },
             {
               q: "What is “Say It Loud”?",
-              a:
-                "“Say It Loud” is our yearly high‑quality Black History Month program in Finland that highlights unknown history and the achievements of people of color and other marginalized groups.",
+              a: "“Say It Loud” is our yearly high‑quality Black History Month program in Finland that highlights unknown history and the achievements of people of color and other marginalized groups.",
             },
             {
               q: "Where is the 2026 “Say It Loud” event planned?",
-              a:
-                "The 2026 program is planned to take place in Turku, Finland, the former capital of Finland.",
+              a: "The 2026 program is planned to take place in Turku, Finland, the former capital of Finland.",
             },
             {
               q: "What will the 2026 program include?",
-              a:
-                "The month-long program includes exhibitions, a panel discussion, workshops (including children’s activities), a documentary movie night, and an International Open Mic Youth Night competition.",
+              a: "The month-long program includes exhibitions, a panel discussion, workshops (including children’s activities), a documentary movie night, and an International Open Mic Youth Night competition.",
             },
             {
               q: "Who is featured in the 2026 movie night?",
-              a:
-                "The 2026 movie night features a documentary about Shirley Chisholm, the first Black woman to run for president of the United States.",
+              a: "The 2026 movie night features a documentary about Shirley Chisholm, the first Black woman to run for president of the United States.",
             },
           ],
         },
         imageCard: {
           kicker: "EARTH ANGELS FINLAND",
           title: "Education, belonging, and cultural exchange",
-          body:
-            "We help make marginalized histories visible and strengthen acceptance by sharing achievements that have been diminished or erased.",
+          body: "We help make marginalized histories visible and strengthen acceptance by sharing achievements that have been diminished or erased.",
         },
       },
 
-      
-about: {
-  kicker: "WHO WE ARE",
-  title: "About Earth Angels Finland",
-  body1:
-    "Earth Angels of Finland was established in 2003 in Helsinki to improve the well-being of immigrants and marginalized communities through education and community programming.",
-  body2:
-    "We educate people of all ages about the achievements of people of color and bring unknown history and contributions to the forefront through yearly events like “Say It Loud,” hosted during February.",
-  bullets: [
-    "Education that strengthens confidence and belonging.",
-    "Programs and events that make untold achievements visible.",
-  ],
-  cards: {
-    mission: {
-      title: "Our Commitment",
-      body:
-        "To improve well-being and acceptance by educating communities in Finland about the achievements of people of color and other marginalized groups.",
-    },
-    vision: {
-      title: "Our vision",
-      body:
-        "A Finland where inclusive history is valued, younger generations feel proud of their heritage, and communities grow through understanding and cultural exchange.",
-    },
-    story: {
-      title: "Our story",
-      body:
-        "“Say It Loud” began as a Black History Month program and has expanded to highlight overlooked legacies across marginalized groups—bringing the 2026 program to Turku with a special focus on Women of Color and Shirley Chisholm.",
-    },
+      about: {
+        kicker: "WHO WE ARE",
+        title: "About Earth Angels Finland",
+        body1:
+          "Earth Angels of Finland was established in 2003 in Helsinki to improve the well-being of immigrants and marginalized communities through education and community programming.",
+        body2:
+          "We educate people of all ages about the achievements of people of color and bring unknown history and contributions to the forefront through yearly events like “Say It Loud,” hosted during February.",
+        bullets: [
+          "Education that strengthens confidence and belonging.",
+          "Programs and events that make untold achievements visible.",
+        ],
+        cards: {
+          mission: {
+            title: "Our Commitment",
+            body: "To improve well-being and acceptance by educating communities in Finland about the achievements of people of color and other marginalized groups.",
+          },
+          vision: {
+            title: "Our vision",
+            body: "A Finland where inclusive history is valued, younger generations feel proud of their heritage, and communities grow through understanding and cultural exchange.",
+          },
+          story: {
+            title: "Our story",
+            body: "“Say It Loud” began as a Black History Month program and has expanded to highlight overlooked legacies across marginalized groups—bringing the 2026 program to Turku with a special focus on Women of Color and Shirley Chisholm.",
+          },
+        },
+        gallery: {
+          title: "Our Gallery",
+        },
+      },
 
-  },
-      gallery:{
-title: "Our Gallery",
-    },
-},
-
-
-
-team: {
-  title: "Meet OUR TEAM",
-  subtitle: "The people behind our programs, events, and community work.",
-},
-
+      team: {
+        title: "Meet OUR TEAM",
+        subtitle: "The people behind our programs, events, and community work.",
+      },
 
       footer: {
         meetUs: {
@@ -214,13 +193,6 @@ team: {
     },
   },
 
-
-
-
-
-
-
-
   fi: {
     translation: {
       nav: {
@@ -234,18 +206,17 @@ team: {
         hero: {
           title: "Tervetuloa Earth Angels Finlandiin",
           subtitle:
-            "Juhlistamme värillisten ihmisten ja marginalisoitujen yhteisöjen saavutuksia koulutuksen, tapahtumien ja kulttuurivaihdon kautta.",
+            "Juhlista marginalisoitujen ihmisten, kuten ikääntyneiden, LGBTQ+-yhteisön jäsenten ja rodullistettujen ihmisten saavutuksia koulutuksen, tapahtumien ja kulttuurivaihdon avulla.",
           ctaEvents: "Selaa tapahtumia",
           ctaLearnMore: "Lue lisää",
         },
 
-      mission: {
-  kicker: "MISSIOMME",
-  title: "Rakennamme itseluottamusta, osallisuutta ja ymmärrystä koulutuksen ja tapahtumien kautta",
-  body:
-    "Vuonna 2003 Helsingissä perustettu Earth Angels of Finland ry edistää maahanmuuttajien ja syrjäytymisvaarassa olevien yhteisöjen hyvinvointia koulutuksen, näkyvyyden ja kulttuurivaihdon avulla. Järjestö lisää maahanmuuttajien, opiskelijoiden, nuorten sekä kaikenikäisten suomalaisten ja alkuperäiskansojen edustajien tietoisuutta värillisten ihmisten saavutuksista. Tavoitteenamme on tuoda esiin vaiettua historiaa ja näiden ihmisten merkittävää panosta tuleville sukupolville.nnVuosittaisten ohjelmiemme, kuten Say It Loud! -tapahtuman, Black History Month -kuukauden, Juneteenth-juhlan ja International Open Mic Youth Night Competition -kilpailun, lisäksi järjestämme erilaisia näyttelyitä ja työpajoja. Tuomme esiin esi-isiemme ja jälkeläistemme perintöä sekä transatlanttisen orjakaupan vaikutuksia kokeneiden ihmisten historiaa. Näiden saavutusten esiin tuominen vahvistaa syrjäytymisvaarassa olevien yhteisöjen itsetuntoa ja edistää laajempaa hyväksyntää haastamalla virheellisen käsityksen siitä, etteivät nämä yhteisöt olisi edistäneet ihmiskunnan kehitystä.",
-},
-
+        mission: {
+          kicker: "MISSIOMME",
+          title:
+            "Rakennamme itseluottamusta, osallisuutta ja ymmärrystä koulutuksen ja tapahtumien kautta",
+          body: "Vuonna 2003 Helsingissä perustettu Earth Angels of Finland ry edistää maahanmuuttajien ja syrjäytymisvaarassa olevien yhteisöjen hyvinvointia koulutuksen, näkyvyyden ja kulttuurivaihdon avulla. Järjestö lisää maahanmuuttajien, opiskelijoiden, nuorten sekä kaikenikäisten suomalaisten ja alkuperäiskansojen edustajien tietoisuutta värillisten ihmisten saavutuksista. Tavoitteenamme on tuoda esiin vaiettua historiaa ja näiden ihmisten merkittävää panosta tuleville sukupolville.nnVuosittaisten ohjelmiemme, kuten Say It Loud! -tapahtuman, Black History Month -kuukauden, Juneteenth-juhlan ja International Open Mic Youth Night Competition -kilpailun, lisäksi järjestämme erilaisia näyttelyitä ja työpajoja. Tuomme esiin esi-isiemme ja jälkeläistemme perintöä sekä transatlanttisen orjakaupan vaikutuksia kokeneiden ihmisten historiaa. Näiden saavutusten esiin tuominen vahvistaa syrjäytymisvaarassa olevien yhteisöjen itsetuntoa ja edistää laajempaa hyväksyntää haastamalla virheellisen käsityksen siitä, etteivät nämä yhteisöt olisi edistäneet ihmiskunnan kehitystä.",
+        },
 
         impact: {
           title: "Mitä teemme",
@@ -254,18 +225,15 @@ team: {
           items: [
             {
               title: "Yhteisön hyvinvointi",
-              body:
-                "Tuemme maahanmuuttajien ja marginalisoitujen yhteisöjen hyvinvointia yhteyden, näkyvyyden ja kulttuurisen ymmärryksen avulla.",
+              body: "Tuemme maahanmuuttajien ja marginalisoitujen yhteisöjen hyvinvointia yhteyden, näkyvyyden ja kulttuurisen ymmärryksen avulla.",
             },
             {
               title: "Koulutus ja tietoisuus",
-              body:
-                "Koulutamme kaikenikäisiä värillisten ihmisten saavutuksista ja autamme palauttamaan historiaa, jota on vähätelty tai pyyhitty pois.",
+              body: "Koulutamme kaikenikäisiä värillisten ihmisten saavutuksista ja autamme palauttamaan historiaa, jota on vähätelty tai pyyhitty pois.",
             },
             {
-              title: 'Vuosittaiset “Say It Loud” -tapahtumat',
-              body:
-                "Tuotamme korkeatasoisia vuosittaisia ohjelmia, jotka nostavat esiin kertomattomia saavutuksia ja vahvistavat ylpeyttä, itseluottamusta ja hyväksyntää.",
+              title: "Vuosittaiset “Say It Loud” -tapahtumat",
+              body: "Tuotamme korkeatasoisia vuosittaisia ohjelmia, jotka nostavat esiin kertomattomia saavutuksia ja vahvistavat ylpeyttä, itseluottamusta ja hyväksyntää.",
             },
           ],
         },
@@ -309,21 +277,23 @@ team: {
         },
       },
 
-
-
-
-     contactExtras: {
+      contactExtras: {
         visit: {
           kicker: "VIERAILU",
           title: "Vieraile toimistollamme Turussa",
-          body:
-            "Earth Angels of Finland perustettiin vuonna 2003 parantamaan maahanmuuttajien ja marginalisoitujen yhteisöjen hyvinvointia koulutuksen ja kulttuuritapahtumien avulla, mukaan lukien vuosittainen “Say It Loud” -ohjelma.",
+          body: "Earth Angels of Finland perustettiin vuonna 2003 parantamaan maahanmuuttajien ja marginalisoitujen yhteisöjen hyvinvointia koulutuksen ja kulttuuritapahtumien avulla, mukaan lukien vuosittainen “Say It Loud” -ohjelma.",
           cta: "HANKI REITTIOHJEET",
         },
         hours: {
           badge: "AUKIOLO",
-          monFri: { title: "Maanantai – perjantai", detail: "Sopimuksen mukaan" },
-          sat: { title: "Lauantait", detail: "Tapahtumapäivinä (katso Tapahtumat)" },
+          monFri: {
+            title: "Maanantai – perjantai",
+            detail: "Sopimuksen mukaan",
+          },
+          sat: {
+            title: "Lauantait",
+            detail: "Tapahtumapäivinä (katso Tapahtumat)",
+          },
           sun: { title: "Sunnuntait", detail: "Suljettu" },
         },
         faq: {
@@ -333,80 +303,68 @@ team: {
           items: [
             {
               q: "Mikä on Earth Angels of Finland?",
-              a:
-                "Earth Angels of Finland on vuonna 2003 perustettu järjestö, joka edistää maahanmuuttajien ja marginalisoitujen yhteisöjen hyvinvointia koulutuksen ja yhteisöohjelmien kautta.",
+              a: "Earth Angels of Finland on vuonna 2003 perustettu järjestö, joka edistää maahanmuuttajien ja marginalisoitujen yhteisöjen hyvinvointia koulutuksen ja yhteisöohjelmien kautta.",
             },
             {
               q: "Mikä on “Say It Loud”?",
-              a:
-                "“Say It Loud” on vuosittainen Black History Month -ohjelmamme Suomessa, joka nostaa esiin kertomattomia tarinoita sekä värillisten ihmisten ja muiden marginalisoitujen ryhmien saavutuksia.",
+              a: "“Say It Loud” on vuosittainen Black History Month -ohjelmamme Suomessa, joka nostaa esiin kertomattomia tarinoita sekä värillisten ihmisten ja muiden marginalisoitujen ryhmien saavutuksia.",
             },
             {
               q: "Missä vuoden 2026 “Say It Loud” järjestetään?",
-              a:
-                "Vuoden 2026 ohjelma on suunniteltu Turkuun, Suomen entiseen pääkaupunkiin.",
+              a: "Vuoden 2026 ohjelma on suunniteltu Turkuun, Suomen entiseen pääkaupunkiin.",
             },
             {
               q: "Mitä vuoden 2026 ohjelma sisältää?",
-              a:
-                "Kuukauden ohjelma sisältää näyttelyitä, paneelikeskustelun, työpajoja (myös lapsille), dokumenttielokuvaillan sekä kansainvälisen Open Mic Youth Night -kilpailun.",
+              a: "Kuukauden ohjelma sisältää näyttelyitä, paneelikeskustelun, työpajoja (myös lapsille), dokumenttielokuvaillan sekä kansainvälisen Open Mic Youth Night -kilpailun.",
             },
             {
               q: "Kuka on esillä vuoden 2026 elokuvaillassa?",
-              a:
-                "Vuoden 2026 elokuvaillassa esitetään dokumentti Shirley Chisholmista, joka oli ensimmäinen musta nainen, joka asettui ehdolle Yhdysvaltain presidentiksi.",
+              a: "Vuoden 2026 elokuvaillassa esitetään dokumentti Shirley Chisholmista, joka oli ensimmäinen musta nainen, joka asettui ehdolle Yhdysvaltain presidentiksi.",
             },
           ],
         },
         imageCard: {
           kicker: "EARTH ANGELS FINLAND",
           title: "Koulutusta, osallisuutta ja kulttuurivaihtoa",
-          body:
-            "Teemme marginalisoidut historiat näkyviksi ja vahvistamme hyväksyntää jakamalla saavutuksia, jotka on usein sivuutettu tai pyyhitty pois.",
+          body: "Teemme marginalisoidut historiat näkyviksi ja vahvistamme hyväksyntää jakamalla saavutuksia, jotka on usein sivuutettu tai pyyhitty pois.",
         },
       },
 
-      
-about: {
-  kicker: "KEITÄ OLEMME",
-  title: "Tietoa Earth Angels Finlandista",
-  body1:
-    "Earth Angels of Finland perustettiin vuonna 2003 Helsingissä parantamaan maahanmuuttajien ja marginalisoitujen yhteisöjen hyvinvointia koulutuksen ja yhteisötoiminnan avulla.",
-  body2:
-    "Koulutamme kaikenikäisiä värillisten ihmisten saavutuksista ja tuomme kertomattomia tarinoita ja panosta esiin vuosittaisten tapahtumien, kuten “Say It Loud”, kautta helmikuussa.",
-  bullets: [
-    "Koulutus, joka vahvistaa itseluottamusta ja osallisuutta.",
-    "Ohjelmat ja tapahtumat, jotka tekevät näkymättömiä saavutuksia näkyviksi.",
-  ],
-  cards: {
-    mission: {
-      title: "Sitoumuksemme",
-      body:
-        "Parantaa hyvinvointia ja hyväksyntää kouluttamalla Suomessa yhteisöjä värillisten ihmisten sekä muiden marginalisoitujen ryhmien saavutuksista.",
-    },
-    vision: {
-      title: "Visiomme",
-      body:
-        "Suomi, jossa inklusiivinen historia nähdään arvokkaana, nuoret voivat olla ylpeitä taustastaan ja yhteisöt vahvistuvat ymmärryksen ja kulttuurivaihdon kautta.",
-    },
-    story: {
-      title: "Tarinaamme",
-      body:
-        "“Say It Loud” alkoi Black History Month -ohjelmana ja on laajentunut nostamaan esiin myös muiden marginalisoitujen ryhmien sivuutettuja perintöjä—vuoden 2026 ohjelma tuodaan Turkuun erityisteemana Women of Color ja Shirley Chisholm.",
-    },
-   
-  },
-   gallery:{
-    title: "Meidän galleria",
-    },
-},
+      about: {
+        kicker: "KEITÄ OLEMME",
+        title: "Tietoa Earth Angels Finlandista",
+        body1:
+          "Earth Angels of Finland perustettiin vuonna 2003 Helsingissä parantamaan maahanmuuttajien ja marginalisoitujen yhteisöjen hyvinvointia koulutuksen ja yhteisötoiminnan avulla.",
+        body2:
+          "Koulutamme kaikenikäisiä värillisten ihmisten saavutuksista ja tuomme kertomattomia tarinoita ja panosta esiin vuosittaisten tapahtumien, kuten “Say It Loud”, kautta helmikuussa.",
+        bullets: [
+          "Koulutus, joka vahvistaa itseluottamusta ja osallisuutta.",
+          "Ohjelmat ja tapahtumat, jotka tekevät näkymättömiä saavutuksia näkyviksi.",
+        ],
+        cards: {
+          mission: {
+            title: "Sitoumuksemme",
+            body: "Parantaa hyvinvointia ja hyväksyntää kouluttamalla Suomessa yhteisöjä värillisten ihmisten sekä muiden marginalisoitujen ryhmien saavutuksista.",
+          },
+          vision: {
+            title: "Visiomme",
+            body: "Suomi, jossa inklusiivinen historia nähdään arvokkaana, nuoret voivat olla ylpeitä taustastaan ja yhteisöt vahvistuvat ymmärryksen ja kulttuurivaihdon kautta.",
+          },
+          story: {
+            title: "Tarinaamme",
+            body: "“Say It Loud” alkoi Black History Month -ohjelmana ja on laajentunut nostamaan esiin myös muiden marginalisoitujen ryhmien sivuutettuja perintöjä—vuoden 2026 ohjelma tuodaan Turkuun erityisteemana Women of Color ja Shirley Chisholm.",
+          },
+        },
+        gallery: {
+          title: "Meidän galleria",
+        },
+      },
 
-
-team: {
-  title: "Tapaa tiimimme",
-  subtitle: "Ihmiset ohjelmiemme, tapahtumiemme ja yhteisötyömme taustalla.",
-},
-
+      team: {
+        title: "Tapaa tiimimme",
+        subtitle:
+          "Ihmiset ohjelmiemme, tapahtumiemme ja yhteisötyömme taustalla.",
+      },
 
       footer: {
         meetUs: {

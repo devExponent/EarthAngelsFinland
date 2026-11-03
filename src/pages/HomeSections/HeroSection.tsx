@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import Momma from "../../assets/MommaAria.jpeg";
 import MeetingImage from "../../assets/EarthAngelTeam.jpeg";
