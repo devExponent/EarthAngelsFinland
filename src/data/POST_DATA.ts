@@ -25,7 +25,7 @@ import Rapuhigh from "../assets/Rapu1.jpg";
 import Health7 from "../assets/Health7.jpeg";
 import Indepednce1 from "../assets/independence1.jpeg";
 import MommaLahti from "../assets/Momma-Lahti.jpeg";
-import NominatAnEarthAngel from "../assets/nominateAnEarthAngel.png";
+import NominatAnEarthAngel from "../assets/NominateAnEarthangel.png";
 
 export const POSTS: Post[] = [
   {
