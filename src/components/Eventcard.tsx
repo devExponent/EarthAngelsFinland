@@ -8,7 +8,7 @@ interface Event {
   description: string;
   type: string;
   image?: string;
-  link: string;
+  link?: string;
 }
 
 interface EventCardProps {

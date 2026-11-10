@@ -13,6 +13,71 @@ import SoundofSouth from "../assets/SoundsOfSouth2.jpeg";
 import Rapu from "../assets/RapuExtravaganza.png";
 import HerSpace from "../assets/HerSpace.png";
 
+const LIBRARY_STUDIO = "Turku Main Library Studio, Linnankatu 2, 20100 Turku";
+
+const EVENT_2027 = [
+  {
+    id: 11,
+    title: "Exhibition: Say Their Names",
+    date: "2027-02-01",
+    time: "TBA",
+    location: LIBRARY_STUDIO,
+    description:
+      "Opening programme of Say It Loud Black History Month 2027, in celebration of Men in Turku. Theme: Echoes and Rhythms. The exhibition celebrates Sámi, Roma, Asian, African, Arab, Nordic, and diverse communities of the Americas.",
+    type: "exhibition",
+  },
+  {
+    id: 12,
+    title: "Echoes and Rhythms",
+    date: "2027-02-06",
+    time: "11:00 - 15:00",
+    location: LIBRARY_STUDIO,
+    description:
+      "Acknowledging Sámi Independence Day. Community activism and inclusion with Sámi, Roma, African, Nordic, Asian, Arab, and diverse communities of the Americas.",
+    type: "seminar",
+  },
+  {
+    id: 13,
+    title: "Black History Month: Why Now? Why Finland?",
+    date: "2027-02-10",
+    time: "15:00 - 18:00",
+    location: LIBRARY_STUDIO,
+    description:
+      "An educational community discussion for teachers and students. Lecturer: Eugene Ufoka.",
+    type: "workshop",
+  },
+  {
+    id: 14,
+    title: "Valentine's Day Celebration / Open Mic",
+    date: "2027-02-13",
+    time: "14:00 - 18:00",
+    location: LIBRARY_STUDIO,
+    description:
+      "Youth Night Revisited. A community event hosted by Bentality and Momma Aria.",
+    type: "performance",
+  },
+  {
+    id: 15,
+    title: "Immigration in Finland: The Pros and Cons",
+    date: "2027-02-18",
+    time: "14:00 - 19:00",
+    location: LIBRARY_STUDIO,
+    description:
+      "Come share what's on your mind. An open discussion led by lecturer Mr. Esa Silander.",
+    type: "workshop",
+  },
+  {
+    id: 16,
+    title: "The Blue-Eyed / Brown-Eyed Experiment",
+    date: "2027-02-20",
+    time: "14:00 - 16:00",
+    location: LIBRARY_STUDIO,
+    description:
+      "Movie night featuring Jane Elliott and her Blue-Eyed / Brown-Eyed Experiment.",
+    type: "movie",
+  },
+];
+
 const EVENTS_2026 = [
   {
     id: 10,
@@ -44,7 +109,8 @@ const EVENTS_2026 = [
     title: "Rapu Extravaganza, Traditional Crayfish Party",
     date: "2026-09-26",
     time: "19:00 - 23:30",
-    location: "Taiteen Talo, Basement Factory Auditorium, Nunnankatu 4, 20700 Turku",
+    location:
+      "Taiteen Talo, Basement Factory Auditorium, Nunnankatu 4, 20700 Turku",
     description:
       "Perinteiset Rapujuhlat. Come eat, sing, and have fun at this traditional Finnish crayfish party. The evening includes shots of vodka, non-alcoholic beverages, and sparkling wine, alongside a full crayfish dinner. Funny hats and bibs are encouraged, and you are welcome to dress in your favourite cultural attire — dress code is Red, White, Yellow or Blue. There will also be a karaoke battle where the audience favourite wins a prize. Early bird ticket is €10 online (expires 23 Sep) and €15 at the gate. Only 50 spots available so reserve yours early.",
     type: "social",
@@ -136,11 +202,13 @@ const EVENTS_2026 = [
   },
 ];
 
+const ALL_EVENTS = [...EVENT_2027, ...EVENTS_2026];
+
 export default function Events() {
   const [filter, setFilter] = useState<"all" | "upcoming" | "past">("upcoming");
 
   const now = new Date();
-  const filtered = EVENTS_2026.filter((event) => {
+  const filtered = ALL_EVENTS.filter((event) => {
     const eventDate = new Date(event.date);
     if (filter === "upcoming") return eventDate >= now;
     if (filter === "past") return eventDate < now;
