@@ -206,7 +206,9 @@ export default function Footer() {
               </a>
               <a
                 className="text-[#0A66C2] transition-opacity hover:opacity-80"
-                href="#"
+                href="https://www.linkedin.com/company/earth-angels-of-finland-ry/"
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="LinkedIn"
               >
                 <LinkedinIcon className="h-8 w-8" />
