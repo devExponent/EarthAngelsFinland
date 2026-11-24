@@ -48,7 +48,7 @@ const BHM = () => {
 
               <p className="text-sm md:text-base">
                 Opening Programme: FEBRUARY 01-28, 2027 at Turku Main Library
-                (Nunnankatu 4, 20700, Turku, Finland)
+                (Linnankatu 2, Turku, Finland)
               </p>
 
               <p className="text-xs md:text-sm text-[#F4F1EA]/80">
