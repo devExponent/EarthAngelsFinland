@@ -1,11 +1,11 @@
-import HeroSection from "./HomeSections/HeroSection";
-import ImpactThreeCards from "./HomeSections/Impact";
-import CollaborateWithUs from "./HomeSections/CollaborateWithUs";
+// import HeroSection from "./HomeSections/HeroSection";
+// import ImpactThreeCards from "./HomeSections/Impact";
+// import CollaborateWithUs from "./HomeSections/CollaborateWithUs";
 import NewsPostsCarousel from "../components/newsPostCarousel";
 import NominateAnEarthAngel from "./HomeSections/Nominateanearthangel";
-import RapuHighlights from "./RapuHighlights";
-import HerSpaceHighlights from "./HerSpaceHighlights";
-import Bhmvolunteer from "./HomeSections/Bhmvolunteer ";
+// import RapuHighlights from "./RapuHighlights";
+// import HerSpaceHighlights from "./HerSpaceHighlights";
+// import Bhmvolunteer from "./HomeSections/Bhmvolunteer ";
 import BHM from "./HomeSections/BHM";
 
 export default function Home() {
