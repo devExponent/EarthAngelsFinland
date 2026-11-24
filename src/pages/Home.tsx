@@ -6,18 +6,20 @@ import NominateAnEarthAngel from "./HomeSections/Nominateanearthangel";
 import RapuHighlights from "./RapuHighlights";
 import HerSpaceHighlights from "./HerSpaceHighlights";
 import Bhmvolunteer from "./HomeSections/Bhmvolunteer ";
+import BHM from "./HomeSections/BHM";
 
 export default function Home() {
   return (
     <div>
-      <HeroSection />
-      <NominateAnEarthAngel />
-      <Bhmvolunteer />
+      <BHM />
+      {/* <HeroSection /> */}
+      {/* <NominateAnEarthAngel /> */}
+      {/* <Bhmvolunteer /> */}
       <NewsPostsCarousel />
-      <RapuHighlights />
-      <HerSpaceHighlights />
-      <CollaborateWithUs />
-      <ImpactThreeCards />
+      {/* <RapuHighlights /> */}
+      {/* <HerSpaceHighlights /> */}
+      {/* <CollaborateWithUs /> */}
+      {/* <ImpactThreeCards /> */}
     </div>
   );
 }
