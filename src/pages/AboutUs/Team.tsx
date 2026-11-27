@@ -4,7 +4,7 @@ import Hazzalea from "../../assets/Hazzalea.jpeg";
 import Ekemini from "../../assets/Ekemini.jpeg";
 import Nayeli from "../../assets/Nayelli.jpeg";
 import Muhammad from "../../assets/Muhammad.jpeg";
-import Karo from "../../assets/Karo.jpeg"
+import Karo from "../../assets/Karo.jpeg";
 
 type TeamMember = {
   name: string;
@@ -41,7 +41,7 @@ const team: TeamMember[] = [
   },
 
   {
-    name: "Karo Kangus",
+    name: "Karo Kankus",
     role: "Project Manager",
     imageUrl: Karo,
   },
