@@ -4,7 +4,7 @@ import {
   ChartBarIcon,
   UserGroupIcon,
 } from "@heroicons/react/24/outline";
-import SayTheirNamesMen from "../../assets/Say Their Names Men.jpeg";
+import SayTheirNamesMen from "../../assets/Say Their Names Men.png";
 import NominationBkg from "../../assets/Nomination bkg.jpeg";
 import bhmPoster from "../../assets/BHM.png";
 import DjDalo from "../../assets/DJ Dalo.jpeg";
@@ -30,7 +30,7 @@ const BHM = () => {
     <main className="bg-[#F1EDE4]">
       {/* Section 1: Hero */}
 
-      <section className="">
+      <section>
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:h-[calc(100vh-80px)] lg:min-h-[600px] lg:max-h-[750px]">
           {/* Text Section */}
           <div className="flex flex-col justify-center gap-4 px-6 py-10 md:px-12 lg:px-12 xl:px-16 lg:py-8 bg-[#2B3835]">
